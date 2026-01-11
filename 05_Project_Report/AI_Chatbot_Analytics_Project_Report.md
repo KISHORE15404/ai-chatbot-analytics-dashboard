@@ -3,17 +3,16 @@
 ## Table of Contents
 
 1. [Executive Summary](#executive-summary)
-2. [Business Context & Problem Statement](#business-context--problem-statement)
-3. [Project Objectives & Success Metrics](#project-objectives--success-metrics)
-4. [Methodology & Technical Approach](#methodology--technical-approach)
-5. [Data Summary & Quality Report](#data-summary--quality-report)
-6. [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
-7. [SQL-Driven Insights & Stakeholder Questions](#sql-driven-insights--stakeholder-questions)
-8. [Power BI Dashboard & Visual Insights](#power-bi-dashboard--visual-insights)
-9. [Optimization Recommendations & Implementation Roadmap](#optimization-recommendations--implementation-roadmap)
-10. [Business Impact & ROI Justification](#business-impact--roi-justification)
-11. [Key Learnings & Conclusion](#key-learnings--conclusion)
-12. [Appendix: Tools & Resources](#appendix-tools--resources)
+2. [Project Objectives & Success Metrics](#project-objectives--success-metrics)
+3. [Methodology & Technical Approach](#methodology--technical-approach)
+4. [Data Summary & Quality Report](#data-summary--quality-report)
+5. [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+6. [SQL-Driven Insights & Stakeholder Questions](#sql-driven-insights--stakeholder-questions)
+7. [Power BI Dashboard & Visual Insights](#power-bi-dashboard--visual-insights)
+8. [Optimization Recommendations & Implementation Roadmap](#optimization-recommendations--implementation-roadmap)
+9. [Business Impact & ROI Justification](#business-impact--roi-justification)
+10. [Key Learnings & Conclusion](#key-learnings--conclusion)
+11. [Appendix: Tools & Resources](#appendix-tools--resources)
 
 ---
 
@@ -39,30 +38,6 @@ Using a dataset of **1,000+ chatbot model records**, the analysis revealed:
 4. **Optimization Roadmap** – Prioritized recommendations with ROI projections
 
 This report demonstrates how data-driven analysis bridges the gap between raw chatbot logs and **actionable business intelligence**, empowering stakeholders to make informed decisions.
-
----
-
-## Business Context & Problem Statement
-
-### The Challenge
-
-A fictitious tech company deployed AI chatbots across multiple domains (Finance, Healthcare, Education, Retail, E-commerce) to handle customer inquiries, reduce response times, and improve user satisfaction. However, **high abandonment rates and unclear performance metrics** hindered optimization efforts.
-
-### Stakeholder Pain Points
-
-| Stakeholder         | Need                                                                                   |
-| ------------------- | -------------------------------------------------------------------------------------- |
-| **Product Manager** | Which intents/domains are underperforming? Where should retraining efforts focus?      |
-| **Engineers**       | How does system load affect latency and accuracy? Are there architectural bottlenecks? |
-| **Finance Team**    | What is the cost of failed interactions? Where can we reduce operational expenses?     |
-| **Executives**      | What is the ROI of chatbot investments? How do we justify continued funding?           |
-
-### Business Objectives
-
-1. **Reduce Fallback Rates** – From 40% → 10% through targeted optimization
-2. **Improve User Satisfaction** – From 3.2/5 → 4.5/5
-3. **Cut Operational Costs** – Identify $8K+ monthly savings
-4. **Establish Continuous Monitoring** – Enable data-driven decision-making
 
 ---
 
@@ -141,28 +116,6 @@ Raw Chatbot Logs (CSV)
 | **Key Domains**      | Finance, Healthcare, Education, Retail, E-commerce       |
 | **Model Categories** | Open-Source, Hybrid, Custom, Rule-Based, Domain-Specific |
 | **Query Types**      | Simple, Complex, Multi-turn                              |
-
-### Data Schema
-
-```
-Column Name               | Type     | Range/Values
-─────────────────────────┼──────────┼──────────────────────────
-id                       | INT      | 1-1000+
-modelname                | VARCHAR  | Bot model identifiers
-category                 | VARCHAR  | Open-Source, Hybrid, Custom, etc.
-domain                   | VARCHAR  | Finance, Healthcare, Education, Retail, E-commerce
-querytype                | VARCHAR  | Simple, Complex, Multi-turn
-latency                  | INT      | 103-1000 ms
-responseaccuracy         | FLOAT    | 75.0-95.0%
-performancetime          | FLOAT    | 0.68-4.99 seconds
-memoryusage              | INT      | 14,726-203,250 MB
-concurrentqueries        | INT      | 1-50
-optimizationtechnique    | VARCHAR  | Baseline, Model Pruning, NAS, RL
-latencybucket            | VARCHAR  | Low (<300ms), Medium (300-750ms), High (>750ms)
-accuracybucket           | VARCHAR  | Good, Excellent
-loadlevel                | VARCHAR  | Low, Medium, High
-performanceefficiency    | FLOAT    | 0.078-0.856 (accuracy/latency)
-```
 
 ### Data Quality Assessment
 
@@ -558,7 +511,9 @@ ORDER BY estimated_monthly_cost_usd DESC;
 
 The Power BI dashboard comprises 5 interconnected pages:
 
-#### Page 1: Performance Overview
+#### Page 1: Overview
+
+![alt text](image.png)
 
 **Key Visuals**:
 
@@ -586,6 +541,8 @@ The Power BI dashboard comprises 5 interconnected pages:
 
 #### Page 2: Domain & Category Analysis
 
+![alt text](image-1.png)
+
 **Key Visuals**:
 
 - **Clustered Bar Chart** – Domain Efficiency Comparison:
@@ -612,6 +569,8 @@ The Power BI dashboard comprises 5 interconnected pages:
 ---
 
 #### Page 3: Load & Stress Testing Analysis
+
+![alt text](image-2.png)
 
 **Key Visuals**:
 
@@ -642,6 +601,8 @@ The Power BI dashboard comprises 5 interconnected pages:
 
 #### Page 4: Optimization Technique Comparison
 
+![alt text](image-3.png)
+
 **Key Visuals**:
 
 - **Grouped Bar Chart** – Efficiency Gain by Technique:
@@ -671,6 +632,8 @@ The Power BI dashboard comprises 5 interconnected pages:
 ---
 
 #### Page 5: Drill-Down & Deep Dive
+
+![alt text](image-5.png)
 
 **Key Visuals**:
 
