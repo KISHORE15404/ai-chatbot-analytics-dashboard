@@ -1,0 +1,1001 @@
+id,model_name,category,domain,query_type,latency,response_accuracy,performance_time,memory_usage,concurrent_queries,optimization_technique,notes,latency_bucket,accuracy_bucket,load_level,performance_efficiency
+1,Lin-BurnsBot,Hybrid,Education,Complex Query,266,80.83,4.52,817,35,Model Pruning,Improved adaptive response,Low,Good,High,0.3038721804511278
+2,BrownMillerandNguyenBot,Open-Source,Education,Multi-turn Query,698,91.8,3.27,1493,26,Neural Architecture Search,Faster architecture,Medium,Excellent,Medium,0.1315186246418338
+3,Trevino-PhillipsBot,Hybrid,Finance,Simple Query,285,91.26,3.14,1414,21,Reinforcement Learning,Faster architecture,Low,Excellent,Medium,0.3202105263157895
+4,SnyderWarrenandBrownBot,Rule-Based,Education,Simple Query,108,83.11,3.03,937,26,Model Pruning,Faster architecture,Low,Good,Medium,0.769537037037037
+5,Crawford-HoodBot,Open-Source,Healthcare,Simple Query,759,81.56,3.07,1877,40,Neural Architecture Search,No optimization applied,High,Good,High,0.10745718050065876
+6,CamachoIncBot,Open-Source,Education,Complex Query,750,82.85,1.69,724,15,Baseline,Faster architecture,High,Good,Low,0.11046666666666666
+7,KleinIncBot,Custom,Finance,Complex Query,295,84.64,0.67,1849,7,Neural Architecture Search,No optimization applied,Low,Good,Low,0.28691525423728814
+8,Fernandez-ButlerBot,Custom,Healthcare,Simple Query,545,92.41,3.32,1151,47,Baseline,Improved adaptive response,Medium,Excellent,High,0.16955963302752292
+9,Lewis-CalderonBot,Hybrid,Healthcare,Multi-turn Query,722,90.58,2.1,344,5,Baseline,Improved adaptive response,High,Excellent,Low,0.12545706371191134
+10,GutierrezBushandThomasBot,Custom,Finance,Complex Query,772,76.7,4.2,594,50,Reinforcement Learning,Improved adaptive response,High,Good,High,0.09935233160621762
+11,RussellWilsonandAllisonBot,Custom,Retail,Multi-turn Query,432,77.23,3.09,1050,34,Baseline,No optimization applied,Medium,Good,Medium,0.17877314814814815
+12,JonesIncBot,Open-Source,Finance,Multi-turn Query,646,82.93,0.54,833,24,Model Pruning,No optimization applied,Medium,Good,Medium,0.128374613003096
+13,WallerLtdBot,Custom,Healthcare,Complex Query,835,79.8,4.68,328,33,Baseline,Faster architecture,High,Good,Medium,0.0955688622754491
+14,JohnsonFrazierandHillBot,Rule-Based,Retail,Complex Query,924,87.05,4.19,706,35,Neural Architecture Search,No optimization applied,High,Good,High,0.0942099567099567
+15,RiosGriffinandRamirezBot,Hybrid,Retail,Multi-turn Query,536,79.93,2.36,524,40,Reinforcement Learning,Improved adaptive response,Medium,Good,High,0.14912313432835822
+16,JonesIncBot,Custom,Healthcare,Multi-turn Query,432,94.62,1.92,988,2,Reinforcement Learning,Improved adaptive response,Medium,Excellent,Low,0.2190277777777778
+17,Snyder-WilliamsonBot,Hybrid,E-commerce,Simple Query,464,87.83,2.82,1074,7,Neural Architecture Search,Faster architecture,Medium,Excellent,Low,0.18928879310344826
+18,GardnerCarrollandJonesBot,Rule-Based,Education,Complex Query,733,90.29,0.65,1324,25,Model Pruning,Faster architecture,High,Excellent,Medium,0.12317871759890861
+19,Butler-BensonBot,Domain-Specific,Education,Simple Query,674,85.73,4.96,309,15,Model Pruning,Faster architecture,Medium,Good,Low,0.1271958456973294
+20,Turner-GreenBot,Custom,Healthcare,Multi-turn Query,540,88.57,1.76,1812,35,Reinforcement Learning,No optimization applied,Medium,Excellent,High,0.1640185185185185
+21,MurphyHarringtonandFerrellBot,Domain-Specific,Education,Complex Query,854,76.66,0.98,778,36,Reinforcement Learning,Improved adaptive response,High,Good,High,0.08976580796252927
+22,SummersGroupBot,Hybrid,Education,Complex Query,988,87.26,4.33,1739,11,Baseline,Reduced memory footprint,High,Good,Low,0.08831983805668017
+23,FrazierDiazandCruzBot,Custom,Retail,Simple Query,837,94.62,1.36,1044,37,Baseline,No optimization applied,High,Excellent,High,0.11304659498207886
+24,Miller-RamirezBot,Hybrid,Retail,Complex Query,853,92.71,3.88,1578,48,Reinforcement Learning,Faster architecture,High,Excellent,High,0.10868698710433762
+25,Ramos-SanchezBot,Domain-Specific,Finance,Simple Query,818,91.48,4.9,1335,25,Baseline,Improved adaptive response,High,Excellent,Medium,0.11183374083129585
+26,JonesIncBot,Custom,E-commerce,Multi-turn Query,487,79.06,2.38,638,28,Baseline,No optimization applied,Medium,Good,Medium,0.16234086242299794
+27,Lewis-CalderonBot,Hybrid,Retail,Multi-turn Query,460,79.46,2.98,1853,31,Model Pruning,No optimization applied,Medium,Good,Medium,0.1727391304347826
+28,JonesWalkerandWhiteBot,Open-Source,Retail,Simple Query,321,78.86,4.58,1329,45,Neural Architecture Search,Improved adaptive response,Medium,Good,High,0.24566978193146416
+29,ThomasGroupBot,Rule-Based,E-commerce,Multi-turn Query,275,79.44,1.09,1090,32,Reinforcement Learning,Improved adaptive response,Low,Good,Medium,0.2888727272727273
+30,JonesWalkerandWhiteBot,Open-Source,Education,Simple Query,346,86.0,1.58,1169,39,Model Pruning,Faster architecture,Medium,Good,High,0.24855491329479767
+31,Johnson-NorrisBot,Hybrid,Finance,Complex Query,688,91.9,3.54,1937,31,Model Pruning,Reduced memory footprint,Medium,Excellent,Medium,0.13357558139534884
+32,CollinsThompsonandBrownBot,Custom,Finance,Complex Query,205,79.45,2.62,1880,5,Baseline,Reduced memory footprint,Low,Good,Low,0.3875609756097561
+33,RichmondLLCBot,Open-Source,E-commerce,Multi-turn Query,645,80.97,2.17,1802,25,Neural Architecture Search,Improved adaptive response,Medium,Good,Medium,0.12553488372093022
+34,Snyder-WilliamsonBot,Domain-Specific,E-commerce,Simple Query,594,88.46,2.9,878,7,Model Pruning,Faster architecture,Medium,Excellent,Low,0.1489225589225589
+35,Lin-BurnsBot,Custom,Healthcare,Complex Query,231,90.09,0.72,731,16,Reinforcement Learning,No optimization applied,Low,Excellent,Low,0.39
+36,Nguyen-MercadoBot,Domain-Specific,Retail,Complex Query,641,77.93,1.11,1995,33,Reinforcement Learning,No optimization applied,Medium,Good,Medium,0.12157566302652108
+37,ButlerBrownandFernandezBot,Custom,Education,Simple Query,311,87.53,4.87,748,18,Baseline,Faster architecture,Medium,Excellent,Medium,0.2814469453376206
+38,HoffmanIncBot,Custom,E-commerce,Complex Query,227,75.14,2.18,1248,4,Neural Architecture Search,Faster architecture,Low,Good,Low,0.3310132158590308
+39,Ochoa-ChanBot,Hybrid,Retail,Multi-turn Query,769,76.33,4.55,496,7,Baseline,Improved adaptive response,High,Good,Low,0.09925877763328998
+40,Carson-BurkeBot,Custom,Finance,Multi-turn Query,597,92.25,3.87,1958,3,Reinforcement Learning,No optimization applied,Medium,Excellent,Low,0.15452261306532664
+41,Nielsen-DiazBot,Open-Source,Retail,Complex Query,966,94.43,3.69,1588,19,Baseline,No optimization applied,High,Excellent,Medium,0.0977536231884058
+42,MorrowandSonsBot,Open-Source,Education,Simple Query,772,76.37,4.51,1943,36,Reinforcement Learning,Faster architecture,High,Good,High,0.09892487046632124
+43,Hunt-GarzaBot,Open-Source,Education,Complex Query,302,80.95,1.85,849,10,Neural Architecture Search,No optimization applied,Medium,Good,Low,0.26804635761589407
+44,PerryGroupBot,Open-Source,Healthcare,Complex Query,128,89.23,2.83,1287,49,Neural Architecture Search,No optimization applied,Low,Excellent,High,0.697109375
+45,SmithPLCBot,Open-Source,Healthcare,Complex Query,187,87.54,4.85,1765,32,Baseline,No optimization applied,Low,Excellent,Medium,0.4681283422459893
+46,Durham-StanleyBot,Hybrid,Healthcare,Complex Query,631,83.13,3.21,357,48,Neural Architecture Search,Faster architecture,Medium,Good,High,0.131743264659271
+47,Turner-GreenBot,Open-Source,E-commerce,Multi-turn Query,105,89.85,4.15,2032,50,Neural Architecture Search,Reduced memory footprint,Low,Excellent,High,0.8557142857142856
+48,NguyenKellyandBanksBot,Open-Source,Healthcare,Simple Query,544,79.6,4.42,321,3,Model Pruning,No optimization applied,Medium,Good,Low,0.14632352941176469
+49,AndersonPLCBot,Rule-Based,Finance,Multi-turn Query,100,86.94,1.39,834,19,Reinforcement Learning,Improved adaptive response,Low,Good,Medium,0.8694
+50,WagnerWilliamsandJohnsonBot,Hybrid,Finance,Multi-turn Query,226,82.93,4.5,567,16,Reinforcement Learning,Reduced memory footprint,Low,Good,Low,0.3669469026548673
+51,Miller-RamirezBot,Rule-Based,Retail,Complex Query,799,83.86,1.68,972,36,Model Pruning,Improved adaptive response,High,Good,High,0.10495619524405507
+52,Johnson-NorrisBot,Hybrid,Retail,Multi-turn Query,817,78.47,0.88,275,37,Neural Architecture Search,Reduced memory footprint,High,Good,High,0.09604651162790698
+53,PerryGroupBot,Custom,Retail,Multi-turn Query,630,92.89,4.29,802,13,Reinforcement Learning,No optimization applied,Medium,Excellent,Low,0.14744444444444443
+54,EdwardsGroupBot,Domain-Specific,Retail,Simple Query,943,91.4,2.12,1592,12,Reinforcement Learning,Reduced memory footprint,High,Excellent,Low,0.09692470837751857
+55,Cochran-HarrisBot,Custom,Healthcare,Multi-turn Query,949,87.39,3.8,300,34,Neural Architecture Search,Improved adaptive response,High,Good,Medium,0.09208640674394099
+56,MccoyAndrewsandHicksBot,Domain-Specific,Finance,Simple Query,393,82.92,2.33,756,34,Baseline,Reduced memory footprint,Medium,Good,Medium,0.21099236641221375
+57,JohnstonDaltonandRileyBot,Domain-Specific,Retail,Complex Query,490,92.19,4.92,373,33,Model Pruning,Reduced memory footprint,Medium,Excellent,Medium,0.18814285714285714
+58,Butler-BensonBot,Domain-Specific,Education,Complex Query,538,80.55,4.44,1585,26,Baseline,No optimization applied,Medium,Good,Medium,0.14972118959107805
+59,Baldwin-LaraBot,Open-Source,Education,Complex Query,282,83.14,4.58,883,16,Reinforcement Learning,No optimization applied,Low,Good,Low,0.294822695035461
+60,FosterMullenandJohnsonBot,Open-Source,Healthcare,Multi-turn Query,528,93.12,2.44,317,23,Model Pruning,No optimization applied,Medium,Excellent,Medium,0.17636363636363636
+61,Hall-MolinaBot,Hybrid,Retail,Simple Query,205,90.07,1.96,264,35,Model Pruning,Faster architecture,Low,Excellent,High,0.43936585365853653
+62,Butler-BensonBot,Domain-Specific,Healthcare,Complex Query,210,79.6,3.99,972,43,Reinforcement Learning,No optimization applied,Low,Good,High,0.379047619047619
+63,BishopBarnesandSmithBot,Hybrid,Healthcare,Multi-turn Query,296,82.04,4.48,1570,1,Model Pruning,Reduced memory footprint,Low,Good,Low,0.27716216216216216
+64,Ochoa-ChanBot,Hybrid,Retail,Simple Query,214,85.31,2.65,1976,3,Baseline,Reduced memory footprint,Low,Good,Low,0.3986448598130841
+65,RowlandMartinandGarciaBot,Custom,Education,Complex Query,679,89.58,1.51,1139,36,Neural Architecture Search,No optimization applied,Medium,Excellent,High,0.13192930780559647
+66,Turner-GreenBot,Open-Source,Education,Complex Query,102,84.04,2.12,820,28,Baseline,Faster architecture,Low,Good,Medium,0.823921568627451
+67,BishopBarnesandSmithBot,Hybrid,Finance,Simple Query,195,83.29,1.76,1503,32,Baseline,Improved adaptive response,Low,Good,Medium,0.42712820512820515
+68,HayesRoachandCarrollBot,Rule-Based,Finance,Complex Query,749,75.02,0.69,1879,22,Reinforcement Learning,Improved adaptive response,High,Good,Medium,0.10016021361815754
+69,CarterLtdBot,Domain-Specific,Healthcare,Multi-turn Query,919,87.63,4.59,1754,40,Neural Architecture Search,Faster architecture,High,Excellent,High,0.09535364526659412
+70,EspinozaGroupBot,Hybrid,E-commerce,Multi-turn Query,540,83.82,0.68,1878,4,Reinforcement Learning,Faster architecture,Medium,Good,Low,0.1552222222222222
+71,RhodesRandolphandRodriguezBot,Domain-Specific,E-commerce,Complex Query,467,76.81,2.13,1239,26,Model Pruning,Faster architecture,Medium,Good,Medium,0.16447537473233406
+72,ButlerBrownandFernandezBot,Domain-Specific,Education,Complex Query,228,78.36,1.73,690,20,Reinforcement Learning,Faster architecture,Low,Good,Medium,0.3436842105263158
+73,Greene-CoxBot,Rule-Based,Finance,Multi-turn Query,455,92.29,0.83,724,35,Neural Architecture Search,Improved adaptive response,Medium,Excellent,High,0.20283516483516484
+74,AdkinsPLCBot,Rule-Based,Retail,Simple Query,846,87.48,3.34,1284,43,Model Pruning,No optimization applied,High,Good,High,0.10340425531914894
+75,WallerLtdBot,Custom,E-commerce,Multi-turn Query,326,79.54,3.49,1785,6,Neural Architecture Search,Reduced memory footprint,Medium,Good,Low,0.24398773006134972
+76,JohnsonFrazierandHillBot,Custom,Finance,Multi-turn Query,962,88.43,4.44,613,45,Baseline,Faster architecture,High,Excellent,High,0.09192307692307693
+77,SmithPLCBot,Domain-Specific,E-commerce,Simple Query,878,90.66,2.66,849,27,Baseline,Improved adaptive response,High,Excellent,Medium,0.10325740318906605
+78,Turner-GreenBot,Open-Source,Healthcare,Complex Query,1000,77.7,0.7,1441,28,Baseline,Faster architecture,High,Good,Medium,0.0777
+79,WilsonWardandFryBot,Open-Source,Retail,Complex Query,322,80.46,4.06,740,23,Neural Architecture Search,Reduced memory footprint,Medium,Good,Medium,0.24987577639751551
+80,Wyatt-WrightBot,Hybrid,Healthcare,Multi-turn Query,359,88.47,3.49,1738,9,Neural Architecture Search,Faster architecture,Medium,Excellent,Low,0.24643454038997215
+81,SummersGroupBot,Rule-Based,Education,Simple Query,607,76.26,0.64,589,10,Baseline,No optimization applied,Medium,Good,Low,0.1256342668863262
+82,MccoyAndrewsandHicksBot,Open-Source,Finance,Complex Query,453,79.01,4.94,1826,42,Reinforcement Learning,Faster architecture,Medium,Good,High,0.1744150110375276
+83,LawrenceWilliamsandLeeBot,Domain-Specific,Retail,Simple Query,562,84.14,2.84,604,17,Neural Architecture Search,Improved adaptive response,Medium,Good,Medium,0.1497153024911032
+84,SummersGroupBot,Open-Source,E-commerce,Complex Query,281,82.3,2.25,735,37,Model Pruning,Faster architecture,Low,Good,High,0.2928825622775801
+85,KiddLtdBot,Custom,Retail,Complex Query,213,79.76,1.42,1478,3,Baseline,No optimization applied,Low,Good,Low,0.37446009389671364
+86,JohnstonDaltonandRileyBot,Rule-Based,Finance,Complex Query,140,94.19,4.3,1137,37,Reinforcement Learning,Improved adaptive response,Low,Excellent,High,0.6727857142857143
+87,CamachoIncBot,Custom,Retail,Simple Query,134,80.96,4.72,1103,23,Baseline,No optimization applied,Low,Good,Medium,0.6041791044776119
+88,Taylor-SimsBot,Open-Source,Education,Complex Query,107,77.94,1.23,659,23,Reinforcement Learning,Reduced memory footprint,Low,Good,Medium,0.728411214953271
+89,GardnerCarrollandJonesBot,Rule-Based,Education,Multi-turn Query,213,86.42,1.58,480,40,Neural Architecture Search,Faster architecture,Low,Good,High,0.40572769953051646
+90,Nguyen-MercadoBot,Domain-Specific,Healthcare,Simple Query,731,84.9,4.01,1162,1,Reinforcement Learning,Reduced memory footprint,High,Good,Low,0.11614227086183311
+91,HayesRoachandCarrollBot,Domain-Specific,Healthcare,Simple Query,486,94.53,0.78,720,31,Model Pruning,Faster architecture,Medium,Excellent,Medium,0.19450617283950616
+92,Nielsen-DiazBot,Rule-Based,E-commerce,Multi-turn Query,725,92.44,3.36,399,46,Baseline,Improved adaptive response,High,Excellent,High,0.12750344827586207
+93,CombsJonesandRamseyBot,Hybrid,Healthcare,Complex Query,903,82.37,3.1,341,29,Neural Architecture Search,Faster architecture,High,Good,Medium,0.09121816168327797
+94,Baldwin-LaraBot,Hybrid,Healthcare,Complex Query,281,78.02,1.97,1111,8,Model Pruning,Faster architecture,Low,Good,Low,0.2776512455516014
+95,Nguyen-MercadoBot,Open-Source,Education,Multi-turn Query,153,87.23,4.8,1772,28,Neural Architecture Search,Faster architecture,Low,Good,Medium,0.5701307189542484
+96,CamachoIncBot,Open-Source,Finance,Complex Query,165,82.72,4.89,1918,33,Reinforcement Learning,Improved adaptive response,Low,Good,Medium,0.5013333333333333
+97,JohnsonFrazierandHillBot,Hybrid,Healthcare,Simple Query,166,85.78,1.79,307,11,Model Pruning,Reduced memory footprint,Low,Good,Low,0.5167469879518073
+98,NelsonPLCBot,Domain-Specific,Finance,Complex Query,597,82.03,1.39,1175,3,Neural Architecture Search,Improved adaptive response,Medium,Good,Low,0.1374036850921273
+99,FosterMullenandJohnsonBot,Rule-Based,Healthcare,Complex Query,157,92.08,2.91,824,44,Baseline,No optimization applied,Low,Excellent,High,0.5864968152866242
+100,MccoyAndrewsandHicksBot,Rule-Based,Retail,Simple Query,847,83.97,0.76,267,38,Model Pruning,Faster architecture,High,Good,High,0.09913813459268005
+101,Mcconnell-FloresBot,Domain-Specific,Retail,Complex Query,351,80.21,3.81,696,50,Neural Architecture Search,Reduced memory footprint,Medium,Good,High,0.2285185185185185
+102,MccoyAndrewsandHicksBot,Rule-Based,Finance,Complex Query,988,94.57,2.04,1675,2,Model Pruning,Faster architecture,High,Excellent,Low,0.09571862348178137
+103,Mcconnell-FloresBot,Domain-Specific,E-commerce,Multi-turn Query,657,79.55,2.69,1525,46,Baseline,Faster architecture,Medium,Good,High,0.1210806697108067
+104,JohnsonFrazierandHillBot,Open-Source,Education,Complex Query,355,80.68,1.98,1915,1,Model Pruning,Improved adaptive response,Medium,Good,Low,0.22726760563380283
+105,KnightMcdowellandMarksBot,Domain-Specific,Healthcare,Multi-turn Query,383,90.09,3.95,1216,50,Model Pruning,Faster architecture,Medium,Excellent,High,0.23522193211488251
+106,KleinIncBot,Domain-Specific,E-commerce,Simple Query,841,92.21,2.16,1003,19,Model Pruning,Faster architecture,High,Excellent,Medium,0.10964328180737216
+107,PerryGroupBot,Hybrid,E-commerce,Simple Query,667,93.79,4.51,314,38,Reinforcement Learning,No optimization applied,Medium,Excellent,High,0.14061469265367318
+108,JohnsonFrazierandHillBot,Open-Source,Retail,Complex Query,886,89.25,4.79,1236,5,Baseline,Improved adaptive response,High,Excellent,Low,0.10073363431151242
+109,PerezPLCBot,Domain-Specific,Retail,Multi-turn Query,253,76.21,2.38,1436,22,Baseline,Reduced memory footprint,Low,Good,Medium,0.3012252964426877
+110,Greene-CoxBot,Domain-Specific,Retail,Simple Query,855,84.93,3.84,1247,18,Neural Architecture Search,Reduced memory footprint,High,Good,Medium,0.09933333333333334
+111,ThomasGroupBot,Rule-Based,Education,Multi-turn Query,611,77.23,4.83,552,2,Reinforcement Learning,Faster architecture,Medium,Good,Low,0.12639934533551556
+112,Miller-RamirezBot,Domain-Specific,E-commerce,Complex Query,277,83.32,2.4,314,31,Reinforcement Learning,No optimization applied,Low,Good,Medium,0.3007942238267148
+113,Trevino-PhillipsBot,Domain-Specific,Education,Simple Query,230,92.99,4.48,1829,48,Baseline,No optimization applied,Low,Excellent,High,0.40430434782608693
+114,ThomasGroupBot,Custom,Education,Complex Query,170,91.5,0.69,1273,18,Reinforcement Learning,Faster architecture,Low,Excellent,Medium,0.538235294117647
+115,SummersGroupBot,Rule-Based,E-commerce,Complex Query,645,84.88,3.6,785,4,Reinforcement Learning,Improved adaptive response,Medium,Good,Low,0.1315968992248062
+116,Carson-BurkeBot,Hybrid,Finance,Simple Query,811,93.01,2.73,1980,23,Reinforcement Learning,No optimization applied,High,Excellent,Medium,0.11468557336621456
+117,ClarkWoodardandCamposBot,Hybrid,Retail,Simple Query,275,91.37,1.78,1753,26,Model Pruning,Improved adaptive response,Low,Excellent,Medium,0.33225454545454547
+118,RhodesRandolphandRodriguezBot,Custom,Retail,Simple Query,625,81.31,2.12,1379,5,Reinforcement Learning,Reduced memory footprint,Medium,Good,Low,0.13009600000000002
+119,MurphyHarringtonandFerrellBot,Custom,Education,Complex Query,334,83.27,3.29,1768,23,Model Pruning,Improved adaptive response,Medium,Good,Medium,0.24931137724550897
+120,MurphyHarringtonandFerrellBot,Open-Source,Finance,Complex Query,331,80.53,0.64,574,42,Reinforcement Learning,No optimization applied,Medium,Good,High,0.24329305135951662
+121,KleinGroupBot,Rule-Based,Finance,Complex Query,263,79.65,3.22,365,46,Reinforcement Learning,No optimization applied,Low,Good,High,0.302851711026616
+122,CollinsThompsonandBrownBot,Open-Source,Healthcare,Simple Query,952,88.22,4.72,1931,38,Model Pruning,Reduced memory footprint,High,Excellent,High,0.09266806722689075
+123,Nielsen-DiazBot,Domain-Specific,Education,Complex Query,123,93.54,2.75,569,5,Baseline,Reduced memory footprint,Low,Excellent,Low,0.7604878048780488
+124,Welch-GuerreroBot,Rule-Based,Healthcare,Simple Query,371,77.63,2.02,1032,9,Baseline,Reduced memory footprint,Medium,Good,Low,0.2092452830188679
+125,GriffithGreenandCruzBot,Rule-Based,Retail,Simple Query,109,83.85,4.02,1899,13,Baseline,Improved adaptive response,Low,Good,Low,0.7692660550458715
+126,CollinsThompsonandBrownBot,Hybrid,E-commerce,Multi-turn Query,418,86.47,4.86,1867,14,Baseline,Improved adaptive response,Medium,Good,Low,0.20686602870813398
+127,WilsonWardandFryBot,Domain-Specific,Finance,Complex Query,484,87.81,1.06,610,4,Baseline,Faster architecture,Medium,Excellent,Low,0.18142561983471076
+128,Bowman-BernardBot,Rule-Based,Retail,Multi-turn Query,276,94.2,1.23,860,33,Model Pruning,No optimization applied,Low,Excellent,Medium,0.341304347826087
+129,Snyder-WilliamsonBot,Hybrid,E-commerce,Simple Query,962,86.42,2.31,1658,7,Model Pruning,No optimization applied,High,Good,Low,0.08983367983367983
+130,Cochran-HarrisBot,Open-Source,Retail,Complex Query,915,93.66,4.69,1080,21,Neural Architecture Search,Faster architecture,High,Excellent,Medium,0.10236065573770492
+131,Randolph-JohnsonBot,Domain-Specific,Retail,Multi-turn Query,794,88.7,3.96,1731,46,Neural Architecture Search,No optimization applied,High,Excellent,High,0.11171284634760706
+132,Hall-MolinaBot,Open-Source,Retail,Complex Query,492,93.38,4.51,861,25,Baseline,Reduced memory footprint,Medium,Excellent,Medium,0.18979674796747967
+133,Fernandez-ButlerBot,Rule-Based,Finance,Multi-turn Query,885,81.81,1.54,1422,6,Reinforcement Learning,Improved adaptive response,High,Good,Low,0.0924406779661017
+134,GriffithGreenandCruzBot,Domain-Specific,E-commerce,Complex Query,224,76.81,2.11,437,37,Reinforcement Learning,No optimization applied,Low,Good,High,0.3429017857142857
+135,BishopBarnesandSmithBot,Open-Source,Education,Complex Query,989,85.54,4.18,256,17,Reinforcement Learning,Faster architecture,High,Good,Medium,0.08649140546006068
+136,NguyenKellyandBanksBot,Rule-Based,E-commerce,Simple Query,961,82.9,1.14,1481,25,Neural Architecture Search,Faster architecture,High,Good,Medium,0.086264308012487
+137,ThomasGroupBot,Rule-Based,Retail,Complex Query,591,92.49,3.67,1762,22,Model Pruning,Improved adaptive response,Medium,Excellent,Medium,0.156497461928934
+138,TrevinoIncBot,Rule-Based,E-commerce,Multi-turn Query,237,81.29,4.04,1083,35,Reinforcement Learning,Faster architecture,Low,Good,High,0.34299578059071734
+139,KleinIncBot,Custom,Healthcare,Simple Query,417,87.69,1.91,1396,34,Neural Architecture Search,No optimization applied,Medium,Excellent,Medium,0.21028776978417266
+140,Turner-GreenBot,Open-Source,Education,Multi-turn Query,897,93.25,4.95,922,18,Neural Architecture Search,Faster architecture,High,Excellent,Medium,0.10395763656633222
+141,Vazquez-MorenoBot,Rule-Based,Healthcare,Complex Query,728,84.77,0.93,1519,24,Reinforcement Learning,No optimization applied,High,Good,Medium,0.11644230769230769
+142,Hall-MolinaBot,Domain-Specific,Healthcare,Multi-turn Query,433,82.22,4.31,2046,16,Model Pruning,Faster architecture,Medium,Good,Low,0.18988452655889146
+143,Baldwin-MartinBot,Open-Source,Education,Multi-turn Query,497,91.02,4.56,1329,28,Model Pruning,Improved adaptive response,Medium,Excellent,Medium,0.18313883299798792
+144,Taylor-SimsBot,Rule-Based,Retail,Multi-turn Query,434,89.9,2.5,937,17,Reinforcement Learning,Improved adaptive response,Medium,Excellent,Medium,0.20714285714285716
+145,RhodesRandolphandRodriguezBot,Domain-Specific,E-commerce,Simple Query,940,90.01,2.12,796,20,Model Pruning,Faster architecture,High,Excellent,Medium,0.09575531914893617
+146,Miller-RamirezBot,Open-Source,E-commerce,Multi-turn Query,351,87.62,4.3,1948,5,Neural Architecture Search,Reduced memory footprint,Medium,Excellent,Low,0.24962962962962965
+147,Hanson-BrooksBot,Open-Source,Education,Complex Query,548,83.07,2.07,281,25,Model Pruning,Reduced memory footprint,Medium,Good,Medium,0.1515875912408759
+148,ThomasGroupBot,Rule-Based,Education,Simple Query,750,91.34,4.36,850,33,Model Pruning,Faster architecture,High,Excellent,Medium,0.12178666666666667
+149,NealMitchellandCoxBot,Rule-Based,Education,Complex Query,795,86.83,3.86,1560,4,Model Pruning,No optimization applied,High,Good,Low,0.10922012578616352
+150,CollinsThompsonandBrownBot,Rule-Based,E-commerce,Simple Query,318,88.65,4.38,1994,5,Model Pruning,Improved adaptive response,Medium,Excellent,Low,0.2787735849056604
+151,AguilarLLCBot,Custom,Finance,Simple Query,649,84.23,3.89,1329,39,Model Pruning,Improved adaptive response,Medium,Good,High,0.12978428351309707
+152,Santos-RodgersBot,Domain-Specific,Retail,Multi-turn Query,500,77.02,1.39,949,16,Baseline,No optimization applied,Medium,Good,Low,0.15403999999999998
+153,RowlandMartinandGarciaBot,Hybrid,E-commerce,Multi-turn Query,761,79.1,4.78,1097,19,Neural Architecture Search,Faster architecture,High,Good,Medium,0.10394218134034165
+154,Lin-BurnsBot,Hybrid,Education,Multi-turn Query,499,89.1,2.55,866,34,Reinforcement Learning,Improved adaptive response,Medium,Excellent,Medium,0.1785571142284569
+155,RichmondLLCBot,Hybrid,E-commerce,Simple Query,692,75.64,4.93,948,41,Reinforcement Learning,Faster architecture,Medium,Good,High,0.10930635838150289
+156,JohnstonDaltonandRileyBot,Custom,E-commerce,Complex Query,999,85.22,1.27,2038,9,Model Pruning,Reduced memory footprint,High,Good,Low,0.0853053053053053
+157,GardnerCarrollandJonesBot,Open-Source,Education,Complex Query,219,85.72,2.52,486,35,Neural Architecture Search,Improved adaptive response,Low,Good,High,0.3914155251141552
+158,BrownMillerandNguyenBot,Domain-Specific,Finance,Multi-turn Query,242,75.82,2.88,1759,31,Baseline,Reduced memory footprint,Low,Good,Medium,0.3133057851239669
+159,TrevinoIncBot,Domain-Specific,E-commerce,Complex Query,248,78.69,3.21,2040,47,Neural Architecture Search,Improved adaptive response,Low,Good,High,0.31729838709677416
+160,TrevinoIncBot,Hybrid,Finance,Multi-turn Query,937,81.91,2.06,583,6,Baseline,Improved adaptive response,High,Good,Low,0.08741728922091782
+161,CamachoIncBot,Rule-Based,Retail,Multi-turn Query,162,82.86,4.42,1462,49,Neural Architecture Search,Improved adaptive response,Low,Good,High,0.5114814814814814
+162,Taylor-SimsBot,Domain-Specific,Education,Complex Query,213,93.2,4.61,721,22,Baseline,Reduced memory footprint,Low,Excellent,Medium,0.4375586854460094
+163,HoffmanIncBot,Custom,Education,Complex Query,546,89.48,3.86,1607,40,Reinforcement Learning,Faster architecture,Medium,Excellent,High,0.16388278388278388
+164,AdkinsPLCBot,Domain-Specific,Finance,Complex Query,132,80.96,1.68,318,4,Model Pruning,No optimization applied,Low,Good,Low,0.6133333333333333
+165,ThomasGroupBot,Open-Source,Education,Complex Query,124,84.1,0.99,1623,10,Model Pruning,Reduced memory footprint,Low,Good,Low,0.6782258064516129
+166,JonesIncBot,Open-Source,Finance,Simple Query,856,76.45,0.89,1920,46,Neural Architecture Search,Improved adaptive response,High,Good,High,0.0893107476635514
+167,ButlerBrownandFernandezBot,Open-Source,Finance,Simple Query,797,94.58,1.99,1136,14,Reinforcement Learning,Reduced memory footprint,High,Excellent,Low,0.11867001254705144
+168,Butler-BensonBot,Hybrid,Education,Complex Query,776,75.89,2.77,829,26,Model Pruning,No optimization applied,High,Good,Medium,0.09779639175257732
+169,CombsJonesandRamseyBot,Open-Source,E-commerce,Complex Query,486,94.08,1.41,394,47,Model Pruning,Faster architecture,Medium,Excellent,High,0.19358024691358025
+170,MurphyHarringtonandFerrellBot,Rule-Based,Finance,Complex Query,784,94.32,2.67,483,46,Baseline,Faster architecture,High,Excellent,High,0.12030612244897958
+171,MorrowandSonsBot,Hybrid,Healthcare,Complex Query,252,80.15,1.28,1875,42,Reinforcement Learning,Faster architecture,Low,Good,High,0.3180555555555556
+172,CombsJonesandRamseyBot,Custom,Healthcare,Multi-turn Query,246,78.32,1.49,511,22,Neural Architecture Search,Improved adaptive response,Low,Good,Medium,0.3183739837398374
+173,WallerLLCBot,Hybrid,Healthcare,Simple Query,134,86.49,4.74,402,45,Reinforcement Learning,No optimization applied,Low,Good,High,0.6454477611940298
+174,FrazierDiazandCruzBot,Rule-Based,Healthcare,Simple Query,779,92.17,1.42,1958,19,Neural Architecture Search,Faster architecture,High,Excellent,Medium,0.11831835686777921
+175,KleinGroupBot,Custom,Finance,Complex Query,537,91.95,4.57,498,36,Reinforcement Learning,Faster architecture,Medium,Excellent,High,0.1712290502793296
+176,Cochran-HarrisBot,Rule-Based,Healthcare,Multi-turn Query,470,85.74,3.96,1678,17,Baseline,No optimization applied,Medium,Good,Medium,0.1824255319148936
+177,Wyatt-WrightBot,Domain-Specific,Education,Complex Query,835,83.17,2.74,1273,27,Baseline,Faster architecture,High,Good,Medium,0.09960479041916168
+178,CarterLtdBot,Open-Source,Retail,Simple Query,497,81.66,1.96,1052,8,Reinforcement Learning,Faster architecture,Medium,Good,Low,0.16430583501006035
+179,Baldwin-MartinBot,Custom,E-commerce,Simple Query,257,89.3,1.5,852,21,Reinforcement Learning,Faster architecture,Low,Excellent,Medium,0.34747081712062255
+180,WallerLLCBot,Domain-Specific,Finance,Multi-turn Query,544,82.62,3.76,1601,7,Baseline,Reduced memory footprint,Medium,Good,Low,0.151875
+181,Snyder-WilliamsonBot,Rule-Based,Retail,Complex Query,812,87.32,2.54,1349,4,Model Pruning,No optimization applied,High,Good,Low,0.10753694581280787
+182,NguyenKellyandBanksBot,Rule-Based,Retail,Multi-turn Query,998,86.79,3.82,1033,47,Baseline,Faster architecture,High,Good,High,0.08696392785571143
+183,ThomasGroupBot,Open-Source,Education,Multi-turn Query,916,92.2,4.57,468,4,Neural Architecture Search,No optimization applied,High,Excellent,Low,0.10065502183406114
+184,CombsJonesandRamseyBot,Rule-Based,Education,Complex Query,536,81.94,3.16,709,11,Model Pruning,No optimization applied,Medium,Good,Low,0.1528731343283582
+185,KleinIncBot,Custom,Retail,Multi-turn Query,263,94.4,3.37,1690,17,Neural Architecture Search,Reduced memory footprint,Low,Excellent,Medium,0.3589353612167301
+186,CombsJonesandRamseyBot,Rule-Based,Healthcare,Multi-turn Query,757,91.02,2.59,1379,40,Baseline,No optimization applied,High,Excellent,High,0.12023778071334214
+187,Hanson-BrooksBot,Rule-Based,Finance,Multi-turn Query,522,79.51,4.57,1162,33,Neural Architecture Search,No optimization applied,Medium,Good,Medium,0.15231800766283526
+188,KnightMcdowellandMarksBot,Rule-Based,Retail,Multi-turn Query,816,89.58,3.83,1289,49,Baseline,Improved adaptive response,High,Excellent,High,0.10977941176470588
+189,PerryGroupBot,Domain-Specific,Healthcare,Multi-turn Query,760,81.06,2.22,1193,1,Model Pruning,Faster architecture,High,Good,Low,0.1066578947368421
+190,Cochran-HarrisBot,Rule-Based,Healthcare,Simple Query,942,91.92,2.65,1768,46,Reinforcement Learning,Reduced memory footprint,High,Excellent,High,0.09757961783439491
+191,KleinGroupBot,Open-Source,E-commerce,Simple Query,676,79.01,3.3,773,32,Baseline,No optimization applied,Medium,Good,Medium,0.11687869822485208
+192,Lin-BurnsBot,Open-Source,E-commerce,Simple Query,773,93.21,4.56,1519,48,Reinforcement Learning,No optimization applied,High,Excellent,High,0.12058214747736093
+193,Woods-YoungBot,Domain-Specific,Retail,Simple Query,924,84.74,3.03,1520,25,Baseline,Reduced memory footprint,High,Good,Medium,0.0917099567099567
+194,MurphyHarringtonandFerrellBot,Hybrid,Retail,Multi-turn Query,578,84.44,3.13,752,14,Reinforcement Learning,No optimization applied,Medium,Good,Low,0.14608996539792388
+195,Mcconnell-FloresBot,Rule-Based,Healthcare,Complex Query,163,75.98,4.87,963,7,Reinforcement Learning,No optimization applied,Low,Good,Low,0.4661349693251534
+196,BrownMillerandNguyenBot,Rule-Based,E-commerce,Multi-turn Query,858,83.83,3.95,1723,37,Baseline,Faster architecture,High,Good,High,0.0977039627039627
+197,SnyderWarrenandBrownBot,Hybrid,Finance,Simple Query,876,91.21,0.96,975,42,Reinforcement Learning,Improved adaptive response,High,Excellent,High,0.10412100456621004
+198,Ramos-SanchezBot,Domain-Specific,Healthcare,Multi-turn Query,688,75.96,0.87,806,44,Reinforcement Learning,Reduced memory footprint,Medium,Good,High,0.11040697674418604
+199,Butler-BensonBot,Hybrid,Finance,Complex Query,356,82.56,4.39,623,34,Neural Architecture Search,No optimization applied,Medium,Good,Medium,0.23191011235955056
+200,JohnsonChapmanandRossBot,Custom,Finance,Multi-turn Query,501,92.5,3.09,1189,46,Model Pruning,No optimization applied,Medium,Excellent,High,0.18463073852295409
+201,CarterLtdBot,Custom,Finance,Complex Query,395,87.51,3.87,1710,31,Neural Architecture Search,Improved adaptive response,Medium,Excellent,Medium,0.22154430379746837
+202,Greene-CoxBot,Custom,Finance,Multi-turn Query,840,90.3,1.23,1679,27,Reinforcement Learning,Faster architecture,High,Excellent,Medium,0.1075
+203,MurphyHarringtonandFerrellBot,Hybrid,Education,Complex Query,891,90.42,4.15,1952,18,Reinforcement Learning,Faster architecture,High,Excellent,Medium,0.10148148148148148
+204,WoodsIncBot,Custom,Retail,Simple Query,855,79.54,3.17,1758,8,Model Pruning,Reduced memory footprint,High,Good,Low,0.09302923976608188
+205,Woods-YoungBot,Domain-Specific,Education,Simple Query,964,75.5,0.82,712,18,Reinforcement Learning,No optimization applied,High,Good,Medium,0.0783195020746888
+206,Bowman-BernardBot,Open-Source,Education,Multi-turn Query,271,84.17,0.98,522,16,Neural Architecture Search,Faster architecture,Low,Good,Low,0.31059040590405906
+207,Bowman-BernardBot,Rule-Based,Retail,Complex Query,885,82.68,2.59,1832,27,Model Pruning,Faster architecture,High,Good,Medium,0.09342372881355933
+208,Cochran-HarrisBot,Rule-Based,E-commerce,Complex Query,286,92.6,2.9,1842,28,Model Pruning,Faster architecture,Low,Excellent,Medium,0.3237762237762238
+209,Baldwin-LaraBot,Domain-Specific,E-commerce,Multi-turn Query,422,81.09,4.16,271,39,Model Pruning,Improved adaptive response,Medium,Good,High,0.1921563981042654
+210,GravesPLCBot,Rule-Based,Retail,Simple Query,320,91.16,2.08,1600,48,Neural Architecture Search,Faster architecture,Medium,Excellent,High,0.284875
+211,Crawford-HoodBot,Open-Source,Finance,Multi-turn Query,689,93.36,3.83,696,39,Model Pruning,Reduced memory footprint,Medium,Excellent,High,0.13550072568940494
+212,FosterMullenandJohnsonBot,Custom,Retail,Multi-turn Query,348,92.32,3.72,610,47,Baseline,Faster architecture,Medium,Excellent,High,0.2652873563218391
+213,Cochran-HarrisBot,Rule-Based,Retail,Complex Query,537,81.53,3.51,311,43,Reinforcement Learning,Improved adaptive response,Medium,Good,High,0.1518249534450652
+214,RichmondLLCBot,Hybrid,Finance,Simple Query,765,78.67,1.62,1781,38,Model Pruning,Improved adaptive response,High,Good,High,0.10283660130718955
+215,MurphyHarringtonandFerrellBot,Open-Source,E-commerce,Multi-turn Query,659,94.61,3.81,1962,36,Baseline,Reduced memory footprint,Medium,Excellent,High,0.1435660091047041
+216,JonesIncBot,Hybrid,Finance,Multi-turn Query,238,88.61,2.35,968,49,Baseline,No optimization applied,Low,Excellent,High,0.3723109243697479
+217,MurphyHarringtonandFerrellBot,Domain-Specific,Healthcare,Multi-turn Query,563,85.28,3.6,287,16,Neural Architecture Search,Reduced memory footprint,Medium,Good,Low,0.15147424511545293
+218,Miller-RamirezBot,Rule-Based,Retail,Multi-turn Query,702,87.97,3.36,1897,10,Model Pruning,Faster architecture,High,Excellent,Low,0.1253133903133903
+219,KleinIncBot,Hybrid,Finance,Complex Query,693,78.03,4.01,294,43,Neural Architecture Search,Faster architecture,Medium,Good,High,0.1125974025974026
+220,MurphyHarringtonandFerrellBot,Custom,Education,Multi-turn Query,713,90.05,0.77,333,19,Model Pruning,No optimization applied,High,Excellent,Medium,0.12629733520336606
+221,Butler-BensonBot,Custom,Retail,Multi-turn Query,272,88.77,3.42,804,7,Reinforcement Learning,Faster architecture,Low,Excellent,Low,0.32636029411764705
+222,Fernandez-ButlerBot,Hybrid,Finance,Simple Query,253,78.52,4.51,1242,30,Neural Architecture Search,Faster architecture,Low,Good,Medium,0.3103557312252964
+223,Mclaughlin-HughesBot,Rule-Based,Finance,Multi-turn Query,178,85.78,4.49,1412,19,Neural Architecture Search,Reduced memory footprint,Low,Good,Medium,0.48191011235955056
+224,Hall-MolinaBot,Domain-Specific,Finance,Complex Query,975,88.52,0.9,1303,16,Neural Architecture Search,Improved adaptive response,High,Excellent,Low,0.09078974358974358
+225,BishopBarnesandSmithBot,Custom,Finance,Complex Query,625,85.39,1.74,997,6,Model Pruning,Reduced memory footprint,Medium,Good,Low,0.136624
+226,Hart-JosephBot,Rule-Based,Finance,Simple Query,797,83.01,0.58,419,35,Reinforcement Learning,Improved adaptive response,High,Good,High,0.10415307402760351
+227,RichmondLLCBot,Rule-Based,Education,Multi-turn Query,812,75.5,3.3,1708,2,Neural Architecture Search,Reduced memory footprint,High,Good,Low,0.09298029556650246
+228,GardnerCarrollandJonesBot,Custom,Retail,Multi-turn Query,520,86.55,2.71,1920,7,Model Pruning,No optimization applied,Medium,Good,Low,0.1664423076923077
+229,WilsonWardandFryBot,Custom,Education,Simple Query,416,80.09,4.25,1058,32,Neural Architecture Search,Faster architecture,Medium,Good,Medium,0.19252403846153848
+230,RhodesRandolphandRodriguezBot,Custom,E-commerce,Simple Query,867,88.69,0.66,1639,33,Reinforcement Learning,Improved adaptive response,High,Excellent,Medium,0.1022952710495963
+231,EdwardsGroupBot,Rule-Based,Retail,Complex Query,426,93.79,4.42,2040,2,Baseline,No optimization applied,Medium,Excellent,Low,0.22016431924882632
+232,Lin-BurnsBot,Custom,Retail,Multi-turn Query,867,78.98,2.33,1569,47,Neural Architecture Search,No optimization applied,High,Good,High,0.09109573241061131
+233,AdkinsPLCBot,Domain-Specific,Finance,Complex Query,381,86.5,3.8,1205,44,Reinforcement Learning,Reduced memory footprint,Medium,Good,High,0.22703412073490814
+234,McdanielLLCBot,Domain-Specific,Retail,Complex Query,776,79.65,4.94,1102,40,Model Pruning,Faster architecture,High,Good,High,0.1026417525773196
+235,DixonPLCBot,Rule-Based,Healthcare,Complex Query,222,90.54,4.02,1699,46,Baseline,No optimization applied,Low,Excellent,High,0.4078378378378379
+236,Durham-StanleyBot,Rule-Based,Finance,Complex Query,270,92.84,2.76,953,40,Neural Architecture Search,Improved adaptive response,Low,Excellent,High,0.34385185185185185
+237,RussellWilsonandAllisonBot,Hybrid,Finance,Multi-turn Query,239,83.8,3.77,595,20,Baseline,Reduced memory footprint,Low,Good,Medium,0.3506276150627615
+238,RussellWilsonandAllisonBot,Rule-Based,Retail,Complex Query,814,78.78,4.48,332,50,Model Pruning,Reduced memory footprint,High,Good,High,0.09678132678132678
+239,LawrenceWilliamsandLeeBot,Domain-Specific,E-commerce,Simple Query,351,82.48,0.93,731,32,Reinforcement Learning,Faster architecture,Medium,Good,Medium,0.234985754985755
+240,Hall-MolinaBot,Domain-Specific,Healthcare,Multi-turn Query,233,80.79,0.98,416,46,Reinforcement Learning,Reduced memory footprint,Low,Good,High,0.34673819742489276
+241,Durham-StanleyBot,Custom,Retail,Simple Query,588,76.81,4.56,1861,48,Model Pruning,No optimization applied,Medium,Good,High,0.13062925170068027
+242,Hall-MolinaBot,Custom,E-commerce,Multi-turn Query,885,93.38,4.87,1350,8,Baseline,Faster architecture,High,Excellent,Low,0.1055141242937853
+243,Ramos-SanchezBot,Hybrid,Retail,Complex Query,160,83.8,2.26,1527,13,Neural Architecture Search,Faster architecture,Low,Good,Low,0.5237499999999999
+244,GutierrezBushandThomasBot,Custom,E-commerce,Complex Query,268,86.22,2.35,1051,25,Reinforcement Learning,Improved adaptive response,Low,Good,Medium,0.32171641791044775
+245,SmithPLCBot,Hybrid,E-commerce,Complex Query,894,76.23,2.07,1312,31,Neural Architecture Search,Reduced memory footprint,High,Good,Medium,0.08526845637583894
+246,Fernandez-ButlerBot,Open-Source,Education,Simple Query,350,94.7,3.69,1362,32,Reinforcement Learning,Improved adaptive response,Medium,Excellent,Medium,0.2705714285714286
+247,Woods-YoungBot,Rule-Based,Finance,Simple Query,196,86.26,3.91,355,43,Reinforcement Learning,No optimization applied,Low,Good,High,0.44010204081632653
+248,WagnerWilliamsandJohnsonBot,Domain-Specific,Education,Complex Query,463,87.54,4.37,599,35,Baseline,Faster architecture,Medium,Excellent,High,0.18907127429805617
+249,Vazquez-MorenoBot,Domain-Specific,Finance,Simple Query,976,78.71,0.69,405,33,Reinforcement Learning,Reduced memory footprint,High,Good,Medium,0.08064549180327868
+250,GriffithGreenandCruzBot,Domain-Specific,E-commerce,Simple Query,205,75.63,1.58,673,29,Baseline,Improved adaptive response,Low,Good,Medium,0.3689268292682927
+251,GriffithGreenandCruzBot,Rule-Based,Retail,Simple Query,184,79.65,3.4,980,34,Baseline,Reduced memory footprint,Low,Good,Medium,0.43288043478260874
+252,RowlandMartinandGarciaBot,Open-Source,Healthcare,Complex Query,320,92.12,4.5,1068,34,Baseline,No optimization applied,Medium,Excellent,Medium,0.287875
+253,Randolph-JohnsonBot,Rule-Based,Retail,Complex Query,152,85.12,3.4,1183,26,Baseline,Reduced memory footprint,Low,Good,Medium,0.56
+254,MurphyHarringtonandFerrellBot,Rule-Based,E-commerce,Simple Query,415,91.9,3.9,1432,7,Model Pruning,Faster architecture,Medium,Excellent,Low,0.22144578313253013
+255,Lin-BurnsBot,Open-Source,Education,Multi-turn Query,833,86.21,1.46,899,32,Model Pruning,Improved adaptive response,High,Good,Medium,0.10349339735894357
+256,RiosGriffinandRamirezBot,Custom,E-commerce,Multi-turn Query,816,77.84,1.58,1299,37,Neural Architecture Search,Reduced memory footprint,High,Good,High,0.0953921568627451
+257,SummersGroupBot,Custom,Healthcare,Simple Query,929,93.15,3.58,1315,34,Reinforcement Learning,Reduced memory footprint,High,Excellent,Medium,0.10026910656620022
+258,Wyatt-WrightBot,Rule-Based,E-commerce,Complex Query,936,90.37,3.35,1781,43,Model Pruning,Reduced memory footprint,High,Excellent,High,0.09654914529914531
+259,Miller-RamirezBot,Domain-Specific,E-commerce,Multi-turn Query,719,85.0,4.51,1125,42,Baseline,Reduced memory footprint,High,Good,High,0.11821974965229486
+260,Hart-JosephBot,Open-Source,Retail,Simple Query,424,93.33,1.45,1353,40,Neural Architecture Search,No optimization applied,Medium,Excellent,High,0.2201179245283019
+261,RussellWilsonandAllisonBot,Rule-Based,Education,Simple Query,421,91.86,3.25,1159,33,Baseline,Reduced memory footprint,Medium,Excellent,Medium,0.21819477434679335
+262,Butler-BensonBot,Open-Source,Finance,Simple Query,489,80.13,1.0,331,15,Baseline,Faster architecture,Medium,Good,Low,0.16386503067484662
+263,MccarthyAlvarezandTurnerBot,Rule-Based,E-commerce,Complex Query,526,86.18,1.17,595,42,Reinforcement Learning,Reduced memory footprint,Medium,Good,High,0.16384030418250953
+264,AdkinsPLCBot,Domain-Specific,Healthcare,Complex Query,264,78.78,1.46,1543,9,Reinforcement Learning,Reduced memory footprint,Low,Good,Low,0.2984090909090909
+265,MurphyHarringtonandFerrellBot,Custom,Education,Multi-turn Query,493,91.56,0.74,1162,7,Neural Architecture Search,Improved adaptive response,Medium,Excellent,Low,0.18572008113590263
+266,Hanson-BrooksBot,Custom,Retail,Complex Query,282,91.01,2.06,454,48,Baseline,Reduced memory footprint,Low,Excellent,High,0.32273049645390073
+267,Hall-MolinaBot,Open-Source,Education,Multi-turn Query,274,83.57,4.65,741,28,Neural Architecture Search,Reduced memory footprint,Low,Good,Medium,0.305
+268,MorrowandSonsBot,Custom,Retail,Simple Query,999,81.36,3.91,912,49,Neural Architecture Search,Faster architecture,High,Good,High,0.08144144144144144
+269,Turner-GreenBot,Hybrid,E-commerce,Simple Query,408,82.52,1.46,806,2,Neural Architecture Search,Improved adaptive response,Medium,Good,Low,0.2022549019607843
+270,Russell-SharpBot,Hybrid,Education,Simple Query,642,87.33,1.04,500,39,Neural Architecture Search,No optimization applied,Medium,Good,High,0.13602803738317756
+271,JonesWalkerandWhiteBot,Custom,Healthcare,Simple Query,210,88.32,4.32,1456,10,Baseline,Improved adaptive response,Low,Excellent,Low,0.42057142857142854
+272,Russell-SharpBot,Domain-Specific,Education,Simple Query,120,79.84,1.56,435,36,Model Pruning,Reduced memory footprint,Low,Good,High,0.6653333333333333
+273,SnyderWarrenandBrownBot,Rule-Based,Retail,Multi-turn Query,542,85.99,0.58,1403,44,Baseline,Faster architecture,Medium,Good,High,0.1586531365313653
+274,Durham-StanleyBot,Hybrid,Healthcare,Simple Query,248,78.87,0.84,519,15,Baseline,Improved adaptive response,Low,Good,Low,0.3180241935483871
+275,RussellWilsonandAllisonBot,Open-Source,Healthcare,Multi-turn Query,471,85.95,4.9,1774,37,Model Pruning,No optimization applied,Medium,Good,High,0.18248407643312103
+276,AndersonPLCBot,Domain-Specific,E-commerce,Simple Query,924,93.75,0.84,520,36,Reinforcement Learning,No optimization applied,High,Excellent,High,0.10146103896103896
+277,NicholsPLCBot,Open-Source,Finance,Multi-turn Query,392,92.73,4.61,1907,23,Model Pruning,Reduced memory footprint,Medium,Excellent,Medium,0.2365561224489796
+278,Johnson-NorrisBot,Domain-Specific,Education,Multi-turn Query,454,91.21,2.12,939,20,Model Pruning,Faster architecture,Medium,Excellent,Medium,0.20090308370044052
+279,WallerLLCBot,Rule-Based,Finance,Simple Query,401,91.15,4.99,1992,35,Neural Architecture Search,No optimization applied,Medium,Excellent,High,0.2273067331670823
+280,Vazquez-MorenoBot,Rule-Based,Retail,Complex Query,182,78.35,1.54,1848,16,Baseline,Reduced memory footprint,Low,Good,Low,0.43049450549450546
+281,Hunt-GarzaBot,Custom,Finance,Complex Query,608,87.08,1.44,473,29,Neural Architecture Search,Faster architecture,Medium,Good,Medium,0.1432236842105263
+282,Randolph-JohnsonBot,Open-Source,Finance,Complex Query,431,76.06,4.48,524,15,Neural Architecture Search,Faster architecture,Medium,Good,Low,0.17647331786542925
+283,Hall-MolinaBot,Domain-Specific,Healthcare,Simple Query,400,76.64,2.19,1953,31,Baseline,Reduced memory footprint,Medium,Good,Medium,0.1916
+284,Mclaughlin-HughesBot,Open-Source,Finance,Complex Query,781,79.0,4.16,920,12,Baseline,Improved adaptive response,High,Good,Low,0.10115236875800256
+285,Wyatt-WrightBot,Open-Source,E-commerce,Multi-turn Query,446,85.08,4.21,485,46,Reinforcement Learning,Improved adaptive response,Medium,Good,High,0.19076233183856503
+286,ThomasGroupBot,Domain-Specific,E-commerce,Simple Query,566,82.17,3.81,266,7,Reinforcement Learning,Improved adaptive response,Medium,Good,Low,0.1451766784452297
+287,WoodsIncBot,Rule-Based,Healthcare,Multi-turn Query,742,75.05,2.98,968,8,Baseline,No optimization applied,High,Good,Low,0.10114555256064689
+288,BrownMillerandNguyenBot,Domain-Specific,Retail,Simple Query,684,85.04,0.91,1774,10,Baseline,Improved adaptive response,Medium,Good,Low,0.12432748538011697
+289,Nielsen-DiazBot,Custom,E-commerce,Multi-turn Query,488,86.14,1.33,283,33,Model Pruning,Improved adaptive response,Medium,Good,Medium,0.17651639344262296
+290,CamachoIncBot,Rule-Based,Healthcare,Simple Query,922,82.35,3.74,829,29,Model Pruning,Faster architecture,High,Good,Medium,0.08931670281995661
+291,GutierrezBushandThomasBot,Open-Source,Finance,Multi-turn Query,959,86.01,2.62,1684,6,Model Pruning,Reduced memory footprint,High,Good,Low,0.08968717413972889
+292,JonesIncBot,Hybrid,Education,Multi-turn Query,605,76.54,2.91,1572,5,Reinforcement Learning,Faster architecture,Medium,Good,Low,0.12651239669421488
+293,HoffmanIncBot,Domain-Specific,E-commerce,Complex Query,811,84.2,1.05,2005,49,Baseline,Reduced memory footprint,High,Good,High,0.10382244143033292
+294,FosterMullenandJohnsonBot,Open-Source,E-commerce,Multi-turn Query,794,76.42,1.44,477,2,Baseline,No optimization applied,High,Good,Low,0.09624685138539044
+295,Paul-MclaughlinBot,Hybrid,E-commerce,Multi-turn Query,295,82.61,4.99,1935,3,Baseline,Reduced memory footprint,Low,Good,Low,0.28003389830508474
+296,CoxGroupBot,Open-Source,Retail,Multi-turn Query,119,94.47,1.13,259,6,Model Pruning,Faster architecture,Low,Excellent,Low,0.7938655462184874
+297,Hunt-GarzaBot,Hybrid,Healthcare,Complex Query,164,76.03,3.78,1392,8,Neural Architecture Search,Faster architecture,Low,Good,Low,0.4635975609756098
+298,KnightMcdowellandMarksBot,Open-Source,Finance,Complex Query,791,90.41,1.69,1963,2,Baseline,Reduced memory footprint,High,Excellent,Low,0.1142983565107459
+299,RiosGriffinandRamirezBot,Hybrid,Education,Simple Query,757,90.4,1.06,1315,9,Reinforcement Learning,No optimization applied,High,Excellent,Low,0.11941875825627478
+300,WilsonWardandFryBot,Rule-Based,Healthcare,Simple Query,272,91.56,3.16,1088,49,Reinforcement Learning,No optimization applied,Low,Excellent,High,0.3366176470588235
+301,EspinozaGroupBot,Rule-Based,E-commerce,Simple Query,309,86.93,1.44,1476,6,Reinforcement Learning,No optimization applied,Medium,Good,Low,0.281326860841424
+302,Hunt-GarzaBot,Open-Source,Healthcare,Multi-turn Query,208,94.47,2.09,1995,1,Reinforcement Learning,Faster architecture,Low,Excellent,Low,0.4541826923076923
+303,WallerLtdBot,Custom,E-commerce,Complex Query,422,85.79,2.47,1251,3,Reinforcement Learning,Improved adaptive response,Medium,Good,Low,0.20329383886255925
+304,KiddLtdBot,Custom,Healthcare,Complex Query,431,82.88,1.69,1587,31,Neural Architecture Search,Reduced memory footprint,Medium,Good,Medium,0.1922969837587007
+305,AndersonPLCBot,Rule-Based,Education,Simple Query,702,91.33,4.35,466,37,Neural Architecture Search,No optimization applied,High,Excellent,High,0.1300997150997151
+306,Wyatt-WrightBot,Custom,Education,Complex Query,878,85.18,4.65,1309,46,Reinforcement Learning,Faster architecture,High,Good,High,0.09701594533029613
+307,Carson-BurkeBot,Hybrid,Retail,Complex Query,937,91.26,4.7,1477,30,Reinforcement Learning,No optimization applied,High,Excellent,Medium,0.09739594450373533
+308,Woods-YoungBot,Domain-Specific,Education,Complex Query,942,89.16,1.97,1285,1,Neural Architecture Search,No optimization applied,High,Excellent,Low,0.09464968152866242
+309,JohnsonChapmanandRossBot,Hybrid,Healthcare,Complex Query,330,78.56,2.56,1459,9,Reinforcement Learning,Reduced memory footprint,Medium,Good,Low,0.23806060606060606
+310,AguilarLLCBot,Open-Source,Healthcare,Simple Query,234,77.66,3.28,1655,8,Baseline,No optimization applied,Low,Good,Low,0.3318803418803419
+311,JonesIncBot,Domain-Specific,Healthcare,Simple Query,870,79.17,0.83,635,14,Model Pruning,No optimization applied,High,Good,Low,0.091
+312,Durham-StanleyBot,Rule-Based,Retail,Complex Query,365,75.18,1.77,638,18,Model Pruning,Reduced memory footprint,Medium,Good,Medium,0.20597260273972604
+313,MccoyAndrewsandHicksBot,Hybrid,E-commerce,Complex Query,315,83.39,4.93,682,18,Neural Architecture Search,Faster architecture,Medium,Good,Medium,0.2647301587301587
+314,Wyatt-WrightBot,Domain-Specific,Healthcare,Multi-turn Query,514,87.37,1.45,1409,11,Baseline,Reduced memory footprint,Medium,Good,Low,0.1699805447470817
+315,CollinsThompsonandBrownBot,Domain-Specific,Healthcare,Complex Query,893,78.05,1.71,1293,22,Reinforcement Learning,Faster architecture,High,Good,Medium,0.0874020156774916
+316,CoxGroupBot,Rule-Based,Healthcare,Multi-turn Query,414,93.4,3.54,1902,37,Neural Architecture Search,Reduced memory footprint,Medium,Excellent,High,0.22560386473429953
+317,KnightMcdowellandMarksBot,Custom,Education,Simple Query,514,88.8,3.06,626,23,Model Pruning,Faster architecture,Medium,Excellent,Medium,0.17276264591439688
+318,SmithPLCBot,Custom,Finance,Complex Query,718,86.05,0.5,645,47,Baseline,Improved adaptive response,High,Good,High,0.11984679665738161
+319,HaleyIncBot,Rule-Based,Retail,Complex Query,665,91.5,0.92,1633,9,Reinforcement Learning,No optimization applied,Medium,Excellent,Low,0.13759398496240602
+320,Durham-StanleyBot,Domain-Specific,Healthcare,Simple Query,274,82.63,1.4,1132,26,Neural Architecture Search,Reduced memory footprint,Low,Good,Medium,0.30156934306569344
+321,Fernandez-ButlerBot,Rule-Based,Finance,Multi-turn Query,394,84.44,4.23,1975,10,Reinforcement Learning,Improved adaptive response,Medium,Good,Low,0.21431472081218272
+322,Hall-MolinaBot,Domain-Specific,Finance,Complex Query,277,85.98,2.35,383,24,Reinforcement Learning,Faster architecture,Low,Good,Medium,0.3103971119133574
+323,Hanson-BrooksBot,Open-Source,E-commerce,Multi-turn Query,711,89.52,3.02,1506,18,Neural Architecture Search,Improved adaptive response,High,Excellent,Medium,0.12590717299578058
+324,Fernandez-ButlerBot,Hybrid,E-commerce,Simple Query,208,91.68,2.75,934,14,Neural Architecture Search,Faster architecture,Low,Excellent,Low,0.4407692307692308
+325,MccoyAndrewsandHicksBot,Domain-Specific,Retail,Multi-turn Query,401,88.74,4.43,1087,19,Neural Architecture Search,Improved adaptive response,Medium,Excellent,Medium,0.22129675810473814
+326,JohnstonDaltonandRileyBot,Rule-Based,E-commerce,Complex Query,222,75.61,4.77,2006,13,Baseline,Reduced memory footprint,Low,Good,Low,0.3405855855855856
+327,Fernandez-ButlerBot,Custom,Retail,Multi-turn Query,762,76.02,2.96,1630,13,Baseline,No optimization applied,High,Good,Low,0.09976377952755905
+328,EspinozaGroupBot,Rule-Based,E-commerce,Simple Query,395,77.54,1.47,591,11,Baseline,No optimization applied,Medium,Good,Low,0.19630379746835444
+329,BrownMillerandNguyenBot,Open-Source,Finance,Multi-turn Query,797,93.27,1.02,645,15,Model Pruning,No optimization applied,High,Excellent,Low,0.1170263488080301
+330,EspinozaGroupBot,Open-Source,Retail,Simple Query,717,89.26,0.62,1798,12,Neural Architecture Search,Faster architecture,High,Excellent,Low,0.12449093444909345
+331,LawrenceWilliamsandLeeBot,Rule-Based,E-commerce,Complex Query,293,88.43,4.35,1822,37,Model Pruning,Reduced memory footprint,Low,Excellent,High,0.30180887372013654
+332,Carson-BurkeBot,Custom,Retail,Multi-turn Query,405,93.0,0.88,794,15,Reinforcement Learning,No optimization applied,Medium,Excellent,Low,0.22962962962962963
+333,HayesRoachandCarrollBot,Custom,Education,Complex Query,988,92.0,0.71,1877,1,Baseline,No optimization applied,High,Excellent,Low,0.0931174089068826
+334,WallerLtdBot,Custom,Finance,Multi-turn Query,150,85.85,1.6,1243,29,Reinforcement Learning,Faster architecture,Low,Good,Medium,0.5723333333333332
+335,Baldwin-MartinBot,Hybrid,Finance,Simple Query,639,91.43,1.77,908,33,Baseline,Reduced memory footprint,Medium,Excellent,Medium,0.14308294209702663
+336,HayesRoachandCarrollBot,Rule-Based,Education,Complex Query,712,77.85,3.25,424,20,Baseline,Faster architecture,High,Good,Medium,0.10933988764044943
+337,Johnson-NorrisBot,Custom,Education,Complex Query,932,91.1,0.71,1795,3,Reinforcement Learning,No optimization applied,High,Excellent,Low,0.09774678111587982
+338,AndersonPLCBot,Rule-Based,E-commerce,Complex Query,991,76.7,2.14,1508,26,Reinforcement Learning,Faster architecture,High,Good,Medium,0.0773965691220989
+339,Snyder-WilliamsonBot,Custom,E-commerce,Complex Query,750,92.88,2.17,1814,7,Baseline,No optimization applied,High,Excellent,Low,0.12383999999999999
+340,AguilarLLCBot,Hybrid,Education,Complex Query,444,85.81,0.95,1540,27,Neural Architecture Search,Improved adaptive response,Medium,Good,Medium,0.19326576576576576
+341,Cochran-HarrisBot,Domain-Specific,Finance,Multi-turn Query,630,90.96,2.56,1735,21,Model Pruning,Faster architecture,Medium,Excellent,Medium,0.14438095238095236
+342,Nielsen-DiazBot,Rule-Based,Education,Multi-turn Query,634,78.83,2.42,536,33,Baseline,No optimization applied,Medium,Good,Medium,0.12433753943217665
+343,JohnsonChapmanandRossBot,Rule-Based,Healthcare,Multi-turn Query,832,82.84,1.55,1547,48,Reinforcement Learning,Improved adaptive response,High,Good,High,0.09956730769230769
+344,HaleyIncBot,Custom,Education,Multi-turn Query,578,86.89,4.27,957,44,Baseline,No optimization applied,Medium,Good,High,0.1503287197231834
+345,RhodesRandolphandRodriguezBot,Rule-Based,Education,Multi-turn Query,197,91.06,0.84,304,30,Model Pruning,Reduced memory footprint,Low,Excellent,Medium,0.46223350253807105
+346,RowlandMartinandGarciaBot,Open-Source,Education,Complex Query,495,76.97,3.32,1186,45,Model Pruning,Improved adaptive response,Medium,Good,High,0.1554949494949495
+347,Bowman-BernardBot,Open-Source,Healthcare,Complex Query,896,77.82,1.38,1007,9,Model Pruning,Faster architecture,High,Good,Low,0.08685267857142856
+348,AdkinsPLCBot,Hybrid,E-commerce,Simple Query,805,85.13,2.89,264,25,Reinforcement Learning,Faster architecture,High,Good,Medium,0.10575155279503105
+349,Ochoa-ChanBot,Rule-Based,Education,Simple Query,716,77.95,3.51,454,48,Model Pruning,Improved adaptive response,High,Good,High,0.10886871508379889
+350,JohnstonDaltonandRileyBot,Rule-Based,Finance,Multi-turn Query,551,89.28,3.56,469,28,Model Pruning,Improved adaptive response,Medium,Excellent,Medium,0.16203266787658802
+351,MccarthyAlvarezandTurnerBot,Custom,E-commerce,Multi-turn Query,690,90.98,4.01,1831,31,Neural Architecture Search,Improved adaptive response,Medium,Excellent,Medium,0.13185507246376812
+352,EspinozaGroupBot,Custom,Retail,Complex Query,147,84.77,2.26,1720,28,Baseline,No optimization applied,Low,Good,Medium,0.5766666666666667
+353,KleinIncBot,Rule-Based,Healthcare,Multi-turn Query,328,85.9,0.54,771,13,Reinforcement Learning,Improved adaptive response,Medium,Good,Low,0.26189024390243903
+354,Greene-CoxBot,Domain-Specific,Finance,Simple Query,537,80.0,2.13,1216,38,Reinforcement Learning,Faster architecture,Medium,Good,High,0.148975791433892
+355,Woods-YoungBot,Rule-Based,E-commerce,Simple Query,565,91.3,1.42,696,39,Baseline,Improved adaptive response,Medium,Excellent,High,0.1615929203539823
+356,JonesWalkerandWhiteBot,Hybrid,E-commerce,Multi-turn Query,552,86.91,2.31,693,22,Model Pruning,Reduced memory footprint,Medium,Good,Medium,0.15744565217391304
+357,ButlerBrownandFernandezBot,Rule-Based,Education,Simple Query,912,91.21,1.93,1742,49,Model Pruning,Faster architecture,High,Excellent,High,0.10001096491228069
+358,Hall-MolinaBot,Hybrid,Retail,Complex Query,863,84.35,1.24,1062,50,Baseline,Reduced memory footprint,High,Good,High,0.09774044032444959
+359,JohnstonDaltonandRileyBot,Open-Source,Healthcare,Complex Query,886,75.77,1.7,1383,8,Reinforcement Learning,Faster architecture,High,Good,Low,0.08551918735891648
+360,Ramos-SanchezBot,Hybrid,Finance,Simple Query,339,89.35,2.73,915,23,Model Pruning,No optimization applied,Medium,Excellent,Medium,0.26356932153392326
+361,Hart-JosephBot,Custom,Finance,Complex Query,428,92.16,1.86,997,3,Model Pruning,Reduced memory footprint,Medium,Excellent,Low,0.21532710280373832
+362,WallerLLCBot,Open-Source,Finance,Complex Query,899,89.55,1.46,527,10,Baseline,Faster architecture,High,Excellent,Low,0.09961067853170189
+363,Randolph-JohnsonBot,Hybrid,Retail,Multi-turn Query,515,92.21,4.41,614,44,Baseline,Faster architecture,Medium,Excellent,High,0.17904854368932038
+364,PerryGroupBot,Custom,Retail,Multi-turn Query,671,89.13,2.32,824,9,Model Pruning,Faster architecture,Medium,Excellent,Low,0.13283159463487332
+365,Nguyen-MercadoBot,Rule-Based,Education,Complex Query,802,77.63,1.51,1156,16,Baseline,Faster architecture,High,Good,Low,0.09679551122194513
+366,HayesRoachandCarrollBot,Rule-Based,Retail,Complex Query,943,77.65,3.89,834,6,Model Pruning,Improved adaptive response,High,Good,Low,0.08234358430540828
+367,KiddLtdBot,Rule-Based,Healthcare,Multi-turn Query,412,83.69,3.16,1865,28,Neural Architecture Search,Improved adaptive response,Medium,Good,Medium,0.20313106796116503
+368,HoffmanIncBot,Rule-Based,Finance,Simple Query,730,94.14,4.68,561,40,Baseline,No optimization applied,High,Excellent,High,0.12895890410958905
+369,Russell-SharpBot,Custom,E-commerce,Complex Query,785,75.54,3.2,720,38,Reinforcement Learning,No optimization applied,High,Good,High,0.09622929936305734
+370,RichmondLLCBot,Custom,E-commerce,Simple Query,846,87.56,1.01,1761,15,Model Pruning,Reduced memory footprint,High,Excellent,Low,0.10349881796690308
+371,RowlandMartinandGarciaBot,Open-Source,E-commerce,Complex Query,810,90.76,1.7,1431,12,Baseline,Faster architecture,High,Excellent,Low,0.11204938271604939
+372,Santos-RodgersBot,Domain-Specific,Retail,Complex Query,809,87.93,3.66,1183,26,Model Pruning,No optimization applied,High,Excellent,Medium,0.10868974042027195
+373,Greene-CoxBot,Rule-Based,E-commerce,Multi-turn Query,215,85.83,1.37,657,46,Baseline,Reduced memory footprint,Low,Good,High,0.3992093023255814
+374,MorrowandSonsBot,Domain-Specific,Retail,Multi-turn Query,129,92.26,2.29,444,31,Model Pruning,Faster architecture,Low,Excellent,Medium,0.7151937984496124
+375,WallerLLCBot,Hybrid,Education,Simple Query,802,94.33,3.09,562,38,Reinforcement Learning,No optimization applied,High,Excellent,High,0.11761845386533666
+376,SummersGroupBot,Hybrid,Finance,Simple Query,454,92.75,4.35,571,9,Neural Architecture Search,No optimization applied,Medium,Excellent,Low,0.20429515418502203
+377,JonesWalkerandWhiteBot,Open-Source,E-commerce,Multi-turn Query,841,75.83,3.58,316,42,Baseline,Improved adaptive response,High,Good,High,0.09016646848989299
+378,GardnerCarrollandJonesBot,Hybrid,Healthcare,Complex Query,353,87.23,4.68,1985,29,Reinforcement Learning,Reduced memory footprint,Medium,Good,Medium,0.24711048158640228
+379,WallerLtdBot,Custom,Retail,Complex Query,716,85.36,4.18,836,20,Baseline,Improved adaptive response,High,Good,Medium,0.11921787709497207
+380,RowlandMartinandGarciaBot,Hybrid,Finance,Multi-turn Query,1000,92.81,3.42,1992,10,Reinforcement Learning,Faster architecture,High,Excellent,Low,0.09281
+381,JohnsonFrazierandHillBot,Hybrid,Healthcare,Complex Query,675,90.32,1.31,1089,29,Neural Architecture Search,Reduced memory footprint,Medium,Excellent,Medium,0.1338074074074074
+382,WilsonWardandFryBot,Hybrid,Education,Simple Query,948,82.24,3.78,517,39,Reinforcement Learning,No optimization applied,High,Good,High,0.08675105485232067
+383,EspinozaGroupBot,Open-Source,Finance,Complex Query,246,82.87,4.02,1551,25,Baseline,No optimization applied,Low,Good,Medium,0.33686991869918703
+384,KleinIncBot,Hybrid,E-commerce,Multi-turn Query,809,78.99,3.89,715,23,Neural Architecture Search,Faster architecture,High,Good,Medium,0.0976390605686032
+385,NguyenKellyandBanksBot,Domain-Specific,E-commerce,Simple Query,783,75.07,0.97,1834,2,Baseline,Reduced memory footprint,High,Good,Low,0.09587484035759897
+386,Miller-ChapmanBot,Domain-Specific,Healthcare,Complex Query,100,82.82,3.95,845,49,Baseline,Faster architecture,Low,Good,High,0.8281999999999999
+387,Mclaughlin-HughesBot,Custom,E-commerce,Simple Query,847,83.92,3.53,1166,14,Baseline,Reduced memory footprint,High,Good,Low,0.09907910271546636
+388,JohnsonFrazierandHillBot,Hybrid,Healthcare,Complex Query,946,92.83,0.98,510,13,Baseline,No optimization applied,High,Excellent,Low,0.09812896405919662
+389,Hall-MolinaBot,Open-Source,Retail,Complex Query,268,77.02,1.93,706,45,Reinforcement Learning,Improved adaptive response,Low,Good,High,0.2873880597014925
+390,BrownMillerandNguyenBot,Open-Source,Retail,Complex Query,676,82.93,1.83,1196,32,Neural Architecture Search,Faster architecture,Medium,Good,Medium,0.12267751479289941
+391,ButlerBrownandFernandezBot,Hybrid,Retail,Simple Query,565,91.55,3.21,1842,3,Neural Architecture Search,Faster architecture,Medium,Excellent,Low,0.1620353982300885
+392,Randolph-JohnsonBot,Domain-Specific,Finance,Multi-turn Query,307,88.46,1.07,460,8,Baseline,Improved adaptive response,Medium,Excellent,Low,0.28814332247557
+393,AndersonPLCBot,Rule-Based,E-commerce,Complex Query,254,80.01,0.79,951,36,Model Pruning,Reduced memory footprint,Low,Good,High,0.315
+394,Welch-GuerreroBot,Open-Source,E-commerce,Multi-turn Query,738,93.21,1.81,1946,19,Model Pruning,Faster architecture,High,Excellent,Medium,0.12630081300813006
+395,NguyenKellyandBanksBot,Domain-Specific,Retail,Complex Query,289,76.18,2.4,541,14,Baseline,Improved adaptive response,Low,Good,Low,0.26359861591695505
+396,BrownMillerandNguyenBot,Domain-Specific,Healthcare,Complex Query,662,76.72,3.88,1459,39,Baseline,Faster architecture,Medium,Good,High,0.11589123867069487
+397,LawrenceWilliamsandLeeBot,Hybrid,Education,Complex Query,198,89.46,3.94,705,5,Reinforcement Learning,Reduced memory footprint,Low,Excellent,Low,0.4518181818181818
+398,AguilarLLCBot,Hybrid,Finance,Simple Query,872,78.04,1.36,1523,49,Neural Architecture Search,Reduced memory footprint,High,Good,High,0.0894954128440367
+399,GravesPLCBot,Hybrid,Education,Complex Query,955,78.95,1.56,1527,13,Model Pruning,Improved adaptive response,High,Good,Low,0.08267015706806283
+400,Butler-BensonBot,Hybrid,Retail,Multi-turn Query,574,81.87,2.32,340,7,Neural Architecture Search,No optimization applied,Medium,Good,Low,0.14263066202090594
+401,Hart-JosephBot,Rule-Based,Healthcare,Simple Query,756,79.96,2.35,766,5,Model Pruning,Reduced memory footprint,High,Good,Low,0.10576719576719576
+402,RowlandMartinandGarciaBot,Domain-Specific,Finance,Multi-turn Query,354,84.61,4.76,838,46,Neural Architecture Search,Improved adaptive response,Medium,Good,High,0.23901129943502825
+403,WagnerWilliamsandJohnsonBot,Hybrid,E-commerce,Complex Query,953,79.72,1.76,1645,10,Neural Architecture Search,Faster architecture,High,Good,Low,0.08365162644281217
+404,FrazierDiazandCruzBot,Custom,Healthcare,Simple Query,817,77.89,0.97,1536,23,Neural Architecture Search,Improved adaptive response,High,Good,Medium,0.09533659730722155
+405,SnyderWarrenandBrownBot,Rule-Based,E-commerce,Multi-turn Query,820,87.92,2.63,1743,43,Baseline,Reduced memory footprint,High,Excellent,High,0.10721951219512195
+406,Turner-GreenBot,Domain-Specific,Retail,Simple Query,974,91.77,1.39,1346,36,Model Pruning,No optimization applied,High,Excellent,High,0.09421971252566734
+407,Mcconnell-FloresBot,Open-Source,Healthcare,Simple Query,908,83.32,0.61,1074,46,Neural Architecture Search,Faster architecture,High,Good,High,0.09176211453744493
+408,LawrenceWilliamsandLeeBot,Hybrid,Education,Complex Query,396,90.03,2.94,739,41,Neural Architecture Search,No optimization applied,Medium,Excellent,High,0.22734848484848486
+409,JonesWalkerandWhiteBot,Domain-Specific,Healthcare,Simple Query,277,75.81,0.7,593,24,Reinforcement Learning,Faster architecture,Low,Good,Medium,0.27368231046931407
+410,Carson-BurkeBot,Open-Source,Retail,Complex Query,859,90.79,1.13,339,50,Baseline,Improved adaptive response,High,Excellent,High,0.10569266589057044
+411,EspinozaGroupBot,Custom,Retail,Complex Query,991,89.96,3.97,1494,10,Model Pruning,Faster architecture,High,Excellent,Low,0.09077699293642784
+412,Trevino-PhillipsBot,Rule-Based,Healthcare,Complex Query,843,87.66,3.48,1220,47,Neural Architecture Search,Reduced memory footprint,High,Excellent,High,0.10398576512455515
+413,Turner-GreenBot,Custom,Education,Multi-turn Query,478,84.18,1.01,872,1,Baseline,Faster architecture,Medium,Good,Low,0.17610878661087867
+414,DixonPLCBot,Rule-Based,Education,Multi-turn Query,845,83.95,0.87,571,23,Neural Architecture Search,No optimization applied,High,Good,Medium,0.0993491124260355
+415,TrevinoIncBot,Open-Source,Healthcare,Simple Query,965,93.11,2.29,807,13,Baseline,Improved adaptive response,High,Excellent,Low,0.09648704663212435
+416,Ochoa-ChanBot,Open-Source,Retail,Complex Query,994,77.36,3.31,502,7,Baseline,Faster architecture,High,Good,Low,0.07782696177062375
+417,ThomasGroupBot,Custom,Retail,Simple Query,285,81.84,2.27,874,34,Reinforcement Learning,No optimization applied,Low,Good,Medium,0.2871578947368421
+418,RussellWilsonandAllisonBot,Rule-Based,Healthcare,Complex Query,738,92.87,1.12,489,8,Reinforcement Learning,Improved adaptive response,High,Excellent,Low,0.125840108401084
+419,PerryGroupBot,Open-Source,E-commerce,Complex Query,405,87.79,1.23,1129,10,Model Pruning,Reduced memory footprint,Medium,Excellent,Low,0.21676543209876545
+420,Cochran-HarrisBot,Custom,Finance,Simple Query,276,82.54,4.89,1640,24,Neural Architecture Search,Faster architecture,Low,Good,Medium,0.2990579710144928
+421,Randolph-JohnsonBot,Open-Source,Finance,Simple Query,694,80.19,1.87,508,13,Reinforcement Learning,Faster architecture,Medium,Good,Low,0.11554755043227666
+422,CollinsThompsonandBrownBot,Open-Source,Education,Simple Query,504,84.38,2.8,1131,9,Reinforcement Learning,Reduced memory footprint,Medium,Good,Low,0.16742063492063491
+423,Mclaughlin-HughesBot,Hybrid,Healthcare,Multi-turn Query,164,79.32,3.44,1124,1,Neural Architecture Search,Improved adaptive response,Low,Good,Low,0.48365853658536584
+424,JohnsonFrazierandHillBot,Open-Source,Education,Complex Query,776,91.67,4.99,1812,20,Model Pruning,Faster architecture,High,Excellent,Medium,0.11813144329896907
+425,DelgadoBurtonandHoodBot,Open-Source,Retail,Simple Query,231,89.54,4.91,1273,25,Model Pruning,No optimization applied,Low,Excellent,Medium,0.38761904761904764
+426,HaleyIncBot,Hybrid,Retail,Multi-turn Query,900,77.93,0.84,1679,4,Neural Architecture Search,Faster architecture,High,Good,Low,0.0865888888888889
+427,WallerLtdBot,Rule-Based,Healthcare,Complex Query,962,84.0,1.01,1156,13,Model Pruning,Reduced memory footprint,High,Good,Low,0.08731808731808732
+428,AguilarLLCBot,Rule-Based,E-commerce,Complex Query,278,87.22,4.6,1310,8,Neural Architecture Search,Reduced memory footprint,Low,Good,Low,0.3137410071942446
+429,EdwardsGroupBot,Custom,Healthcare,Simple Query,579,83.26,4.37,1199,50,Model Pruning,No optimization applied,Medium,Good,High,0.14379965457685664
+430,CarterLtdBot,Open-Source,E-commerce,Multi-turn Query,226,91.63,2.86,749,26,Reinforcement Learning,Reduced memory footprint,Low,Excellent,Medium,0.40544247787610616
+431,Bowman-BernardBot,Custom,Education,Multi-turn Query,983,86.61,4.48,1986,15,Neural Architecture Search,Faster architecture,High,Good,Low,0.08810783316378433
+432,Hunt-GarzaBot,Domain-Specific,E-commerce,Complex Query,743,88.83,0.59,389,24,Model Pruning,Reduced memory footprint,High,Excellent,Medium,0.11955585464333782
+433,AguilarLLCBot,Custom,Retail,Multi-turn Query,129,93.9,4.99,659,15,Baseline,No optimization applied,Low,Excellent,Low,0.7279069767441861
+434,Durham-StanleyBot,Open-Source,Healthcare,Simple Query,808,91.52,1.54,1840,11,Neural Architecture Search,Reduced memory footprint,High,Excellent,Low,0.11326732673267326
+435,CoxGroupBot,Hybrid,Finance,Complex Query,936,79.87,2.13,310,46,Baseline,Faster architecture,High,Good,High,0.08533119658119659
+436,Durham-StanleyBot,Rule-Based,Retail,Simple Query,402,93.37,1.88,263,32,Baseline,No optimization applied,Medium,Excellent,Medium,0.2322636815920398
+437,Fernandez-ButlerBot,Rule-Based,Education,Simple Query,388,80.37,2.07,1190,45,Neural Architecture Search,No optimization applied,Medium,Good,High,0.20713917525773198
+438,Hunt-GarzaBot,Open-Source,Retail,Complex Query,183,82.88,0.88,1620,30,Model Pruning,Improved adaptive response,Low,Good,Medium,0.45289617486338796
+439,LawrenceWilliamsandLeeBot,Open-Source,Finance,Multi-turn Query,852,77.43,4.83,2005,28,Reinforcement Learning,No optimization applied,High,Good,Medium,0.09088028169014085
+440,Vazquez-MorenoBot,Open-Source,E-commerce,Simple Query,292,82.74,3.89,1687,6,Neural Architecture Search,No optimization applied,Low,Good,Low,0.28335616438356165
+441,JonesIncBot,Domain-Specific,Finance,Complex Query,953,80.49,3.67,758,40,Reinforcement Learning,No optimization applied,High,Good,High,0.08445960125918153
+442,ButlerBrownandFernandezBot,Hybrid,Healthcare,Simple Query,705,89.71,3.58,1317,19,Model Pruning,Improved adaptive response,High,Excellent,Medium,0.1272482269503546
+443,Hanson-BrooksBot,Rule-Based,Finance,Complex Query,777,82.93,1.58,1139,40,Baseline,Reduced memory footprint,High,Good,High,0.10673101673101675
+444,Johnson-NorrisBot,Open-Source,E-commerce,Simple Query,637,81.11,3.86,1415,35,Model Pruning,Reduced memory footprint,Medium,Good,High,0.12733124018838304
+445,Miller-ChapmanBot,Domain-Specific,Retail,Simple Query,695,94.84,1.04,1948,22,Model Pruning,Reduced memory footprint,Medium,Excellent,Medium,0.13646043165467625
+446,Hanson-BrooksBot,Domain-Specific,E-commerce,Simple Query,401,82.74,4.67,740,5,Model Pruning,Improved adaptive response,Medium,Good,Low,0.20633416458852866
+447,Woods-YoungBot,Rule-Based,Education,Simple Query,907,79.39,3.24,739,21,Baseline,Improved adaptive response,High,Good,Medium,0.0875303197353914
+448,MccarthyAlvarezandTurnerBot,Hybrid,E-commerce,Simple Query,424,91.53,4.65,1066,28,Reinforcement Learning,No optimization applied,Medium,Excellent,Medium,0.21587264150943397
+449,JohnsonFrazierandHillBot,Hybrid,Retail,Complex Query,258,90.02,3.26,1975,38,Baseline,No optimization applied,Low,Excellent,High,0.34891472868217055
+450,WagnerWilliamsandJohnsonBot,Custom,Education,Multi-turn Query,682,94.31,1.2,1526,49,Reinforcement Learning,Reduced memory footprint,Medium,Excellent,High,0.13828445747800586
+451,Taylor-SimsBot,Open-Source,Retail,Multi-turn Query,987,92.98,2.03,1235,10,Reinforcement Learning,Improved adaptive response,High,Excellent,Low,0.09420466058763932
+452,LawrenceWilliamsandLeeBot,Rule-Based,Finance,Multi-turn Query,382,83.19,1.85,448,46,Model Pruning,No optimization applied,Medium,Good,High,0.21777486910994764
+453,SmithPLCBot,Domain-Specific,Finance,Simple Query,896,89.45,4.56,1753,43,Reinforcement Learning,Faster architecture,High,Excellent,High,0.09983258928571428
+454,Lin-BurnsBot,Custom,E-commerce,Complex Query,544,90.54,0.85,1347,44,Baseline,No optimization applied,Medium,Excellent,High,0.16643382352941177
+455,WallerLLCBot,Rule-Based,Finance,Complex Query,940,82.98,1.96,1788,34,Neural Architecture Search,Faster architecture,High,Good,Medium,0.08827659574468086
+456,JohnstonDaltonandRileyBot,Rule-Based,E-commerce,Complex Query,564,79.38,2.67,1843,26,Reinforcement Learning,Improved adaptive response,Medium,Good,Medium,0.1407446808510638
+457,WallerLLCBot,Hybrid,E-commerce,Multi-turn Query,106,77.41,3.54,444,3,Reinforcement Learning,No optimization applied,Low,Good,Low,0.7302830188679245
+458,Johnson-NorrisBot,Rule-Based,Education,Complex Query,554,92.32,3.96,1486,48,Model Pruning,Faster architecture,Medium,Excellent,High,0.16664259927797834
+459,HayesRoachandCarrollBot,Rule-Based,Healthcare,Simple Query,209,88.83,3.46,1164,25,Model Pruning,Reduced memory footprint,Low,Excellent,Medium,0.4250239234449761
+460,RiosGriffinandRamirezBot,Custom,E-commerce,Multi-turn Query,616,81.43,4.79,1034,24,Baseline,Faster architecture,Medium,Good,Medium,0.13219155844155844
+461,Mclaughlin-HughesBot,Domain-Specific,Healthcare,Complex Query,650,84.18,3.43,1141,43,Reinforcement Learning,No optimization applied,Medium,Good,High,0.12950769230769232
+462,WilsonWardandFryBot,Open-Source,Finance,Multi-turn Query,993,91.56,2.78,656,1,Neural Architecture Search,Improved adaptive response,High,Excellent,Low,0.09220543806646526
+463,LawrenceWilliamsandLeeBot,Hybrid,Finance,Multi-turn Query,976,83.07,1.4,435,9,Neural Architecture Search,Improved adaptive response,High,Good,Low,0.08511270491803279
+464,ClarkWoodardandCamposBot,Hybrid,E-commerce,Simple Query,419,82.01,4.83,1865,50,Neural Architecture Search,Faster architecture,Medium,Good,High,0.19572792362768499
+465,WilsonWardandFryBot,Custom,E-commerce,Complex Query,151,85.66,2.75,1766,31,Reinforcement Learning,Improved adaptive response,Low,Good,Medium,0.5672847682119205
+466,Hart-JosephBot,Rule-Based,Healthcare,Complex Query,613,94.07,3.01,644,36,Model Pruning,Improved adaptive response,Medium,Excellent,High,0.15345840130505708
+467,HoffmanIncBot,Domain-Specific,E-commerce,Simple Query,272,89.88,3.33,999,14,Reinforcement Learning,No optimization applied,Low,Excellent,Low,0.33044117647058824
+468,ThomasGroupBot,Custom,Education,Complex Query,586,86.4,1.16,1810,49,Reinforcement Learning,Faster architecture,Medium,Good,High,0.14744027303754267
+469,RhodesRandolphandRodriguezBot,Custom,Healthcare,Multi-turn Query,515,92.87,0.72,1955,47,Neural Architecture Search,Reduced memory footprint,Medium,Excellent,High,0.18033009708737865
+470,DelgadoBurtonandHoodBot,Custom,Retail,Multi-turn Query,894,91.65,2.18,606,39,Model Pruning,Improved adaptive response,High,Excellent,High,0.10251677852348993
+471,SnyderWarrenandBrownBot,Rule-Based,Retail,Simple Query,288,86.21,1.45,1254,50,Reinforcement Learning,Faster architecture,Low,Good,High,0.2993402777777778
+472,Turner-GreenBot,Open-Source,Finance,Complex Query,503,88.22,0.71,1463,19,Baseline,Faster architecture,Medium,Excellent,Medium,0.17538767395626242
+473,Hunt-GarzaBot,Open-Source,Retail,Simple Query,263,81.73,3.14,1863,37,Model Pruning,Improved adaptive response,Low,Good,High,0.31076045627376425
+474,TrevinoIncBot,Open-Source,Healthcare,Simple Query,973,88.25,4.33,1457,21,Reinforcement Learning,No optimization applied,High,Excellent,Medium,0.09069886947584789
+475,Bowman-BernardBot,Open-Source,Finance,Simple Query,207,94.23,0.55,1501,11,Model Pruning,Reduced memory footprint,Low,Excellent,Low,0.45521739130434785
+476,CarterLtdBot,Custom,Finance,Simple Query,437,82.9,1.63,625,44,Baseline,Faster architecture,Medium,Good,High,0.1897025171624714
+477,AdkinsPLCBot,Hybrid,Healthcare,Complex Query,126,93.62,0.87,291,37,Reinforcement Learning,No optimization applied,Low,Excellent,High,0.743015873015873
+478,EspinozaGroupBot,Open-Source,Retail,Multi-turn Query,284,80.33,0.6,1967,30,Model Pruning,Reduced memory footprint,Low,Good,Medium,0.2828521126760563
+479,NealMitchellandCoxBot,Domain-Specific,E-commerce,Multi-turn Query,773,85.32,2.13,830,37,Model Pruning,No optimization applied,High,Good,High,0.11037516170763259
+480,Fernandez-ButlerBot,Open-Source,Education,Complex Query,957,78.22,3.1,1151,46,Baseline,No optimization applied,High,Good,High,0.08173458725182862
+481,Turner-GreenBot,Rule-Based,Finance,Multi-turn Query,661,89.39,1.91,1141,42,Baseline,Faster architecture,Medium,Excellent,High,0.13523449319213313
+482,Butler-BensonBot,Domain-Specific,Retail,Multi-turn Query,951,88.71,1.68,1101,27,Model Pruning,Improved adaptive response,High,Excellent,Medium,0.0932807570977918
+483,Ramos-SanchezBot,Domain-Specific,Finance,Multi-turn Query,906,75.87,4.9,332,15,Reinforcement Learning,No optimization applied,High,Good,Low,0.08374172185430465
+484,ThomasGroupBot,Domain-Specific,Healthcare,Complex Query,878,84.45,4.63,2036,47,Model Pruning,Reduced memory footprint,High,Good,High,0.09618451025056948
+485,Ramos-SanchezBot,Hybrid,Finance,Multi-turn Query,899,89.86,2.51,1268,43,Neural Architecture Search,Reduced memory footprint,High,Excellent,High,0.0999555061179088
+486,GutierrezBushandThomasBot,Rule-Based,Finance,Complex Query,742,82.98,1.11,1982,22,Reinforcement Learning,Faster architecture,High,Good,Medium,0.11183288409703504
+487,GravesPLCBot,Hybrid,E-commerce,Simple Query,578,82.93,2.01,361,29,Model Pruning,Improved adaptive response,Medium,Good,Medium,0.14347750865051903
+488,Carson-BurkeBot,Rule-Based,Finance,Complex Query,529,94.49,4.52,762,26,Neural Architecture Search,Faster architecture,Medium,Excellent,Medium,0.17862003780718336
+489,AguilarLLCBot,Hybrid,Healthcare,Multi-turn Query,838,75.2,2.8,822,44,Baseline,Faster architecture,High,Good,High,0.08973747016706445
+490,HaleyIncBot,Domain-Specific,Healthcare,Complex Query,899,77.84,1.19,1080,47,Neural Architecture Search,Reduced memory footprint,High,Good,High,0.08658509454949945
+491,LawrenceWilliamsandLeeBot,Custom,E-commerce,Complex Query,561,84.27,2.54,584,5,Baseline,Reduced memory footprint,Medium,Good,Low,0.1502139037433155
+492,KleinGroupBot,Hybrid,Finance,Simple Query,114,80.45,0.81,371,38,Baseline,Reduced memory footprint,Low,Good,High,0.7057017543859649
+493,ButlerBrownandFernandezBot,Rule-Based,Education,Simple Query,372,86.51,2.7,1165,9,Reinforcement Learning,Faster architecture,Medium,Good,Low,0.23255376344086023
+494,Ramos-SanchezBot,Hybrid,Finance,Simple Query,584,88.35,4.28,549,37,Baseline,Reduced memory footprint,Medium,Excellent,High,0.15128424657534245
+495,Santos-RodgersBot,Custom,Healthcare,Complex Query,485,91.13,1.76,1362,12,Model Pruning,Faster architecture,Medium,Excellent,Low,0.18789690721649482
+496,Durham-StanleyBot,Rule-Based,Finance,Multi-turn Query,152,92.73,4.56,370,13,Neural Architecture Search,Reduced memory footprint,Low,Excellent,Low,0.6100657894736843
+497,CarterLtdBot,Custom,Healthcare,Complex Query,267,75.81,2.08,739,50,Neural Architecture Search,Improved adaptive response,Low,Good,High,0.28393258426966295
+498,NicholsPLCBot,Rule-Based,Finance,Multi-turn Query,892,79.05,1.78,861,25,Neural Architecture Search,Reduced memory footprint,High,Good,Medium,0.08862107623318385
+499,Ochoa-ChanBot,Open-Source,E-commerce,Simple Query,774,93.48,2.72,2008,15,Reinforcement Learning,No optimization applied,High,Excellent,Low,0.12077519379844961
+500,NicholsPLCBot,Open-Source,Education,Complex Query,694,77.56,4.14,1245,37,Neural Architecture Search,No optimization applied,Medium,Good,High,0.11175792507204611
+501,GardnerCarrollandJonesBot,Custom,Healthcare,Multi-turn Query,426,80.51,1.2,1763,5,Model Pruning,Faster architecture,Medium,Good,Low,0.1889906103286385
+502,WallerLLCBot,Domain-Specific,Education,Simple Query,635,80.81,1.89,1239,41,Model Pruning,Reduced memory footprint,Medium,Good,High,0.12725984251968503
+503,Fernandez-ButlerBot,Rule-Based,Finance,Simple Query,824,83.7,2.23,1200,21,Model Pruning,No optimization applied,High,Good,Medium,0.10157766990291263
+504,PerryGroupBot,Rule-Based,Retail,Simple Query,659,75.43,0.6,1263,9,Model Pruning,Reduced memory footprint,Medium,Good,Low,0.11446130500758726
+505,HaleyIncBot,Domain-Specific,Education,Simple Query,540,91.85,3.71,1694,38,Model Pruning,Improved adaptive response,Medium,Excellent,High,0.17009259259259257
+506,BrownMillerandNguyenBot,Domain-Specific,Healthcare,Multi-turn Query,556,85.57,2.5,1150,38,Neural Architecture Search,No optimization applied,Medium,Good,High,0.15390287769784172
+507,Mcconnell-FloresBot,Hybrid,Finance,Multi-turn Query,613,82.46,3.34,1776,7,Neural Architecture Search,Faster architecture,Medium,Good,Low,0.13451876019575856
+508,CarterLtdBot,Hybrid,Finance,Simple Query,415,83.0,2.77,518,34,Reinforcement Learning,Reduced memory footprint,Medium,Good,Medium,0.2
+509,Vazquez-MorenoBot,Rule-Based,Education,Multi-turn Query,200,85.24,3.94,698,26,Model Pruning,Faster architecture,Low,Good,Medium,0.42619999999999997
+510,AndersonPLCBot,Custom,Healthcare,Complex Query,981,91.0,2.14,688,39,Neural Architecture Search,Reduced memory footprint,High,Excellent,High,0.09276248725790011
+511,SnyderWarrenandBrownBot,Hybrid,Education,Multi-turn Query,928,82.8,1.55,742,2,Model Pruning,No optimization applied,High,Good,Low,0.08922413793103448
+512,CamachoIncBot,Domain-Specific,E-commerce,Multi-turn Query,290,83.87,0.63,724,6,Baseline,No optimization applied,Low,Good,Low,0.28920689655172416
+513,FrazierDiazandCruzBot,Custom,Retail,Simple Query,825,88.94,2.81,820,39,Model Pruning,Improved adaptive response,High,Excellent,High,0.1078060606060606
+514,EdwardsGroupBot,Domain-Specific,E-commerce,Simple Query,752,88.47,3.85,306,24,Neural Architecture Search,Reduced memory footprint,High,Excellent,Medium,0.11764627659574468
+515,KleinGroupBot,Domain-Specific,Education,Complex Query,405,85.84,3.11,1903,3,Baseline,Reduced memory footprint,Medium,Good,Low,0.21195061728395062
+516,GriffithGreenandCruzBot,Custom,Finance,Complex Query,710,84.25,1.09,1611,10,Neural Architecture Search,Improved adaptive response,High,Good,Low,0.11866197183098591
+517,RowlandMartinandGarciaBot,Custom,Finance,Multi-turn Query,183,92.28,2.9,1370,45,Baseline,Improved adaptive response,Low,Excellent,High,0.5042622950819672
+518,Hanson-BrooksBot,Open-Source,Healthcare,Complex Query,512,85.03,1.13,1404,29,Neural Architecture Search,Faster architecture,Medium,Good,Medium,0.16607421875
+519,SmithPLCBot,Custom,E-commerce,Simple Query,502,82.2,2.61,994,23,Baseline,Reduced memory footprint,Medium,Good,Medium,0.16374501992031873
+520,ThomasGroupBot,Domain-Specific,Healthcare,Multi-turn Query,136,90.9,2.69,1140,50,Baseline,No optimization applied,Low,Excellent,High,0.6683823529411765
+521,JohnsonChapmanandRossBot,Hybrid,Finance,Complex Query,686,90.37,3.37,1028,27,Reinforcement Learning,Improved adaptive response,Medium,Excellent,Medium,0.13173469387755102
+522,Russell-SharpBot,Hybrid,E-commerce,Simple Query,519,88.66,1.6,1225,19,Model Pruning,Faster architecture,Medium,Excellent,Medium,0.17082851637764931
+523,Miller-ChapmanBot,Rule-Based,Retail,Multi-turn Query,584,77.44,2.85,1976,50,Reinforcement Learning,No optimization applied,Medium,Good,High,0.1326027397260274
+524,Nguyen-MercadoBot,Rule-Based,Finance,Simple Query,980,94.64,4.37,1370,36,Reinforcement Learning,No optimization applied,High,Excellent,High,0.09657142857142857
+525,GutierrezBushandThomasBot,Open-Source,Education,Complex Query,712,85.5,2.23,1315,23,Baseline,Improved adaptive response,High,Good,Medium,0.12008426966292135
+526,TrevinoIncBot,Domain-Specific,Education,Complex Query,646,89.12,4.93,1206,45,Reinforcement Learning,No optimization applied,Medium,Excellent,High,0.13795665634674922
+527,Hart-JosephBot,Domain-Specific,Finance,Complex Query,103,89.35,1.07,1179,10,Model Pruning,No optimization applied,Low,Excellent,Low,0.8674757281553398
+528,RiosGriffinandRamirezBot,Hybrid,E-commerce,Simple Query,148,77.95,1.01,2025,48,Neural Architecture Search,Faster architecture,Low,Good,High,0.5266891891891892
+529,NealMitchellandCoxBot,Custom,E-commerce,Simple Query,981,81.74,2.01,1546,27,Neural Architecture Search,Reduced memory footprint,High,Good,Medium,0.08332313965341488
+530,Cochran-HarrisBot,Rule-Based,E-commerce,Complex Query,549,85.63,1.89,2018,44,Reinforcement Learning,Improved adaptive response,Medium,Good,High,0.15597449908925318
+531,Durham-StanleyBot,Domain-Specific,Retail,Complex Query,740,93.73,2.31,1301,43,Reinforcement Learning,Faster architecture,High,Excellent,High,0.12666216216216217
+532,Hart-JosephBot,Custom,Finance,Complex Query,797,94.79,2.63,463,30,Neural Architecture Search,Faster architecture,High,Excellent,Medium,0.11893350062735258
+533,RichmondLLCBot,Open-Source,Finance,Simple Query,715,84.38,1.23,513,25,Neural Architecture Search,Improved adaptive response,High,Good,Medium,0.11801398601398601
+534,RiosGriffinandRamirezBot,Domain-Specific,Education,Multi-turn Query,927,79.85,1.65,916,6,Baseline,No optimization applied,High,Good,Low,0.08613807982740021
+535,Baldwin-LaraBot,Domain-Specific,Education,Complex Query,454,92.41,3.52,360,23,Model Pruning,No optimization applied,Medium,Excellent,Medium,0.20354625550660793
+536,Welch-GuerreroBot,Custom,E-commerce,Multi-turn Query,836,92.82,1.22,1014,9,Neural Architecture Search,Improved adaptive response,High,Excellent,Low,0.11102870813397128
+537,DelgadoBurtonandHoodBot,Hybrid,Healthcare,Complex Query,450,81.6,1.84,343,38,Reinforcement Learning,No optimization applied,Medium,Good,High,0.18133333333333332
+538,Turner-GreenBot,Custom,Education,Multi-turn Query,277,94.71,3.11,422,50,Baseline,Faster architecture,Low,Excellent,High,0.341913357400722
+539,Wyatt-WrightBot,Domain-Specific,Education,Complex Query,625,82.45,1.39,1134,46,Reinforcement Learning,Improved adaptive response,Medium,Good,High,0.13192
+540,CarterLtdBot,Custom,Healthcare,Multi-turn Query,804,76.01,4.18,1444,32,Baseline,Faster architecture,High,Good,Medium,0.09453980099502488
+541,Santos-RodgersBot,Rule-Based,Retail,Complex Query,429,93.61,0.94,1191,33,Baseline,Faster architecture,Medium,Excellent,Medium,0.2182051282051282
+542,SnyderWarrenandBrownBot,Hybrid,Retail,Multi-turn Query,688,79.91,1.31,884,13,Reinforcement Learning,No optimization applied,Medium,Good,Low,0.11614825581395348
+543,WoodsIncBot,Hybrid,Retail,Simple Query,590,77.6,3.86,1637,7,Baseline,Improved adaptive response,Medium,Good,Low,0.13152542372881354
+544,ClarkWoodardandCamposBot,Hybrid,Healthcare,Simple Query,336,81.19,1.9,809,8,Model Pruning,Improved adaptive response,Medium,Good,Low,0.24163690476190475
+545,Miller-RamirezBot,Domain-Specific,E-commerce,Complex Query,651,88.88,3.14,457,42,Reinforcement Learning,No optimization applied,Medium,Excellent,High,0.1365284178187404
+546,NelsonPLCBot,Open-Source,Retail,Simple Query,665,76.77,3.08,497,47,Neural Architecture Search,Faster architecture,Medium,Good,High,0.11544360902255639
+547,RhodesRandolphandRodriguezBot,Hybrid,Healthcare,Complex Query,982,83.59,1.12,1049,16,Neural Architecture Search,No optimization applied,High,Good,Low,0.08512219959266802
+548,Butler-BensonBot,Rule-Based,Education,Multi-turn Query,141,79.64,4.79,1476,6,Reinforcement Learning,Reduced memory footprint,Low,Good,Low,0.564822695035461
+549,WagnerWilliamsandJohnsonBot,Custom,Retail,Complex Query,171,84.46,3.75,1900,15,Model Pruning,Faster architecture,Low,Good,Low,0.4939181286549707
+550,Hart-JosephBot,Domain-Specific,E-commerce,Simple Query,892,81.65,2.2,565,46,Baseline,Faster architecture,High,Good,High,0.09153587443946189
+551,AguilarLLCBot,Custom,Finance,Simple Query,560,89.16,2.66,767,13,Model Pruning,Improved adaptive response,Medium,Excellent,Low,0.1592142857142857
+552,WallerLLCBot,Open-Source,E-commerce,Complex Query,437,80.4,1.85,1521,20,Reinforcement Learning,No optimization applied,Medium,Good,Medium,0.1839816933638444
+553,NelsonPLCBot,Hybrid,E-commerce,Simple Query,505,88.75,1.43,1899,23,Baseline,Reduced memory footprint,Medium,Excellent,Medium,0.17574257425742573
+554,Baldwin-MartinBot,Custom,Finance,Multi-turn Query,998,81.55,0.89,280,38,Neural Architecture Search,Faster architecture,High,Good,High,0.08171342685370742
+555,Vazquez-MorenoBot,Domain-Specific,Retail,Simple Query,381,85.41,2.15,934,28,Neural Architecture Search,Improved adaptive response,Medium,Good,Medium,0.22417322834645667
+556,CombsJonesandRamseyBot,Rule-Based,Education,Complex Query,375,88.36,1.72,1660,30,Baseline,Improved adaptive response,Medium,Excellent,Medium,0.23562666666666668
+557,Vazquez-MorenoBot,Open-Source,Healthcare,Simple Query,696,88.4,2.05,555,50,Baseline,Faster architecture,Medium,Excellent,High,0.12701149425287356
+558,TrevinoIncBot,Open-Source,Healthcare,Simple Query,710,81.11,4.69,1663,42,Neural Architecture Search,Reduced memory footprint,High,Good,High,0.1142394366197183
+559,KiddLtdBot,Domain-Specific,Healthcare,Multi-turn Query,493,79.79,0.55,1207,36,Neural Architecture Search,No optimization applied,Medium,Good,High,0.16184584178498987
+560,JohnstonDaltonandRileyBot,Custom,Healthcare,Simple Query,256,87.02,2.23,868,12,Reinforcement Learning,Improved adaptive response,Low,Good,Low,0.339921875
+561,Russell-SharpBot,Open-Source,E-commerce,Complex Query,242,77.71,3.34,661,29,Baseline,Faster architecture,Low,Good,Medium,0.3211157024793388
+562,HayesRoachandCarrollBot,Rule-Based,Education,Multi-turn Query,766,86.12,4.66,917,48,Model Pruning,Reduced memory footprint,High,Good,High,0.11242819843342038
+563,Durham-StanleyBot,Hybrid,Finance,Complex Query,583,76.22,3.7,1792,6,Baseline,Improved adaptive response,Medium,Good,Low,0.13073756432246997
+564,KiddLtdBot,Custom,Retail,Simple Query,382,80.25,4.37,1319,24,Neural Architecture Search,No optimization applied,Medium,Good,Medium,0.2100785340314136
+565,DelgadoBurtonandHoodBot,Custom,Healthcare,Multi-turn Query,137,85.7,3.57,541,41,Reinforcement Learning,No optimization applied,Low,Good,High,0.6255474452554745
+566,CoxGroupBot,Rule-Based,Retail,Multi-turn Query,341,75.61,2.45,814,7,Reinforcement Learning,No optimization applied,Medium,Good,Low,0.22173020527859238
+567,GravesPLCBot,Domain-Specific,Healthcare,Multi-turn Query,598,85.41,4.75,1305,34,Reinforcement Learning,Faster architecture,Medium,Good,Medium,0.14282608695652174
+568,Nielsen-DiazBot,Custom,E-commerce,Simple Query,693,86.47,4.09,1532,27,Neural Architecture Search,Faster architecture,Medium,Good,Medium,0.12477633477633478
+569,DelgadoBurtonandHoodBot,Open-Source,Finance,Complex Query,808,92.99,3.01,415,16,Reinforcement Learning,Reduced memory footprint,High,Excellent,Low,0.11508663366336633
+570,Wyatt-WrightBot,Hybrid,Education,Multi-turn Query,488,79.91,4.18,1292,45,Model Pruning,Improved adaptive response,Medium,Good,High,0.16375
+571,JohnsonFrazierandHillBot,Domain-Specific,Finance,Complex Query,970,85.69,4.4,1143,11,Reinforcement Learning,Faster architecture,High,Good,Low,0.08834020618556701
+572,LawrenceWilliamsandLeeBot,Custom,Finance,Multi-turn Query,152,78.78,4.92,302,38,Model Pruning,Reduced memory footprint,Low,Good,High,0.5182894736842105
+573,CoxGroupBot,Domain-Specific,Healthcare,Complex Query,921,93.77,2.2,1265,30,Reinforcement Learning,Reduced memory footprint,High,Excellent,Medium,0.10181324647122693
+574,KleinIncBot,Custom,Retail,Multi-turn Query,740,81.23,1.15,1523,33,Model Pruning,Faster architecture,High,Good,Medium,0.10977027027027028
+575,Durham-StanleyBot,Hybrid,Healthcare,Multi-turn Query,418,85.15,2.46,945,12,Model Pruning,Reduced memory footprint,Medium,Good,Low,0.20370813397129187
+576,PerryGroupBot,Open-Source,Retail,Simple Query,186,87.62,4.32,1038,7,Model Pruning,Faster architecture,Low,Excellent,Low,0.47107526881720435
+577,Snyder-WilliamsonBot,Domain-Specific,Finance,Simple Query,721,84.44,1.95,1272,17,Baseline,Improved adaptive response,High,Good,Medium,0.11711511789181692
+578,Hanson-BrooksBot,Custom,E-commerce,Simple Query,242,86.91,1.24,1233,4,Neural Architecture Search,Reduced memory footprint,Low,Good,Low,0.35913223140495865
+579,RichmondLLCBot,Custom,Healthcare,Complex Query,473,94.82,3.07,715,6,Baseline,Improved adaptive response,Medium,Excellent,Low,0.20046511627906977
+580,Lewis-CalderonBot,Hybrid,E-commerce,Simple Query,624,92.51,1.65,1926,27,Reinforcement Learning,Faster architecture,Medium,Excellent,Medium,0.14825320512820514
+581,MccoyAndrewsandHicksBot,Hybrid,Retail,Simple Query,106,77.98,4.61,1913,17,Baseline,Faster architecture,Low,Good,Medium,0.7356603773584907
+582,Hanson-BrooksBot,Hybrid,Education,Multi-turn Query,804,79.67,1.17,558,49,Model Pruning,Faster architecture,High,Good,High,0.09909203980099503
+583,Wyatt-WrightBot,Open-Source,Finance,Multi-turn Query,718,80.34,1.44,952,34,Reinforcement Learning,Reduced memory footprint,High,Good,Medium,0.1118941504178273
+584,Cochran-HarrisBot,Open-Source,Finance,Multi-turn Query,247,91.62,1.87,2007,47,Reinforcement Learning,Reduced memory footprint,Low,Excellent,High,0.37093117408906884
+585,Mclaughlin-HughesBot,Hybrid,Education,Simple Query,981,94.95,4.28,1731,48,Model Pruning,Reduced memory footprint,High,Excellent,High,0.09678899082568808
+586,NicholsPLCBot,Custom,Education,Complex Query,478,94.02,3.44,1186,20,Model Pruning,No optimization applied,Medium,Excellent,Medium,0.19669456066945606
+587,WagnerWilliamsandJohnsonBot,Rule-Based,Education,Complex Query,363,91.13,1.88,1939,27,Model Pruning,Faster architecture,Medium,Excellent,Medium,0.25104683195592287
+588,Hall-MolinaBot,Domain-Specific,Education,Multi-turn Query,285,83.27,1.39,604,15,Reinforcement Learning,Improved adaptive response,Low,Good,Low,0.2921754385964912
+589,Woods-YoungBot,Domain-Specific,Education,Multi-turn Query,395,92.22,1.9,803,30,Baseline,Improved adaptive response,Medium,Excellent,Medium,0.23346835443037975
+590,GardnerCarrollandJonesBot,Rule-Based,Retail,Simple Query,881,93.19,2.69,1046,27,Neural Architecture Search,Reduced memory footprint,High,Excellent,Medium,0.10577752553916005
+591,JonesWalkerandWhiteBot,Custom,Education,Simple Query,435,87.67,3.37,1942,27,Model Pruning,Improved adaptive response,Medium,Excellent,Medium,0.2015402298850575
+592,Hall-MolinaBot,Rule-Based,Finance,Multi-turn Query,359,82.18,3.23,1462,32,Model Pruning,No optimization applied,Medium,Good,Medium,0.22891364902506967
+593,ButlerBrownandFernandezBot,Custom,Finance,Simple Query,650,91.61,2.85,408,7,Baseline,Reduced memory footprint,Medium,Excellent,Low,0.14093846153846154
+594,CarterLtdBot,Custom,Retail,Complex Query,746,86.73,3.74,398,38,Baseline,Reduced memory footprint,High,Good,High,0.11626005361930296
+595,Durham-StanleyBot,Custom,Finance,Simple Query,677,75.32,2.88,299,22,Baseline,Improved adaptive response,Medium,Good,Medium,0.11125553914327917
+596,Baldwin-LaraBot,Custom,Finance,Multi-turn Query,831,78.47,1.62,1311,34,Neural Architecture Search,Improved adaptive response,High,Good,Medium,0.09442839951865223
+597,RowlandMartinandGarciaBot,Open-Source,E-commerce,Simple Query,326,88.44,4.59,1859,11,Model Pruning,Faster architecture,Medium,Excellent,Low,0.2712883435582822
+598,DelgadoBurtonandHoodBot,Domain-Specific,Education,Multi-turn Query,254,80.26,1.23,1405,7,Neural Architecture Search,No optimization applied,Low,Good,Low,0.31598425196850394
+599,CamachoIncBot,Domain-Specific,Retail,Complex Query,594,85.84,1.38,874,45,Model Pruning,Faster architecture,Medium,Good,High,0.1445117845117845
+600,Lewis-CalderonBot,Hybrid,Education,Multi-turn Query,587,94.76,4.71,615,7,Baseline,Improved adaptive response,Medium,Excellent,Low,0.16143100511073255
+601,Nielsen-DiazBot,Rule-Based,Education,Simple Query,206,81.88,1.41,970,18,Baseline,No optimization applied,Low,Good,Medium,0.39747572815533977
+602,DelgadoBurtonandHoodBot,Open-Source,Healthcare,Complex Query,805,93.79,2.56,1847,2,Neural Architecture Search,No optimization applied,High,Excellent,Low,0.11650931677018635
+603,Greene-CoxBot,Domain-Specific,Education,Multi-turn Query,852,94.5,2.0,434,41,Baseline,No optimization applied,High,Excellent,High,0.11091549295774648
+604,KleinGroupBot,Open-Source,Finance,Simple Query,209,90.3,3.93,997,22,Model Pruning,Reduced memory footprint,Low,Excellent,Medium,0.4320574162679426
+605,WallerLtdBot,Custom,Retail,Complex Query,653,89.37,3.2,403,24,Neural Architecture Search,Faster architecture,Medium,Excellent,Medium,0.13686064318529864
+606,PerryGroupBot,Open-Source,Healthcare,Simple Query,272,80.4,3.81,953,2,Reinforcement Learning,Faster architecture,Low,Good,Low,0.29558823529411765
+607,Russell-SharpBot,Open-Source,Retail,Complex Query,922,87.72,1.51,312,21,Reinforcement Learning,Improved adaptive response,High,Excellent,Medium,0.0951409978308026
+608,CollinsThompsonandBrownBot,Rule-Based,Finance,Multi-turn Query,659,82.49,4.93,1573,18,Model Pruning,Faster architecture,Medium,Good,Medium,0.12517450682852807
+609,Butler-BensonBot,Domain-Specific,Retail,Simple Query,202,91.9,3.21,1861,22,Reinforcement Learning,No optimization applied,Low,Excellent,Medium,0.45495049504950497
+610,NelsonPLCBot,Open-Source,Finance,Multi-turn Query,119,90.4,3.08,791,44,Model Pruning,Improved adaptive response,Low,Excellent,High,0.7596638655462186
+611,Randolph-JohnsonBot,Open-Source,Finance,Complex Query,338,76.84,1.07,1822,16,Model Pruning,No optimization applied,Medium,Good,Low,0.2273372781065089
+612,Baldwin-LaraBot,Domain-Specific,Healthcare,Complex Query,740,89.51,1.65,1843,18,Baseline,Reduced memory footprint,High,Excellent,Medium,0.12095945945945946
+613,LawrenceWilliamsandLeeBot,Domain-Specific,E-commerce,Multi-turn Query,439,79.97,1.71,1768,41,Reinforcement Learning,Reduced memory footprint,Medium,Good,High,0.18216400911161731
+614,DixonPLCBot,Hybrid,Retail,Complex Query,254,83.65,4.27,570,50,Baseline,Reduced memory footprint,Low,Good,High,0.32933070866141734
+615,Turner-GreenBot,Custom,Retail,Multi-turn Query,698,89.92,1.95,802,42,Baseline,No optimization applied,Medium,Excellent,High,0.12882521489971346
+616,McdanielLLCBot,Hybrid,Healthcare,Complex Query,911,94.58,2.69,1819,48,Model Pruning,Faster architecture,High,Excellent,High,0.10381997804610318
+617,RichmondLLCBot,Hybrid,E-commerce,Complex Query,761,86.35,1.09,1620,20,Reinforcement Learning,No optimization applied,High,Good,Medium,0.11346911957950065
+618,Lewis-CalderonBot,Domain-Specific,Education,Complex Query,726,94.47,3.15,1239,12,Baseline,Faster architecture,High,Excellent,Low,0.13012396694214876
+619,MorrowandSonsBot,Custom,Healthcare,Complex Query,561,84.49,3.41,989,23,Reinforcement Learning,Improved adaptive response,Medium,Good,Medium,0.1506060606060606
+620,ThomasGroupBot,Rule-Based,E-commerce,Multi-turn Query,544,94.37,3.85,1151,44,Model Pruning,Faster architecture,Medium,Excellent,High,0.17347426470588237
+621,MurphyHarringtonandFerrellBot,Domain-Specific,Retail,Multi-turn Query,788,77.69,4.9,1273,29,Reinforcement Learning,Faster architecture,High,Good,Medium,0.09859137055837564
+622,RussellWilsonandAllisonBot,Open-Source,Education,Complex Query,619,92.16,1.23,1792,4,Reinforcement Learning,Improved adaptive response,Medium,Excellent,Low,0.14888529886914378
+623,Hanson-BrooksBot,Rule-Based,Education,Simple Query,998,87.36,1.51,1629,16,Baseline,Faster architecture,High,Good,Low,0.08753507014028056
+624,Mclaughlin-HughesBot,Custom,Healthcare,Multi-turn Query,941,92.49,2.69,416,6,Baseline,Faster architecture,High,Excellent,Low,0.09828905419766205
+625,AguilarLLCBot,Open-Source,Healthcare,Complex Query,330,83.9,4.04,888,49,Neural Architecture Search,Improved adaptive response,Medium,Good,High,0.25424242424242427
+626,RiosGriffinandRamirezBot,Hybrid,Retail,Multi-turn Query,676,83.97,2.94,1174,13,Baseline,Reduced memory footprint,Medium,Good,Low,0.12421597633136094
+627,AdkinsPLCBot,Rule-Based,Retail,Simple Query,197,90.25,3.46,1961,24,Neural Architecture Search,Reduced memory footprint,Low,Excellent,Medium,0.4581218274111675
+628,RowlandMartinandGarciaBot,Hybrid,Healthcare,Simple Query,805,83.03,1.4,506,21,Neural Architecture Search,Faster architecture,High,Good,Medium,0.10314285714285715
+629,MurphyHarringtonandFerrellBot,Open-Source,Finance,Multi-turn Query,999,86.66,4.76,1906,29,Baseline,Improved adaptive response,High,Good,Medium,0.08674674674674675
+630,FosterMullenandJohnsonBot,Open-Source,E-commerce,Simple Query,264,75.58,1.48,1192,30,Model Pruning,Faster architecture,Low,Good,Medium,0.28628787878787876
+631,Hanson-BrooksBot,Open-Source,Retail,Simple Query,787,80.35,4.96,824,23,Reinforcement Learning,Reduced memory footprint,High,Good,Medium,0.10209656925031765
+632,LawrenceWilliamsandLeeBot,Hybrid,Retail,Multi-turn Query,297,86.54,1.28,1627,11,Reinforcement Learning,Improved adaptive response,Low,Good,Low,0.2913804713804714
+633,HaleyIncBot,Domain-Specific,Retail,Simple Query,563,83.39,0.79,1472,49,Neural Architecture Search,Faster architecture,Medium,Good,High,0.14811722912966252
+634,RiosGriffinandRamirezBot,Hybrid,Finance,Simple Query,136,81.72,2.33,558,27,Model Pruning,No optimization applied,Low,Good,Medium,0.6008823529411764
+635,GriffithGreenandCruzBot,Domain-Specific,E-commerce,Simple Query,873,79.42,0.87,1512,15,Model Pruning,Improved adaptive response,High,Good,Low,0.09097365406643758
+636,SmithPLCBot,Rule-Based,Finance,Simple Query,241,85.67,3.01,1364,30,Model Pruning,Faster architecture,Low,Good,Medium,0.3554771784232365
+637,MccarthyAlvarezandTurnerBot,Rule-Based,Healthcare,Complex Query,572,88.09,1.67,515,35,Reinforcement Learning,No optimization applied,Medium,Excellent,High,0.1540034965034965
+638,Miller-RamirezBot,Domain-Specific,E-commerce,Simple Query,459,75.05,1.96,563,8,Neural Architecture Search,Faster architecture,Medium,Good,Low,0.16350762527233115
+639,RowlandMartinandGarciaBot,Domain-Specific,Education,Simple Query,552,75.96,0.89,553,7,Neural Architecture Search,Faster architecture,Medium,Good,Low,0.1376086956521739
+640,Crawford-HoodBot,Rule-Based,Healthcare,Simple Query,580,92.12,1.85,692,10,Baseline,Reduced memory footprint,Medium,Excellent,Low,0.15882758620689655
+641,MorrowandSonsBot,Open-Source,Education,Simple Query,474,75.15,3.15,295,13,Reinforcement Learning,No optimization applied,Medium,Good,Low,0.15854430379746837
+642,Hanson-BrooksBot,Domain-Specific,Retail,Multi-turn Query,517,94.66,2.19,1594,43,Model Pruning,Improved adaptive response,Medium,Excellent,High,0.18309477756286266
+643,KleinIncBot,Custom,Retail,Simple Query,501,88.78,4.29,1669,34,Model Pruning,Faster architecture,Medium,Excellent,Medium,0.1772055888223553
+644,ClarkWoodardandCamposBot,Open-Source,Retail,Complex Query,620,93.78,2.24,1851,16,Baseline,No optimization applied,Medium,Excellent,Low,0.15125806451612903
+645,NelsonPLCBot,Open-Source,E-commerce,Multi-turn Query,833,77.19,3.47,939,41,Reinforcement Learning,Reduced memory footprint,High,Good,High,0.09266506602641056
+646,SmithPLCBot,Domain-Specific,Finance,Multi-turn Query,989,84.62,1.16,1964,7,Baseline,Faster architecture,High,Good,Low,0.08556117290192114
+647,ClarkWoodardandCamposBot,Rule-Based,E-commerce,Complex Query,857,81.61,4.07,744,29,Model Pruning,Improved adaptive response,High,Good,Medium,0.09522753792298716
+648,Mcconnell-FloresBot,Custom,Retail,Simple Query,311,94.09,4.43,1005,37,Reinforcement Learning,Improved adaptive response,Medium,Excellent,High,0.302540192926045
+649,NicholsPLCBot,Open-Source,Retail,Simple Query,628,85.66,4.25,1848,9,Model Pruning,Faster architecture,Medium,Good,Low,0.1364012738853503
+650,Hanson-BrooksBot,Rule-Based,Finance,Complex Query,307,92.32,3.47,1964,48,Neural Architecture Search,Reduced memory footprint,Medium,Excellent,High,0.30071661237785013
+651,Bowman-BernardBot,Custom,Education,Simple Query,558,76.94,0.95,1452,3,Baseline,No optimization applied,Medium,Good,Low,0.1378853046594982
+652,Ramos-SanchezBot,Custom,Education,Complex Query,583,91.93,3.45,476,50,Baseline,Faster architecture,Medium,Excellent,High,0.15768439108061752
+653,HayesRoachandCarrollBot,Domain-Specific,Finance,Simple Query,740,88.94,4.25,1573,4,Model Pruning,Reduced memory footprint,High,Excellent,Low,0.12018918918918918
+654,Hall-MolinaBot,Open-Source,Education,Complex Query,721,89.75,1.77,1046,28,Reinforcement Learning,Reduced memory footprint,High,Excellent,Medium,0.12447988904299584
+655,Baldwin-LaraBot,Custom,E-commerce,Simple Query,706,90.96,3.77,1393,39,Baseline,No optimization applied,High,Excellent,High,0.12883852691218128
+656,KiddLtdBot,Domain-Specific,Finance,Multi-turn Query,609,84.3,4.28,1154,26,Model Pruning,Reduced memory footprint,Medium,Good,Medium,0.13842364532019705
+657,Trevino-PhillipsBot,Domain-Specific,Finance,Simple Query,213,94.4,3.31,1334,41,Neural Architecture Search,Reduced memory footprint,Low,Excellent,High,0.4431924882629108
+658,Greene-CoxBot,Custom,Retail,Simple Query,693,92.06,2.78,1510,7,Model Pruning,Faster architecture,Medium,Excellent,Low,0.13284271284271285
+659,Hart-JosephBot,Rule-Based,Finance,Simple Query,701,76.97,1.93,816,8,Neural Architecture Search,Faster architecture,High,Good,Low,0.1098002853067047
+660,Bowman-BernardBot,Domain-Specific,E-commerce,Multi-turn Query,463,78.38,2.63,1130,46,Model Pruning,No optimization applied,Medium,Good,High,0.16928725701943845
+661,AguilarLLCBot,Hybrid,E-commerce,Simple Query,559,84.01,0.63,1700,16,Neural Architecture Search,Improved adaptive response,Medium,Good,Low,0.15028622540250447
+662,Bowman-BernardBot,Hybrid,Education,Multi-turn Query,276,81.14,4.93,918,16,Model Pruning,Reduced memory footprint,Low,Good,Low,0.2939855072463768
+663,NelsonPLCBot,Open-Source,Healthcare,Multi-turn Query,653,78.1,2.4,1681,19,Neural Architecture Search,Improved adaptive response,Medium,Good,Medium,0.11960183767228177
+664,DelgadoBurtonandHoodBot,Open-Source,Retail,Multi-turn Query,644,93.92,3.71,1381,41,Reinforcement Learning,Faster architecture,Medium,Excellent,High,0.1458385093167702
+665,Nguyen-MercadoBot,Open-Source,Education,Multi-turn Query,474,84.81,2.98,1233,31,Model Pruning,Improved adaptive response,Medium,Good,Medium,0.1789240506329114
+666,WallerLLCBot,Domain-Specific,E-commerce,Complex Query,826,84.3,4.3,783,10,Baseline,Improved adaptive response,High,Good,Low,0.10205811138014527
+667,FrazierDiazandCruzBot,Rule-Based,Retail,Complex Query,977,92.83,4.76,1324,32,Model Pruning,Reduced memory footprint,High,Excellent,Medium,0.09501535312180143
+668,Nguyen-MercadoBot,Domain-Specific,E-commerce,Complex Query,235,91.41,3.3,1653,33,Neural Architecture Search,Faster architecture,Low,Excellent,Medium,0.3889787234042553
+669,JohnsonChapmanandRossBot,Open-Source,Finance,Multi-turn Query,748,93.15,3.08,1088,31,Baseline,Faster architecture,High,Excellent,Medium,0.12453208556149734
+670,Baldwin-MartinBot,Open-Source,Retail,Complex Query,574,88.63,3.62,1123,11,Baseline,Faster architecture,Medium,Excellent,Low,0.15440766550522647
+671,WoodsIncBot,Open-Source,Finance,Simple Query,689,94.15,1.55,1646,21,Model Pruning,Faster architecture,Medium,Excellent,Medium,0.13664731494920174
+672,Butler-BensonBot,Domain-Specific,Finance,Simple Query,213,79.86,1.12,1922,17,Baseline,No optimization applied,Low,Good,Medium,0.3749295774647887
+673,DelgadoBurtonandHoodBot,Domain-Specific,Retail,Multi-turn Query,967,78.31,2.03,604,11,Baseline,Reduced memory footprint,High,Good,Low,0.08098241985522234
+674,Baldwin-LaraBot,Rule-Based,Healthcare,Simple Query,910,94.07,3.76,672,11,Reinforcement Learning,No optimization applied,High,Excellent,Low,0.10337362637362636
+675,Johnson-NorrisBot,Custom,Finance,Complex Query,935,82.17,2.15,2027,25,Baseline,Improved adaptive response,High,Good,Medium,0.08788235294117647
+676,CarterLtdBot,Rule-Based,Education,Simple Query,821,78.97,4.04,958,35,Model Pruning,Improved adaptive response,High,Good,High,0.09618757612667478
+677,Turner-GreenBot,Custom,E-commerce,Simple Query,673,79.41,3.56,890,20,Reinforcement Learning,No optimization applied,Medium,Good,Medium,0.11799405646359583
+678,Welch-GuerreroBot,Rule-Based,Education,Complex Query,445,82.16,3.08,916,24,Neural Architecture Search,No optimization applied,Medium,Good,Medium,0.18462921348314607
+679,NelsonPLCBot,Open-Source,Finance,Simple Query,422,82.64,1.12,1499,31,Model Pruning,No optimization applied,Medium,Good,Medium,0.19582938388625593
+680,HaleyIncBot,Rule-Based,Finance,Complex Query,996,79.62,2.12,296,7,Model Pruning,Improved adaptive response,High,Good,Low,0.07993975903614459
+681,Lewis-CalderonBot,Open-Source,Education,Multi-turn Query,666,76.28,0.87,768,29,Baseline,Improved adaptive response,Medium,Good,Medium,0.11453453453453454
+682,FosterMullenandJohnsonBot,Hybrid,E-commerce,Multi-turn Query,695,75.3,1.39,2016,44,Baseline,Improved adaptive response,Medium,Good,High,0.1083453237410072
+683,SummersGroupBot,Rule-Based,E-commerce,Multi-turn Query,662,83.58,1.45,1900,26,Neural Architecture Search,Faster architecture,Medium,Good,Medium,0.12625377643504532
+684,Hunt-GarzaBot,Open-Source,Healthcare,Multi-turn Query,926,87.34,2.39,1608,44,Reinforcement Learning,Faster architecture,High,Good,High,0.0943196544276458
+685,SnyderWarrenandBrownBot,Rule-Based,E-commerce,Multi-turn Query,361,89.37,1.89,659,5,Neural Architecture Search,Improved adaptive response,Medium,Excellent,Low,0.24756232686980612
+686,MurphyHarringtonandFerrellBot,Hybrid,Finance,Multi-turn Query,908,78.01,3.7,879,46,Neural Architecture Search,Faster architecture,High,Good,High,0.08591409691629956
+687,GardnerCarrollandJonesBot,Hybrid,Finance,Complex Query,494,92.89,1.15,1550,39,Neural Architecture Search,No optimization applied,Medium,Excellent,High,0.18803643724696356
+688,JonesWalkerandWhiteBot,Hybrid,Finance,Simple Query,722,87.12,0.89,920,18,Reinforcement Learning,Reduced memory footprint,High,Good,Medium,0.12066481994459835
+689,Vazquez-MorenoBot,Rule-Based,Healthcare,Complex Query,985,91.25,2.89,379,18,Baseline,No optimization applied,High,Excellent,Medium,0.09263959390862944
+690,JohnstonDaltonandRileyBot,Hybrid,Retail,Complex Query,806,80.96,3.23,1863,47,Model Pruning,Improved adaptive response,High,Good,High,0.10044665012406948
+691,RichmondLLCBot,Open-Source,Education,Complex Query,262,86.12,3.08,821,3,Neural Architecture Search,Improved adaptive response,Low,Good,Low,0.3287022900763359
+692,Snyder-WilliamsonBot,Custom,E-commerce,Multi-turn Query,781,84.73,3.81,1527,3,Model Pruning,Reduced memory footprint,High,Good,Low,0.10848911651728553
+693,MccoyAndrewsandHicksBot,Domain-Specific,Healthcare,Simple Query,150,82.17,1.55,1377,32,Reinforcement Learning,No optimization applied,Low,Good,Medium,0.5478000000000001
+694,BishopBarnesandSmithBot,Open-Source,Healthcare,Simple Query,709,89.03,2.53,306,47,Baseline,No optimization applied,High,Excellent,High,0.12557122708039492
+695,WagnerWilliamsandJohnsonBot,Domain-Specific,E-commerce,Multi-turn Query,543,88.58,1.17,1345,2,Neural Architecture Search,Improved adaptive response,Medium,Excellent,Low,0.1631307550644567
+696,Snyder-WilliamsonBot,Domain-Specific,Retail,Multi-turn Query,152,83.59,3.63,1269,44,Model Pruning,Reduced memory footprint,Low,Good,High,0.5499342105263159
+697,Mcconnell-FloresBot,Domain-Specific,Finance,Simple Query,756,93.12,0.63,1936,16,Reinforcement Learning,Reduced memory footprint,High,Excellent,Low,0.12317460317460319
+698,Johnson-NorrisBot,Open-Source,Education,Simple Query,740,88.66,2.2,1537,33,Baseline,Faster architecture,High,Excellent,Medium,0.11981081081081081
+699,Durham-StanleyBot,Domain-Specific,Finance,Complex Query,219,91.18,1.34,1100,27,Reinforcement Learning,No optimization applied,Low,Excellent,Medium,0.41634703196347034
+700,AguilarLLCBot,Custom,E-commerce,Multi-turn Query,584,85.54,1.13,1635,19,Reinforcement Learning,Faster architecture,Medium,Good,Medium,0.14647260273972604
+701,LawrenceWilliamsandLeeBot,Hybrid,Healthcare,Simple Query,858,88.44,4.25,830,1,Baseline,No optimization applied,High,Excellent,Low,0.10307692307692308
+702,RichmondLLCBot,Hybrid,Finance,Simple Query,859,90.41,0.82,350,19,Baseline,Faster architecture,High,Excellent,Medium,0.10525029103608848
+703,JohnsonFrazierandHillBot,Rule-Based,Healthcare,Multi-turn Query,515,89.13,1.03,1963,33,Neural Architecture Search,Faster architecture,Medium,Excellent,Medium,0.17306796116504852
+704,Baldwin-MartinBot,Rule-Based,Retail,Multi-turn Query,345,77.43,2.36,1162,17,Neural Architecture Search,Reduced memory footprint,Medium,Good,Medium,0.22443478260869568
+705,CarterLtdBot,Hybrid,E-commerce,Simple Query,212,90.03,1.4,473,45,Baseline,Improved adaptive response,Low,Excellent,High,0.4246698113207547
+706,Nguyen-MercadoBot,Hybrid,Education,Multi-turn Query,589,88.13,1.2,1170,3,Baseline,Faster architecture,Medium,Excellent,Low,0.1496264855687606
+707,Ramos-SanchezBot,Rule-Based,Healthcare,Complex Query,336,88.11,2.8,661,43,Reinforcement Learning,Faster architecture,Medium,Excellent,High,0.26223214285714286
+708,Paul-MclaughlinBot,Open-Source,Finance,Multi-turn Query,100,83.69,3.44,317,2,Baseline,Reduced memory footprint,Low,Good,Low,0.8369
+709,HaleyIncBot,Custom,E-commerce,Complex Query,141,88.04,2.72,712,13,Neural Architecture Search,Faster architecture,Low,Excellent,Low,0.6243971631205674
+710,Nguyen-MercadoBot,Hybrid,E-commerce,Simple Query,293,86.26,3.8,1126,12,Reinforcement Learning,Reduced memory footprint,Low,Good,Low,0.29440273037542664
+711,KleinIncBot,Domain-Specific,Healthcare,Simple Query,874,92.67,2.2,425,8,Model Pruning,Faster architecture,High,Excellent,Low,0.10602974828375286
+712,CamachoIncBot,Open-Source,E-commerce,Multi-turn Query,855,92.26,4.72,1248,4,Model Pruning,Faster architecture,High,Excellent,Low,0.10790643274853802
+713,RhodesRandolphandRodriguezBot,Open-Source,Finance,Complex Query,391,80.64,1.62,1868,44,Neural Architecture Search,No optimization applied,Medium,Good,High,0.20624040920716114
+714,CombsJonesandRamseyBot,Rule-Based,Education,Complex Query,918,91.79,4.0,1781,48,Reinforcement Learning,Faster architecture,High,Excellent,High,0.09998910675381265
+715,Baldwin-MartinBot,Hybrid,E-commerce,Complex Query,491,85.46,1.59,394,12,Model Pruning,Faster architecture,Medium,Good,Low,0.1740529531568228
+716,HolmesMiddletonandTateBot,Rule-Based,E-commerce,Complex Query,331,83.61,2.73,1094,35,Model Pruning,Improved adaptive response,Medium,Good,High,0.2525981873111782
+717,Nguyen-MercadoBot,Custom,Retail,Multi-turn Query,720,77.59,2.54,1661,7,Neural Architecture Search,Improved adaptive response,High,Good,Low,0.1077638888888889
+718,DelgadoBurtonandHoodBot,Custom,E-commerce,Simple Query,968,84.21,4.58,609,10,Neural Architecture Search,Reduced memory footprint,High,Good,Low,0.08699380165289256
+719,RhodesRandolphandRodriguezBot,Hybrid,Finance,Complex Query,572,90.9,3.81,2026,36,Model Pruning,No optimization applied,Medium,Excellent,High,0.15891608391608392
+720,WagnerWilliamsandJohnsonBot,Open-Source,E-commerce,Complex Query,735,91.83,3.53,1862,44,Baseline,Reduced memory footprint,High,Excellent,High,0.12493877551020408
+721,Hunt-GarzaBot,Rule-Based,Retail,Simple Query,396,92.65,1.95,1060,49,Baseline,Improved adaptive response,Medium,Excellent,High,0.2339646464646465
+722,Johnson-NorrisBot,Domain-Specific,Healthcare,Multi-turn Query,879,81.42,1.71,301,34,Reinforcement Learning,No optimization applied,High,Good,Medium,0.09262798634812287
+723,NicholsPLCBot,Custom,Retail,Multi-turn Query,862,85.15,4.49,273,18,Neural Architecture Search,Improved adaptive response,High,Good,Medium,0.09878190255220418
+724,SummersGroupBot,Domain-Specific,Retail,Simple Query,418,81.1,1.35,1789,17,Neural Architecture Search,Faster architecture,Medium,Good,Medium,0.19401913875598084
+725,FosterMullenandJohnsonBot,Domain-Specific,Finance,Simple Query,338,82.16,3.52,1781,7,Baseline,Improved adaptive response,Medium,Good,Low,0.24307692307692308
+726,Ramos-SanchezBot,Open-Source,Finance,Complex Query,813,77.27,1.03,978,15,Reinforcement Learning,Improved adaptive response,High,Good,Low,0.0950430504305043
+727,Vazquez-MorenoBot,Hybrid,Education,Complex Query,920,79.77,4.02,1254,35,Baseline,Improved adaptive response,High,Good,High,0.08670652173913043
+728,Miller-RamirezBot,Rule-Based,Education,Simple Query,341,82.21,2.25,575,40,Model Pruning,Improved adaptive response,Medium,Good,High,0.24108504398826977
+729,SmithPLCBot,Hybrid,E-commerce,Multi-turn Query,298,94.99,3.01,1040,44,Reinforcement Learning,Faster architecture,Low,Excellent,High,0.31875838926174493
+730,JohnstonDaltonandRileyBot,Custom,Finance,Multi-turn Query,104,77.42,1.36,1625,38,Neural Architecture Search,No optimization applied,Low,Good,High,0.744423076923077
+731,Paul-MclaughlinBot,Custom,Healthcare,Complex Query,811,91.49,3.49,1979,3,Neural Architecture Search,Reduced memory footprint,High,Excellent,Low,0.11281134401972873
+732,CarterLtdBot,Open-Source,Healthcare,Complex Query,674,94.94,3.77,1106,3,Baseline,Reduced memory footprint,Medium,Excellent,Low,0.14086053412462907
+733,RhodesRandolphandRodriguezBot,Custom,Healthcare,Multi-turn Query,860,78.25,4.93,408,37,Reinforcement Learning,Improved adaptive response,High,Good,High,0.09098837209302325
+734,Taylor-SimsBot,Hybrid,Retail,Complex Query,171,87.23,2.45,581,11,Baseline,Faster architecture,Low,Good,Low,0.5101169590643275
+735,RhodesRandolphandRodriguezBot,Rule-Based,Healthcare,Complex Query,128,90.47,4.7,1356,37,Model Pruning,Faster architecture,Low,Excellent,High,0.706796875
+736,HolmesMiddletonandTateBot,Hybrid,Education,Simple Query,871,75.6,4.52,1549,20,Model Pruning,Faster architecture,High,Good,Medium,0.08679678530424799
+737,RichmondLLCBot,Hybrid,Education,Complex Query,662,90.74,1.57,906,13,Baseline,Faster architecture,Medium,Excellent,Low,0.13706948640483382
+738,Ochoa-ChanBot,Hybrid,E-commerce,Simple Query,184,83.36,3.71,1509,24,Neural Architecture Search,No optimization applied,Low,Good,Medium,0.45304347826086955
+739,PerezPLCBot,Hybrid,Retail,Simple Query,132,80.08,4.04,933,9,Neural Architecture Search,Improved adaptive response,Low,Good,Low,0.6066666666666667
+740,BrownMillerandNguyenBot,Open-Source,E-commerce,Simple Query,420,86.41,1.24,364,19,Baseline,Reduced memory footprint,Medium,Good,Medium,0.20573809523809522
+741,CamachoIncBot,Open-Source,Education,Complex Query,865,80.24,1.77,479,11,Neural Architecture Search,No optimization applied,High,Good,Low,0.09276300578034681
+742,SmithPLCBot,Hybrid,Education,Complex Query,709,87.72,2.67,540,38,Model Pruning,No optimization applied,High,Excellent,High,0.12372355430183357
+743,WagnerWilliamsandJohnsonBot,Domain-Specific,Retail,Complex Query,470,84.94,3.3,857,35,Neural Architecture Search,Reduced memory footprint,Medium,Good,High,0.18072340425531913
+744,JonesIncBot,Domain-Specific,E-commerce,Complex Query,717,79.64,1.1,375,14,Reinforcement Learning,Reduced memory footprint,High,Good,Low,0.11107391910739191
+745,PerezPLCBot,Rule-Based,E-commerce,Complex Query,546,79.41,1.81,856,40,Reinforcement Learning,Faster architecture,Medium,Good,High,0.14543956043956044
+746,Welch-GuerreroBot,Open-Source,Education,Complex Query,839,76.2,2.26,1549,21,Baseline,Faster architecture,High,Good,Medium,0.09082240762812872
+747,RichmondLLCBot,Open-Source,Finance,Simple Query,321,81.55,4.72,1945,22,Model Pruning,Faster architecture,Medium,Good,Medium,0.25404984423676014
+748,Turner-GreenBot,Domain-Specific,E-commerce,Simple Query,473,82.6,2.9,1347,35,Model Pruning,Reduced memory footprint,Medium,Good,High,0.17463002114164905
+749,Cochran-HarrisBot,Open-Source,Education,Complex Query,229,94.4,0.56,1699,22,Baseline,Reduced memory footprint,Low,Excellent,Medium,0.4122270742358079
+750,HayesRoachandCarrollBot,Rule-Based,Education,Complex Query,550,79.1,4.46,1704,6,Model Pruning,No optimization applied,Medium,Good,Low,0.14381818181818182
+751,Snyder-WilliamsonBot,Hybrid,E-commerce,Complex Query,176,93.99,2.25,1402,14,Baseline,No optimization applied,Low,Excellent,Low,0.5340340909090909
+752,WagnerWilliamsandJohnsonBot,Custom,Education,Simple Query,229,90.0,2.88,1712,7,Neural Architecture Search,Improved adaptive response,Low,Excellent,Low,0.3930131004366812
+753,Hall-MolinaBot,Custom,Healthcare,Multi-turn Query,848,79.43,1.43,755,50,Reinforcement Learning,Faster architecture,High,Good,High,0.0936674528301887
+754,Hunt-GarzaBot,Domain-Specific,Retail,Multi-turn Query,291,92.06,1.07,709,38,Reinforcement Learning,Reduced memory footprint,Low,Excellent,High,0.31635738831615123
+755,CamachoIncBot,Hybrid,E-commerce,Multi-turn Query,694,81.38,3.08,701,35,Reinforcement Learning,No optimization applied,Medium,Good,High,0.1172622478386167
+756,EspinozaGroupBot,Hybrid,Healthcare,Simple Query,178,80.89,1.33,406,21,Model Pruning,No optimization applied,Low,Good,Medium,0.454438202247191
+757,CamachoIncBot,Domain-Specific,Healthcare,Multi-turn Query,398,87.38,2.45,645,46,Neural Architecture Search,Improved adaptive response,Medium,Good,High,0.21954773869346733
+758,PerezPLCBot,Open-Source,E-commerce,Complex Query,412,94.76,3.62,891,16,Reinforcement Learning,Improved adaptive response,Medium,Excellent,Low,0.23
+759,GravesPLCBot,Open-Source,Healthcare,Multi-turn Query,154,78.77,1.44,1954,10,Neural Architecture Search,Faster architecture,Low,Good,Low,0.5114935064935064
+760,KnightMcdowellandMarksBot,Open-Source,Healthcare,Multi-turn Query,101,88.2,4.71,631,19,Reinforcement Learning,No optimization applied,Low,Excellent,Medium,0.8732673267326733
+761,GardnerCarrollandJonesBot,Open-Source,Finance,Simple Query,144,80.34,0.67,1552,21,Neural Architecture Search,Reduced memory footprint,Low,Good,Medium,0.5579166666666667
+762,Durham-StanleyBot,Hybrid,Finance,Multi-turn Query,727,92.89,4.1,491,13,Model Pruning,Improved adaptive response,High,Excellent,Low,0.1277716643741403
+763,Santos-RodgersBot,Open-Source,E-commerce,Multi-turn Query,691,91.86,1.12,1935,44,Baseline,Reduced memory footprint,Medium,Excellent,High,0.13293777134587553
+764,RowlandMartinandGarciaBot,Rule-Based,Retail,Simple Query,439,80.71,3.46,1644,12,Neural Architecture Search,No optimization applied,Medium,Good,Low,0.1838496583143508
+765,KiddLtdBot,Domain-Specific,Healthcare,Multi-turn Query,580,88.88,4.95,724,9,Reinforcement Learning,No optimization applied,Medium,Excellent,Low,0.15324137931034482
+766,SummersGroupBot,Domain-Specific,Healthcare,Multi-turn Query,933,86.55,0.97,1807,4,Neural Architecture Search,Improved adaptive response,High,Good,Low,0.0927652733118971
+767,CarterLtdBot,Rule-Based,Education,Multi-turn Query,470,90.01,3.94,1433,4,Reinforcement Learning,Faster architecture,Medium,Excellent,Low,0.19151063829787235
+768,Fernandez-ButlerBot,Open-Source,E-commerce,Complex Query,167,76.57,0.54,1388,17,Neural Architecture Search,Improved adaptive response,Low,Good,Medium,0.45850299401197603
+769,AguilarLLCBot,Hybrid,Healthcare,Simple Query,718,91.54,1.06,316,41,Neural Architecture Search,No optimization applied,High,Excellent,High,0.12749303621169916
+770,WoodsIncBot,Hybrid,Finance,Complex Query,479,79.75,2.84,1336,7,Reinforcement Learning,Faster architecture,Medium,Good,Low,0.16649269311064718
+771,CarterLtdBot,Hybrid,Education,Complex Query,836,89.49,3.95,1713,38,Baseline,Faster architecture,High,Excellent,High,0.10704545454545454
+772,AndersonPLCBot,Custom,E-commerce,Simple Query,779,79.06,2.59,742,21,Model Pruning,Faster architecture,High,Good,Medium,0.10148908857509628
+773,SummersGroupBot,Domain-Specific,Healthcare,Simple Query,686,93.9,3.98,598,34,Baseline,Reduced memory footprint,Medium,Excellent,Medium,0.1368804664723032
+774,Vazquez-MorenoBot,Rule-Based,Education,Multi-turn Query,519,89.73,3.48,777,4,Baseline,Faster architecture,Medium,Excellent,Low,0.17289017341040464
+775,DixonPLCBot,Rule-Based,E-commerce,Complex Query,382,79.96,2.34,718,13,Reinforcement Learning,No optimization applied,Medium,Good,Low,0.20931937172774867
+776,SmithPLCBot,Open-Source,Education,Complex Query,163,83.16,2.73,1016,18,Baseline,Faster architecture,Low,Good,Medium,0.5101840490797546
+777,Russell-SharpBot,Open-Source,Education,Complex Query,584,88.62,0.57,1593,20,Neural Architecture Search,Reduced memory footprint,Medium,Excellent,Medium,0.15174657534246577
+778,Baldwin-MartinBot,Rule-Based,Retail,Simple Query,229,89.04,1.58,465,20,Reinforcement Learning,Reduced memory footprint,Low,Excellent,Medium,0.38882096069869
+779,Santos-RodgersBot,Domain-Specific,E-commerce,Simple Query,942,91.94,4.53,1504,38,Model Pruning,Reduced memory footprint,High,Excellent,High,0.09760084925690021
+780,Johnson-NorrisBot,Hybrid,Education,Multi-turn Query,454,75.65,2.1,1574,39,Model Pruning,Improved adaptive response,Medium,Good,High,0.1666299559471366
+781,Nielsen-DiazBot,Custom,Healthcare,Multi-turn Query,340,89.81,3.9,1855,36,Neural Architecture Search,Reduced memory footprint,Medium,Excellent,High,0.2641470588235294
+782,Wyatt-WrightBot,Rule-Based,E-commerce,Simple Query,932,81.85,1.59,1191,7,Neural Architecture Search,Reduced memory footprint,High,Good,Low,0.08782188841201716
+783,Miller-RamirezBot,Open-Source,Education,Multi-turn Query,295,87.63,3.2,1248,37,Reinforcement Learning,Improved adaptive response,Low,Excellent,High,0.2970508474576271
+784,McdanielLLCBot,Hybrid,E-commerce,Simple Query,257,86.24,1.26,896,17,Reinforcement Learning,Reduced memory footprint,Low,Good,Medium,0.33556420233463036
+785,Snyder-WilliamsonBot,Hybrid,Finance,Simple Query,709,76.3,4.94,1111,7,Reinforcement Learning,Faster architecture,High,Good,Low,0.1076163610719323
+786,CombsJonesandRamseyBot,Domain-Specific,Finance,Complex Query,108,76.76,2.09,1508,4,Neural Architecture Search,Faster architecture,Low,Good,Low,0.7107407407407408
+787,Hall-MolinaBot,Hybrid,Healthcare,Complex Query,657,87.88,2.12,343,39,Reinforcement Learning,Faster architecture,Medium,Excellent,High,0.1337595129375951
+788,SmithPLCBot,Rule-Based,Finance,Complex Query,357,80.15,3.1,1393,47,Neural Architecture Search,Improved adaptive response,Medium,Good,High,0.22450980392156863
+789,Russell-SharpBot,Rule-Based,E-commerce,Multi-turn Query,962,92.6,2.5,1756,17,Neural Architecture Search,Faster architecture,High,Excellent,Medium,0.09625779625779625
+790,FrazierDiazandCruzBot,Rule-Based,Education,Complex Query,584,77.51,3.47,408,37,Model Pruning,Faster architecture,Medium,Good,High,0.13272260273972603
+791,Taylor-SimsBot,Custom,Finance,Multi-turn Query,771,84.08,3.63,375,48,Model Pruning,No optimization applied,High,Good,High,0.10905317769130998
+792,Hall-MolinaBot,Domain-Specific,Education,Complex Query,528,89.29,4.95,1283,2,Baseline,No optimization applied,Medium,Excellent,Low,0.1691098484848485
+793,Mclaughlin-HughesBot,Domain-Specific,Education,Simple Query,192,94.55,1.19,796,31,Baseline,Reduced memory footprint,Low,Excellent,Medium,0.49244791666666665
+794,NelsonPLCBot,Custom,E-commerce,Multi-turn Query,420,76.54,2.7,1705,1,Model Pruning,Faster architecture,Medium,Good,Low,0.18223809523809525
+795,FrazierDiazandCruzBot,Domain-Specific,Healthcare,Multi-turn Query,821,81.91,1.19,327,46,Baseline,Reduced memory footprint,High,Good,High,0.09976857490864799
+796,WoodsIncBot,Open-Source,Healthcare,Simple Query,911,80.14,4.76,324,2,Reinforcement Learning,Improved adaptive response,High,Good,Low,0.08796926454445664
+797,MorrowandSonsBot,Rule-Based,E-commerce,Multi-turn Query,540,76.53,2.33,1145,25,Reinforcement Learning,Improved adaptive response,Medium,Good,Medium,0.14172222222222222
+798,NealMitchellandCoxBot,Open-Source,E-commerce,Complex Query,333,82.99,1.97,1926,9,Reinforcement Learning,No optimization applied,Medium,Good,Low,0.2492192192192192
+799,Baldwin-LaraBot,Domain-Specific,Finance,Simple Query,944,89.28,4.41,629,23,Reinforcement Learning,No optimization applied,High,Excellent,Medium,0.09457627118644069
+800,Hanson-BrooksBot,Open-Source,Retail,Complex Query,719,89.59,4.96,438,17,Baseline,Improved adaptive response,High,Excellent,Medium,0.12460361613351878
+801,Mcconnell-FloresBot,Open-Source,E-commerce,Complex Query,625,80.65,0.64,1800,43,Baseline,Reduced memory footprint,Medium,Good,High,0.12904000000000002
+802,WagnerWilliamsandJohnsonBot,Domain-Specific,Finance,Multi-turn Query,705,89.24,1.99,1801,35,Model Pruning,Reduced memory footprint,High,Excellent,High,0.12658156028368794
+803,Baldwin-LaraBot,Custom,Healthcare,Multi-turn Query,267,86.9,4.16,387,42,Reinforcement Learning,Faster architecture,Low,Good,High,0.32546816479400753
+804,Hanson-BrooksBot,Open-Source,Healthcare,Complex Query,559,92.42,4.47,1642,44,Reinforcement Learning,No optimization applied,Medium,Excellent,High,0.1653309481216458
+805,KleinIncBot,Open-Source,Healthcare,Complex Query,182,86.66,2.71,1855,22,Neural Architecture Search,Reduced memory footprint,Low,Good,Medium,0.47615384615384615
+806,Mclaughlin-HughesBot,Hybrid,Finance,Multi-turn Query,345,92.04,2.45,810,10,Baseline,Improved adaptive response,Medium,Excellent,Low,0.2667826086956522
+807,HaleyIncBot,Rule-Based,Retail,Multi-turn Query,470,77.77,2.82,2017,8,Baseline,Faster architecture,Medium,Good,Low,0.16546808510638297
+808,JohnsonFrazierandHillBot,Custom,Retail,Multi-turn Query,396,76.58,3.15,1093,27,Baseline,Improved adaptive response,Medium,Good,Medium,0.19338383838383838
+809,Bowman-BernardBot,Rule-Based,Education,Simple Query,974,75.59,0.79,789,49,Neural Architecture Search,No optimization applied,High,Good,High,0.07760780287474334
+810,GriffithGreenandCruzBot,Rule-Based,Finance,Simple Query,287,82.35,4.98,962,15,Model Pruning,Reduced memory footprint,Low,Good,Low,0.28693379790940765
+811,AguilarLLCBot,Open-Source,Finance,Complex Query,550,86.92,1.83,1945,28,Neural Architecture Search,Improved adaptive response,Medium,Good,Medium,0.15803636363636364
+812,HolmesMiddletonandTateBot,Rule-Based,Retail,Simple Query,601,80.88,4.06,1137,22,Model Pruning,No optimization applied,Medium,Good,Medium,0.1345757071547421
+813,Randolph-JohnsonBot,Domain-Specific,E-commerce,Multi-turn Query,538,84.17,2.64,1738,7,Reinforcement Learning,Improved adaptive response,Medium,Good,Low,0.15644981412639405
+814,Nguyen-MercadoBot,Hybrid,Education,Multi-turn Query,340,88.17,0.8,594,46,Baseline,Reduced memory footprint,Medium,Excellent,High,0.25932352941176473
+815,CoxGroupBot,Rule-Based,Retail,Complex Query,141,88.53,0.85,785,31,Reinforcement Learning,Faster architecture,Low,Excellent,Medium,0.627872340425532
+816,CollinsThompsonandBrownBot,Hybrid,E-commerce,Complex Query,921,94.66,2.71,1698,42,Reinforcement Learning,Faster architecture,High,Excellent,High,0.10277958740499457
+817,Mcconnell-FloresBot,Custom,Retail,Simple Query,614,84.46,0.51,852,9,Neural Architecture Search,Faster architecture,Medium,Good,Low,0.13755700325732897
+818,ButlerBrownandFernandezBot,Hybrid,E-commerce,Simple Query,137,88.7,4.32,1723,46,Baseline,Faster architecture,Low,Excellent,High,0.6474452554744525
+819,Snyder-WilliamsonBot,Rule-Based,Finance,Complex Query,157,77.07,1.7,1894,10,Reinforcement Learning,Reduced memory footprint,Low,Good,Low,0.4908917197452229
+820,Johnson-NorrisBot,Rule-Based,Retail,Complex Query,311,87.89,4.6,447,40,Baseline,Improved adaptive response,Medium,Excellent,High,0.28260450160771705
+821,Hart-JosephBot,Hybrid,Healthcare,Complex Query,909,83.43,2.69,418,10,Reinforcement Learning,Reduced memory footprint,High,Good,Low,0.0917821782178218
+822,Wyatt-WrightBot,Rule-Based,Education,Simple Query,103,83.75,0.7,524,47,Baseline,No optimization applied,Low,Good,High,0.8131067961165048
+823,DixonPLCBot,Hybrid,Healthcare,Multi-turn Query,165,77.21,0.6,756,27,Reinforcement Learning,No optimization applied,Low,Good,Medium,0.4679393939393939
+824,Mcconnell-FloresBot,Domain-Specific,Education,Multi-turn Query,519,85.97,4.47,928,2,Neural Architecture Search,Improved adaptive response,Medium,Good,Low,0.16564547206165703
+825,Snyder-WilliamsonBot,Domain-Specific,Healthcare,Complex Query,639,93.45,4.53,997,16,Neural Architecture Search,No optimization applied,Medium,Excellent,Low,0.14624413145539908
+826,Hall-MolinaBot,Hybrid,Retail,Complex Query,319,84.48,3.54,1425,8,Baseline,Faster architecture,Medium,Good,Low,0.26482758620689656
+827,Carson-BurkeBot,Open-Source,E-commerce,Multi-turn Query,703,76.47,0.88,875,4,Reinforcement Learning,Reduced memory footprint,High,Good,Low,0.10877667140825036
+828,Baldwin-LaraBot,Domain-Specific,Education,Multi-turn Query,770,86.74,2.02,1360,7,Neural Architecture Search,Faster architecture,High,Good,Low,0.11264935064935064
+829,Turner-GreenBot,Hybrid,Healthcare,Complex Query,783,80.67,3.84,709,3,Model Pruning,Faster architecture,High,Good,Low,0.10302681992337165
+830,Butler-BensonBot,Hybrid,Retail,Complex Query,244,80.75,1.01,1837,1,Baseline,Improved adaptive response,Low,Good,Low,0.33094262295081966
+831,Vazquez-MorenoBot,Domain-Specific,Finance,Simple Query,501,78.84,2.67,1113,6,Baseline,No optimization applied,Medium,Good,Low,0.15736526946107784
+832,CarterLtdBot,Rule-Based,Healthcare,Multi-turn Query,609,83.86,1.3,1429,15,Model Pruning,Faster architecture,Medium,Good,Low,0.13770114942528736
+833,JohnsonChapmanandRossBot,Rule-Based,Education,Complex Query,446,81.13,4.9,1238,17,Reinforcement Learning,No optimization applied,Medium,Good,Medium,0.18190582959641255
+834,Ochoa-ChanBot,Rule-Based,Healthcare,Simple Query,243,89.75,3.42,1362,50,Baseline,No optimization applied,Low,Excellent,High,0.36934156378600824
+835,KleinIncBot,Hybrid,Healthcare,Complex Query,799,78.91,4.49,1283,40,Baseline,Faster architecture,High,Good,High,0.09876095118898623
+836,Baldwin-LaraBot,Hybrid,E-commerce,Multi-turn Query,124,93.21,1.14,1778,21,Model Pruning,Improved adaptive response,Low,Excellent,Medium,0.7516935483870967
+837,RichmondLLCBot,Open-Source,Education,Multi-turn Query,523,92.79,2.37,1480,12,Neural Architecture Search,No optimization applied,Medium,Excellent,Low,0.1774187380497132
+838,Lewis-CalderonBot,Custom,Finance,Simple Query,340,91.57,1.44,1029,13,Baseline,Improved adaptive response,Medium,Excellent,Low,0.2693235294117647
+839,GriffithGreenandCruzBot,Custom,Finance,Multi-turn Query,825,83.83,4.62,1680,36,Reinforcement Learning,Reduced memory footprint,High,Good,High,0.10161212121212121
+840,Baldwin-MartinBot,Open-Source,Healthcare,Multi-turn Query,752,78.85,4.65,955,17,Neural Architecture Search,Reduced memory footprint,High,Good,Medium,0.1048537234042553
+841,CamachoIncBot,Open-Source,E-commerce,Complex Query,729,86.36,4.35,2025,19,Baseline,Reduced memory footprint,High,Good,Medium,0.1184636488340192
+842,Mcconnell-FloresBot,Custom,Education,Multi-turn Query,130,77.75,2.5,489,32,Reinforcement Learning,Faster architecture,Low,Good,Medium,0.5980769230769231
+843,Hanson-BrooksBot,Rule-Based,E-commerce,Multi-turn Query,788,86.49,0.71,1748,45,Baseline,Improved adaptive response,High,Good,High,0.10975888324873095
+844,Baldwin-MartinBot,Custom,Finance,Complex Query,530,86.92,2.62,2045,44,Baseline,Faster architecture,Medium,Good,High,0.164
+845,JohnstonDaltonandRileyBot,Custom,Education,Simple Query,536,88.69,4.96,650,16,Baseline,No optimization applied,Medium,Excellent,Low,0.16546641791044775
+846,RhodesRandolphandRodriguezBot,Hybrid,Finance,Multi-turn Query,600,84.46,0.72,2009,7,Neural Architecture Search,Faster architecture,Medium,Good,Low,0.14076666666666665
+847,CollinsThompsonandBrownBot,Open-Source,E-commerce,Complex Query,412,83.34,0.76,1589,45,Baseline,Reduced memory footprint,Medium,Good,High,0.20228155339805826
+848,Ramos-SanchezBot,Hybrid,Retail,Simple Query,749,92.19,1.09,1460,13,Baseline,Improved adaptive response,High,Excellent,Low,0.1230841121495327
+849,Snyder-WilliamsonBot,Open-Source,Healthcare,Complex Query,911,86.46,2.74,1561,29,Model Pruning,Improved adaptive response,High,Good,Medium,0.09490669593852909
+850,BishopBarnesandSmithBot,Open-Source,E-commerce,Multi-turn Query,761,81.6,1.51,826,1,Model Pruning,Faster architecture,High,Good,Low,0.10722733245729303
+851,CamachoIncBot,Domain-Specific,Education,Simple Query,588,79.3,4.96,301,44,Neural Architecture Search,Improved adaptive response,Medium,Good,High,0.13486394557823128
+852,Turner-GreenBot,Rule-Based,Retail,Complex Query,970,92.17,2.73,860,1,Baseline,Improved adaptive response,High,Excellent,Low,0.09502061855670103
+853,JohnsonFrazierandHillBot,Rule-Based,Finance,Simple Query,980,94.1,3.69,1672,23,Model Pruning,Faster architecture,High,Excellent,Medium,0.0960204081632653
+854,McdanielLLCBot,Open-Source,Retail,Complex Query,388,81.65,4.4,1017,15,Neural Architecture Search,No optimization applied,Medium,Good,Low,0.2104381443298969
+855,WilsonWardandFryBot,Rule-Based,Healthcare,Complex Query,706,91.68,2.27,1404,17,Neural Architecture Search,Improved adaptive response,High,Excellent,Medium,0.12985835694050993
+856,Greene-CoxBot,Open-Source,Retail,Complex Query,417,77.93,2.29,969,50,Baseline,No optimization applied,Medium,Good,High,0.18688249400479617
+857,CollinsThompsonandBrownBot,Domain-Specific,Finance,Multi-turn Query,503,84.58,4.66,563,49,Baseline,No optimization applied,Medium,Good,High,0.16815109343936382
+858,JohnstonDaltonandRileyBot,Domain-Specific,E-commerce,Multi-turn Query,471,80.61,0.59,1272,40,Model Pruning,Faster architecture,Medium,Good,High,0.17114649681528663
+859,EdwardsGroupBot,Domain-Specific,Education,Simple Query,646,84.84,0.68,1008,18,Baseline,Improved adaptive response,Medium,Good,Medium,0.1313312693498452
+860,Santos-RodgersBot,Custom,Healthcare,Multi-turn Query,615,80.72,3.14,404,12,Neural Architecture Search,Faster architecture,Medium,Good,Low,0.1312520325203252
+861,NguyenKellyandBanksBot,Rule-Based,Finance,Simple Query,345,86.08,2.12,923,3,Reinforcement Learning,No optimization applied,Medium,Good,Low,0.2495072463768116
+862,Durham-StanleyBot,Custom,Healthcare,Complex Query,910,91.06,3.34,1805,49,Model Pruning,Faster architecture,High,Excellent,High,0.10006593406593407
+863,Carson-BurkeBot,Domain-Specific,Education,Simple Query,427,94.79,4.26,1193,17,Reinforcement Learning,Faster architecture,Medium,Excellent,Medium,0.2219906323185012
+864,GardnerCarrollandJonesBot,Open-Source,E-commerce,Simple Query,595,85.68,3.03,1757,28,Reinforcement Learning,Faster architecture,Medium,Good,Medium,0.14400000000000002
+865,RowlandMartinandGarciaBot,Rule-Based,E-commerce,Simple Query,247,81.61,1.35,272,3,Neural Architecture Search,Improved adaptive response,Low,Good,Low,0.33040485829959515
+866,PerryGroupBot,Open-Source,Healthcare,Multi-turn Query,258,81.47,3.36,820,11,Model Pruning,No optimization applied,Low,Good,Low,0.3157751937984496
+867,Crawford-HoodBot,Rule-Based,E-commerce,Complex Query,233,76.18,2.28,1187,4,Baseline,Improved adaptive response,Low,Good,Low,0.32695278969957087
+868,ButlerBrownandFernandezBot,Custom,E-commerce,Multi-turn Query,114,85.56,4.48,356,7,Model Pruning,Reduced memory footprint,Low,Good,Low,0.7505263157894737
+869,EdwardsGroupBot,Rule-Based,Retail,Multi-turn Query,373,76.45,3.26,1438,34,Model Pruning,Faster architecture,Medium,Good,Medium,0.2049597855227882
+870,MccarthyAlvarezandTurnerBot,Hybrid,E-commerce,Simple Query,780,76.03,1.97,825,17,Reinforcement Learning,Faster architecture,High,Good,Medium,0.09747435897435898
+871,TapiaPLCBot,Hybrid,Education,Simple Query,842,91.99,1.47,389,19,Neural Architecture Search,Improved adaptive response,High,Excellent,Medium,0.10925178147268408
+872,BishopBarnesandSmithBot,Rule-Based,Retail,Simple Query,400,80.02,3.42,322,1,Model Pruning,Reduced memory footprint,Medium,Good,Low,0.20004999999999998
+873,Durham-StanleyBot,Hybrid,Retail,Complex Query,644,78.44,2.26,1700,13,Reinforcement Learning,Improved adaptive response,Medium,Good,Low,0.12180124223602484
+874,KiddLtdBot,Hybrid,Healthcare,Simple Query,102,85.22,2.72,593,37,Baseline,Reduced memory footprint,Low,Good,High,0.8354901960784313
+875,WallerLtdBot,Open-Source,Finance,Complex Query,219,90.93,0.56,608,44,Neural Architecture Search,Reduced memory footprint,Low,Excellent,High,0.4152054794520548
+876,Welch-GuerreroBot,Domain-Specific,Education,Simple Query,541,89.77,2.91,542,42,Reinforcement Learning,Improved adaptive response,Medium,Excellent,High,0.16593345656192235
+877,AndersonPLCBot,Custom,Education,Complex Query,942,83.69,2.01,728,18,Baseline,Improved adaptive response,High,Good,Medium,0.08884288747346072
+878,FrazierDiazandCruzBot,Hybrid,Finance,Multi-turn Query,744,94.76,1.49,797,46,Neural Architecture Search,Reduced memory footprint,High,Excellent,High,0.12736559139784948
+879,Miller-ChapmanBot,Domain-Specific,E-commerce,Complex Query,660,92.16,4.79,1674,27,Neural Architecture Search,Reduced memory footprint,Medium,Excellent,Medium,0.13963636363636364
+880,KnightMcdowellandMarksBot,Hybrid,Education,Complex Query,288,91.72,1.64,397,34,Reinforcement Learning,No optimization applied,Low,Excellent,Medium,0.3184722222222222
+881,Santos-RodgersBot,Open-Source,Retail,Multi-turn Query,804,84.01,0.76,1121,34,Neural Architecture Search,Faster architecture,High,Good,Medium,0.10449004975124379
+882,FosterMullenandJohnsonBot,Hybrid,Healthcare,Complex Query,702,78.42,1.12,927,30,Reinforcement Learning,Improved adaptive response,High,Good,Medium,0.11170940170940172
+883,RhodesRandolphandRodriguezBot,Custom,Finance,Simple Query,758,83.27,3.68,264,39,Reinforcement Learning,Improved adaptive response,High,Good,High,0.10985488126649076
+884,Paul-MclaughlinBot,Custom,Healthcare,Complex Query,531,83.43,2.76,741,12,Reinforcement Learning,No optimization applied,Medium,Good,Low,0.15711864406779663
+885,Carson-BurkeBot,Domain-Specific,E-commerce,Simple Query,169,84.06,3.87,315,10,Reinforcement Learning,Reduced memory footprint,Low,Good,Low,0.49739644970414204
+886,Carson-BurkeBot,Rule-Based,E-commerce,Simple Query,261,88.37,1.58,473,35,Baseline,Improved adaptive response,Low,Excellent,High,0.3385823754789272
+887,Welch-GuerreroBot,Domain-Specific,Education,Multi-turn Query,490,80.72,4.75,932,44,Baseline,Faster architecture,Medium,Good,High,0.16473469387755102
+888,Wyatt-WrightBot,Rule-Based,Retail,Simple Query,631,85.87,4.46,1430,44,Baseline,No optimization applied,Medium,Good,High,0.13608557844690966
+889,CamachoIncBot,Hybrid,E-commerce,Multi-turn Query,738,79.26,2.03,1850,15,Model Pruning,Improved adaptive response,High,Good,Low,0.10739837398373984
+890,ClarkWoodardandCamposBot,Open-Source,Finance,Multi-turn Query,134,87.11,2.54,873,40,Baseline,Improved adaptive response,Low,Good,High,0.6500746268656716
+891,Baldwin-LaraBot,Domain-Specific,Education,Simple Query,488,75.42,4.63,1703,25,Reinforcement Learning,No optimization applied,Medium,Good,Medium,0.15454918032786885
+892,HolmesMiddletonandTateBot,Custom,Education,Complex Query,147,79.48,4.45,762,30,Neural Architecture Search,Improved adaptive response,Low,Good,Medium,0.5406802721088436
+893,EspinozaGroupBot,Custom,Healthcare,Multi-turn Query,113,81.26,4.8,1237,35,Neural Architecture Search,Improved adaptive response,Low,Good,High,0.7191150442477876
+894,Miller-RamirezBot,Rule-Based,Retail,Multi-turn Query,433,93.2,4.96,721,32,Neural Architecture Search,Reduced memory footprint,Medium,Excellent,Medium,0.21524249422632796
+895,Carson-BurkeBot,Rule-Based,Healthcare,Multi-turn Query,531,84.43,3.34,1078,49,Model Pruning,Faster architecture,Medium,Good,High,0.1590018832391714
+896,Crawford-HoodBot,Domain-Specific,Healthcare,Simple Query,724,75.9,3.31,1969,45,Neural Architecture Search,Improved adaptive response,High,Good,High,0.10483425414364642
+897,Butler-BensonBot,Domain-Specific,Retail,Simple Query,845,90.02,4.92,357,40,Model Pruning,Faster architecture,High,Excellent,High,0.10653254437869822
+898,WagnerWilliamsandJohnsonBot,Custom,Healthcare,Multi-turn Query,974,79.57,4.82,551,11,Model Pruning,No optimization applied,High,Good,Low,0.08169404517453797
+899,Paul-MclaughlinBot,Domain-Specific,E-commerce,Simple Query,430,83.04,0.53,1653,10,Baseline,Reduced memory footprint,Medium,Good,Low,0.19311627906976744
+900,Randolph-JohnsonBot,Open-Source,Education,Multi-turn Query,278,81.39,1.45,1627,22,Baseline,Reduced memory footprint,Low,Good,Medium,0.29276978417266186
+901,Fernandez-ButlerBot,Open-Source,Education,Multi-turn Query,859,84.65,4.87,1270,24,Neural Architecture Search,Improved adaptive response,High,Good,Medium,0.09854481955762515
+902,HoffmanIncBot,Rule-Based,Healthcare,Simple Query,991,84.8,3.62,403,33,Neural Architecture Search,Faster architecture,High,Good,Medium,0.08557013118062563
+903,BrownMillerandNguyenBot,Domain-Specific,Retail,Simple Query,980,81.77,2.85,1781,32,Reinforcement Learning,No optimization applied,High,Good,Medium,0.08343877551020408
+904,JohnstonDaltonandRileyBot,Open-Source,Retail,Multi-turn Query,867,88.29,1.21,791,39,Reinforcement Learning,Reduced memory footprint,High,Excellent,High,0.10183391003460208
+905,Wyatt-WrightBot,Custom,Retail,Complex Query,768,86.29,4.11,621,24,Neural Architecture Search,Faster architecture,High,Good,Medium,0.11235677083333334
+906,MccoyAndrewsandHicksBot,Rule-Based,Education,Multi-turn Query,320,92.46,4.64,348,10,Reinforcement Learning,Faster architecture,Medium,Excellent,Low,0.28893749999999996
+907,Johnson-NorrisBot,Rule-Based,Retail,Complex Query,395,79.56,0.51,1627,40,Reinforcement Learning,Faster architecture,Medium,Good,High,0.20141772151898735
+908,Bowman-BernardBot,Domain-Specific,Healthcare,Simple Query,844,83.82,2.27,344,10,Reinforcement Learning,Reduced memory footprint,High,Good,Low,0.0993127962085308
+909,KleinIncBot,Hybrid,Education,Complex Query,209,76.17,2.45,765,47,Reinforcement Learning,Improved adaptive response,Low,Good,High,0.36444976076555025
+910,WilsonWardandFryBot,Domain-Specific,Finance,Complex Query,656,79.68,3.07,1822,44,Neural Architecture Search,Faster architecture,Medium,Good,High,0.12146341463414635
+911,Durham-StanleyBot,Domain-Specific,Education,Complex Query,510,94.97,3.83,1208,11,Neural Architecture Search,Improved adaptive response,Medium,Excellent,Low,0.1862156862745098
+912,BishopBarnesandSmithBot,Hybrid,E-commerce,Multi-turn Query,419,89.54,2.36,891,6,Baseline,Reduced memory footprint,Medium,Excellent,Low,0.21369928400954655
+913,RussellWilsonandAllisonBot,Rule-Based,Healthcare,Multi-turn Query,192,86.45,4.84,263,50,Neural Architecture Search,No optimization applied,Low,Good,High,0.45026041666666666
+914,Santos-RodgersBot,Open-Source,Retail,Simple Query,329,89.38,4.62,1832,11,Baseline,Faster architecture,Medium,Excellent,Low,0.27167173252279636
+915,ClarkWoodardandCamposBot,Hybrid,Education,Complex Query,600,91.44,4.37,889,39,Baseline,No optimization applied,Medium,Excellent,High,0.1524
+916,JohnsonFrazierandHillBot,Rule-Based,E-commerce,Complex Query,376,78.73,1.23,1090,44,Reinforcement Learning,Faster architecture,Medium,Good,High,0.20938829787234042
+917,SmithPLCBot,Open-Source,Healthcare,Complex Query,243,89.33,4.56,1716,47,Model Pruning,Faster architecture,Low,Excellent,High,0.36761316872427985
+918,ButlerBrownandFernandezBot,Domain-Specific,Retail,Multi-turn Query,173,80.34,2.93,1664,46,Neural Architecture Search,Faster architecture,Low,Good,High,0.46439306358381505
+919,TapiaPLCBot,Open-Source,Healthcare,Complex Query,783,85.78,4.49,1565,17,Neural Architecture Search,Reduced memory footprint,High,Good,Medium,0.10955300127713921
+920,RhodesRandolphandRodriguezBot,Rule-Based,Education,Simple Query,377,84.73,2.14,1527,40,Model Pruning,Faster architecture,Medium,Good,High,0.2247480106100796
+921,Trevino-PhillipsBot,Custom,Finance,Multi-turn Query,441,81.12,2.2,1762,18,Model Pruning,Reduced memory footprint,Medium,Good,Medium,0.18394557823129254
+922,Hunt-GarzaBot,Rule-Based,E-commerce,Simple Query,341,91.9,3.86,1354,17,Model Pruning,Reduced memory footprint,Medium,Excellent,Medium,0.26950146627565985
+923,FrazierDiazandCruzBot,Domain-Specific,E-commerce,Complex Query,649,80.7,4.18,406,43,Model Pruning,No optimization applied,Medium,Good,High,0.12434514637904469
+924,Mclaughlin-HughesBot,Open-Source,Finance,Multi-turn Query,423,80.34,4.85,966,38,Baseline,No optimization applied,Medium,Good,High,0.1899290780141844
+925,Santos-RodgersBot,Custom,Retail,Multi-turn Query,369,84.69,4.76,507,13,Baseline,Reduced memory footprint,Medium,Good,Low,0.2295121951219512
+926,CarterLtdBot,Rule-Based,Retail,Multi-turn Query,764,78.44,3.91,1004,35,Baseline,Improved adaptive response,High,Good,High,0.10267015706806283
+927,Crawford-HoodBot,Custom,Healthcare,Multi-turn Query,428,76.04,3.59,1602,41,Model Pruning,Improved adaptive response,Medium,Good,High,0.17766355140186918
+928,WoodsIncBot,Custom,Finance,Simple Query,525,82.3,4.34,1865,46,Neural Architecture Search,Improved adaptive response,Medium,Good,High,0.15676190476190477
+929,MccarthyAlvarezandTurnerBot,Open-Source,Finance,Simple Query,738,83.34,4.08,718,43,Reinforcement Learning,Faster architecture,High,Good,High,0.11292682926829269
+930,ThomasGroupBot,Rule-Based,Finance,Complex Query,176,91.26,4.07,1973,19,Model Pruning,No optimization applied,Low,Excellent,Medium,0.5185227272727273
+931,AguilarLLCBot,Hybrid,Education,Complex Query,499,90.11,4.73,1320,5,Neural Architecture Search,No optimization applied,Medium,Excellent,Low,0.1805811623246493
+932,Woods-YoungBot,Domain-Specific,Education,Complex Query,148,93.13,2.35,1275,13,Reinforcement Learning,No optimization applied,Low,Excellent,Low,0.6292567567567567
+933,Nielsen-DiazBot,Custom,E-commerce,Complex Query,475,83.22,1.14,256,28,Neural Architecture Search,Faster architecture,Medium,Good,Medium,0.1752
+934,WoodsIncBot,Open-Source,Healthcare,Complex Query,347,87.28,1.29,1073,38,Model Pruning,Faster architecture,Medium,Good,High,0.25152737752161386
+935,Nielsen-DiazBot,Custom,E-commerce,Multi-turn Query,959,83.88,1.91,1194,3,Model Pruning,No optimization applied,High,Good,Low,0.08746611053180396
+936,Trevino-PhillipsBot,Open-Source,E-commerce,Simple Query,637,85.31,3.08,1904,46,Model Pruning,Reduced memory footprint,Medium,Good,High,0.13392464678178964
+937,GravesPLCBot,Hybrid,Education,Complex Query,104,93.71,1.85,1891,36,Neural Architecture Search,No optimization applied,Low,Excellent,High,0.9010576923076923
+938,DixonPLCBot,Custom,Retail,Simple Query,986,87.11,2.89,445,1,Baseline,Faster architecture,High,Good,Low,0.08834685598377282
+939,RussellWilsonandAllisonBot,Custom,Healthcare,Simple Query,654,86.48,0.6,1978,17,Baseline,Faster architecture,Medium,Good,Medium,0.1322324159021407
+940,Hart-JosephBot,Domain-Specific,Retail,Simple Query,261,88.29,3.1,832,17,Baseline,Improved adaptive response,Low,Excellent,Medium,0.33827586206896554
+941,Fernandez-ButlerBot,Open-Source,E-commerce,Multi-turn Query,148,88.33,2.43,941,36,Model Pruning,Improved adaptive response,Low,Excellent,High,0.5968243243243243
+942,Vazquez-MorenoBot,Domain-Specific,Retail,Simple Query,273,83.84,4.92,286,15,Model Pruning,No optimization applied,Low,Good,Low,0.3071062271062271
+943,GriffithGreenandCruzBot,Hybrid,E-commerce,Complex Query,200,94.42,3.01,1214,8,Model Pruning,No optimization applied,Low,Excellent,Low,0.4721
+944,CombsJonesandRamseyBot,Domain-Specific,Retail,Complex Query,268,82.04,2.26,1475,38,Neural Architecture Search,Faster architecture,Low,Good,High,0.3061194029850747
+945,JohnstonDaltonandRileyBot,Rule-Based,E-commerce,Complex Query,820,85.57,4.81,349,3,Reinforcement Learning,No optimization applied,High,Good,Low,0.10435365853658536
+946,NealMitchellandCoxBot,Domain-Specific,Education,Complex Query,651,88.96,4.77,463,15,Reinforcement Learning,Faster architecture,Medium,Excellent,Low,0.13665130568356373
+947,LawrenceWilliamsandLeeBot,Rule-Based,Education,Simple Query,135,75.94,3.27,317,38,Neural Architecture Search,Faster architecture,Low,Good,High,0.5625185185185185
+948,WoodsIncBot,Custom,Education,Simple Query,513,76.44,1.16,1611,12,Model Pruning,Faster architecture,Medium,Good,Low,0.14900584795321636
+949,WagnerWilliamsandJohnsonBot,Custom,Finance,Multi-turn Query,658,85.76,0.86,322,16,Neural Architecture Search,No optimization applied,Medium,Good,Low,0.13033434650455927
+950,Johnson-NorrisBot,Open-Source,Finance,Multi-turn Query,669,94.3,0.7,1549,44,Model Pruning,Improved adaptive response,Medium,Excellent,High,0.14095665171898356
+951,HoffmanIncBot,Domain-Specific,Healthcare,Simple Query,121,83.13,1.42,1926,32,Reinforcement Learning,Faster architecture,Low,Good,Medium,0.6870247933884297
+952,Crawford-HoodBot,Rule-Based,Education,Simple Query,982,93.66,3.95,777,5,Neural Architecture Search,Faster architecture,High,Excellent,Low,0.09537678207739307
+953,Trevino-PhillipsBot,Open-Source,Healthcare,Multi-turn Query,721,79.69,1.05,1097,13,Model Pruning,Reduced memory footprint,High,Good,Low,0.11052704576976422
+954,WilsonWardandFryBot,Rule-Based,Finance,Complex Query,877,88.11,4.72,687,23,Model Pruning,Reduced memory footprint,High,Excellent,Medium,0.10046750285062714
+955,Santos-RodgersBot,Custom,Retail,Multi-turn Query,227,77.05,3.02,1945,45,Baseline,Reduced memory footprint,Low,Good,High,0.3394273127753304
+956,RhodesRandolphandRodriguezBot,Rule-Based,Finance,Complex Query,438,77.81,4.69,648,43,Neural Architecture Search,Faster architecture,Medium,Good,High,0.17764840182648403
+957,MccoyAndrewsandHicksBot,Open-Source,Healthcare,Complex Query,409,90.58,4.11,320,9,Model Pruning,No optimization applied,Medium,Excellent,Low,0.22146699266503667
+958,AdkinsPLCBot,Open-Source,Education,Complex Query,970,84.69,3.15,1053,15,Baseline,Reduced memory footprint,High,Good,Low,0.08730927835051547
+959,NguyenKellyandBanksBot,Open-Source,Education,Simple Query,198,75.25,1.28,632,26,Neural Architecture Search,Improved adaptive response,Low,Good,Medium,0.380050505050505
+960,Hall-MolinaBot,Open-Source,E-commerce,Multi-turn Query,986,88.0,1.77,433,6,Model Pruning,Reduced memory footprint,High,Excellent,Low,0.08924949290060852
+961,Lewis-CalderonBot,Domain-Specific,Retail,Simple Query,979,79.89,3.78,1219,39,Reinforcement Learning,Reduced memory footprint,High,Good,High,0.08160367722165475
+962,Russell-SharpBot,Custom,E-commerce,Multi-turn Query,503,76.12,3.99,948,7,Baseline,Improved adaptive response,Medium,Good,Low,0.1513320079522863
+963,Nguyen-MercadoBot,Domain-Specific,Finance,Simple Query,350,89.6,2.51,880,21,Reinforcement Learning,Improved adaptive response,Medium,Excellent,Medium,0.256
+964,Carson-BurkeBot,Hybrid,Education,Complex Query,915,92.78,3.76,2035,9,Reinforcement Learning,Improved adaptive response,High,Excellent,Low,0.10139890710382514
+965,Trevino-PhillipsBot,Rule-Based,Finance,Simple Query,791,91.1,0.77,382,22,Model Pruning,Improved adaptive response,High,Excellent,Medium,0.11517067003792666
+966,MurphyHarringtonandFerrellBot,Custom,Retail,Multi-turn Query,421,80.64,1.51,1992,43,Reinforcement Learning,Faster architecture,Medium,Good,High,0.1915439429928741
+967,HaleyIncBot,Rule-Based,Finance,Complex Query,558,81.57,2.77,540,50,Neural Architecture Search,Reduced memory footprint,Medium,Good,High,0.14618279569892473
+968,KleinGroupBot,Hybrid,Retail,Complex Query,251,85.88,1.44,456,13,Model Pruning,Faster architecture,Low,Good,Low,0.34215139442231074
+969,GriffithGreenandCruzBot,Open-Source,Finance,Complex Query,901,86.77,4.81,967,14,Model Pruning,Reduced memory footprint,High,Good,Low,0.09630410654827969
+970,Paul-MclaughlinBot,Rule-Based,Finance,Complex Query,979,75.61,3.64,552,46,Baseline,Reduced memory footprint,High,Good,High,0.07723186925434117
+971,Wyatt-WrightBot,Domain-Specific,Healthcare,Simple Query,554,82.98,1.11,739,17,Neural Architecture Search,Improved adaptive response,Medium,Good,Medium,0.14978339350180506
+972,Snyder-WilliamsonBot,Rule-Based,Finance,Simple Query,734,76.7,3.05,638,40,Reinforcement Learning,Faster architecture,High,Good,High,0.10449591280653951
+973,Hanson-BrooksBot,Hybrid,E-commerce,Complex Query,627,77.14,4.74,1761,12,Baseline,Improved adaptive response,Medium,Good,Low,0.12303030303030303
+974,Hart-JosephBot,Open-Source,Education,Multi-turn Query,228,82.08,0.67,619,33,Model Pruning,No optimization applied,Low,Good,Medium,0.36
+975,SnyderWarrenandBrownBot,Domain-Specific,Education,Complex Query,222,89.97,1.22,716,24,Baseline,Improved adaptive response,Low,Excellent,Medium,0.40527027027027024
+976,WilsonWardandFryBot,Open-Source,Education,Simple Query,116,93.41,2.13,1723,9,Neural Architecture Search,Improved adaptive response,Low,Excellent,Low,0.8052586206896551
+977,Lin-BurnsBot,Domain-Specific,Education,Multi-turn Query,472,85.03,0.98,401,22,Model Pruning,Reduced memory footprint,Medium,Good,Medium,0.18014830508474577
+978,MccoyAndrewsandHicksBot,Rule-Based,Healthcare,Complex Query,324,76.79,1.89,1734,13,Reinforcement Learning,Reduced memory footprint,Medium,Good,Low,0.2370061728395062
+979,HaleyIncBot,Domain-Specific,Retail,Simple Query,587,83.48,1.85,2018,12,Neural Architecture Search,Improved adaptive response,Medium,Good,Low,0.14221465076660988
+980,AdkinsPLCBot,Open-Source,E-commerce,Multi-turn Query,768,90.9,3.59,322,22,Model Pruning,Reduced memory footprint,High,Excellent,Medium,0.118359375
+981,HolmesMiddletonandTateBot,Open-Source,Healthcare,Simple Query,288,89.42,4.02,1548,39,Reinforcement Learning,No optimization applied,Low,Excellent,High,0.31048611111111113
+982,CombsJonesandRamseyBot,Domain-Specific,E-commerce,Simple Query,378,77.03,4.21,1711,34,Reinforcement Learning,Reduced memory footprint,Medium,Good,Medium,0.2037830687830688
+983,NicholsPLCBot,Open-Source,Retail,Complex Query,305,85.17,3.23,1941,29,Neural Architecture Search,No optimization applied,Medium,Good,Medium,0.27924590163934426
+984,EdwardsGroupBot,Open-Source,Healthcare,Multi-turn Query,615,84.87,3.73,1884,10,Neural Architecture Search,No optimization applied,Medium,Good,Low,0.138
+985,WoodsIncBot,Open-Source,Healthcare,Multi-turn Query,406,78.84,4.93,822,42,Neural Architecture Search,No optimization applied,Medium,Good,High,0.1941871921182266
+986,MorrowandSonsBot,Open-Source,E-commerce,Multi-turn Query,191,75.76,1.82,1490,28,Model Pruning,Faster architecture,Low,Good,Medium,0.3966492146596859
+987,MurphyHarringtonandFerrellBot,Hybrid,Education,Complex Query,199,82.42,3.03,1242,12,Baseline,Reduced memory footprint,Low,Good,Low,0.4141708542713568
+988,Lin-BurnsBot,Open-Source,Finance,Simple Query,979,83.08,0.66,1319,24,Reinforcement Learning,Improved adaptive response,High,Good,Medium,0.08486210418794689
+989,MurphyHarringtonandFerrellBot,Hybrid,E-commerce,Complex Query,823,81.62,4.78,1124,25,Baseline,Reduced memory footprint,High,Good,Medium,0.09917375455650061
+990,NealMitchellandCoxBot,Domain-Specific,Retail,Multi-turn Query,287,94.26,0.7,522,29,Reinforcement Learning,No optimization applied,Low,Excellent,Medium,0.3284320557491289
+991,GutierrezBushandThomasBot,Rule-Based,Finance,Simple Query,117,76.0,1.31,566,19,Neural Architecture Search,Reduced memory footprint,Low,Good,Medium,0.6495726495726496
+992,SnyderWarrenandBrownBot,Hybrid,Finance,Multi-turn Query,512,85.26,4.83,1653,4,Baseline,Faster architecture,Medium,Good,Low,0.1665234375
+993,SmithPLCBot,Rule-Based,Education,Multi-turn Query,265,86.5,0.68,992,30,Neural Architecture Search,Reduced memory footprint,Low,Good,Medium,0.3264150943396226
+994,Welch-GuerreroBot,Hybrid,E-commerce,Complex Query,914,87.9,4.13,463,43,Neural Architecture Search,No optimization applied,High,Excellent,High,0.09617067833698031
+995,HoffmanIncBot,Rule-Based,Retail,Complex Query,400,83.36,3.74,1099,25,Reinforcement Learning,Faster architecture,Medium,Good,Medium,0.2084
+996,Miller-ChapmanBot,Rule-Based,Retail,Complex Query,540,86.09,3.84,1892,21,Baseline,Reduced memory footprint,Medium,Good,Medium,0.15942592592592594
+997,Vazquez-MorenoBot,Domain-Specific,Finance,Simple Query,963,78.57,2.17,1050,30,Model Pruning,Reduced memory footprint,High,Good,Medium,0.08158878504672896
+998,TrevinoIncBot,Open-Source,Retail,Complex Query,117,76.28,2.03,1801,1,Baseline,Faster architecture,Low,Good,Low,0.6519658119658119
+999,SmithPLCBot,Rule-Based,Healthcare,Simple Query,806,77.16,1.6,1459,8,Baseline,Improved adaptive response,High,Good,Low,0.0957320099255583
+1000,KiddLtdBot,Custom,E-commerce,Simple Query,341,83.34,2.7,412,38,Baseline,Reduced memory footprint,Medium,Good,High,0.24439882697947216
