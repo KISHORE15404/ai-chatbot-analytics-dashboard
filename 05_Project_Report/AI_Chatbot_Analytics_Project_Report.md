@@ -657,34 +657,6 @@ The Power BI dashboard comprises 5 interconnected pages:
 
 ---
 
-### DAX Measures (Sample)
-
-```dax
--- Performance Efficiency Metric
-Performance_Efficiency =
-    DIVIDE([Avg_Accuracy], [Avg_Latency] / 100, 0)
-
--- Load Impact on Latency
-Latency_High_vs_Low =
-    DIVIDE(
-        CALCULATE([Avg_Latency], chatbot_performance[loadlevel] = "High"),
-        CALCULATE([Avg_Latency], chatbot_performance[loadlevel] = "Low"),
-        0
-    ) - 1
-
--- Pruning Efficiency Gain
-Pruning_vs_Baseline =
-    CALCULATE([Avg_Efficiency], chatbot_performance[optimizationtechnique] = "Model Pruning") -
-    CALCULATE([Avg_Efficiency], chatbot_performance[optimizationtechnique] = "Baseline")
-
--- Real-Time Candidate Count
-RealTime_Candidates =
-    CALCULATE(
-        COUNTROWS(chatbot_performance),
-        chatbot_performance[latency] < 300
-    )
-```
-
 ### Dashboard User Impact
 
 - **Product Managers**: Instantly identify retraining priorities (Finance domain, complex queries).
@@ -1092,68 +1064,12 @@ Environment:        Jupyter Notebook, Anaconda
 Version Control:    GitHub
 ```
 
-### Project Files (GitHub Structure)
-
-```
-chatbot-analytics/
-├── README.md
-├── requirements.txt
-├── data/
-│   └── datachatbot_models_clean.csv (1000+ records)
-├── notebooks/
-│   ├── 01_Data_Profiling.ipynb
-│   ├── 02_EDA_and_Data_Modeling.ipynb
-│   └── 03_Feature_Engineering.ipynb
-├── sql/
-│   ├── schema_setup.sql
-│   └── stakeholder_queries.sql
-├── dashboards/
-│   └── Chatbot_Performance_Dashboard.pbix
-└── docs/
-    ├── Business_Problem_Statement.pdf
-    └── Project_Report.md (this file)
-```
-
-### Key SQL Commands for Reproducibility
-
-```sql
--- Create database
-CREATE DATABASE chatbot_analytics;
-USE chatbot_analytics;
-
--- Create table (auto-generated from pandas.to_sql)
-CREATE TABLE chatbot_performance (
-    id INT PRIMARY KEY,
-    modelname VARCHAR(100),
-    category VARCHAR(50),
-    domain VARCHAR(50),
-    querytype VARCHAR(50),
-    latency INT,
-    responseaccuracy FLOAT,
-    performancetime FLOAT,
-    memoryusage INT,
-    concurrentqueries INT,
-    optimizationtechnique VARCHAR(50),
-    performanceefficiency FLOAT
-);
-
--- Load data
--- (executed via Python: df.to_sql('chatbot_performance', engine))
-```
-
-### Dashboard Refresh Schedule
-
-- **Data Refresh**: Every 6 hours (near real-time)
-- **Report Distribution**: Daily email to stakeholders
-- **KPI Review Meeting**: Weekly on Mondays (10 AM)
-- **Optimization Review**: Monthly (4th Friday)
-
 ### Contact & Support
 
-- **Project Lead**: [Your Name]
+- **Project Lead**: [Kishore N]
 - **Dashboard Issues**: [Email/Slack]
 - **Data Questions**: [Email/Slack]
-- **GitHub Repo**: [Link]
+- **GitHub Repo**: [[Link](https://github.com/KISHORE15404)]
 
 ---
 
