@@ -1,0 +1,21 @@
+Power BI
+*.pbix
+*.pbip
+*.pbit
+
+Python
+pycache/
+*.pyc
+.ipynb_checkpoints/
+.env
+
+OS
+.DS_Store
+Thumbs.db
+
+Data (if large)
+data/raw/
+
+datachatbot_models_clean.csv ← UNCOMMENT if >10MB
+Logs
+*.log
