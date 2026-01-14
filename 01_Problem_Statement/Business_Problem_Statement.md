@@ -112,8 +112,6 @@ TOTAL MONTHLY SAVINGS: $8,200 (37% cost reduction)
 
 6. Gamma AI Presentation
 
-7. GitHub Portfolio Deployment
-
 ---
 
 ## 📈 SUCCESS METRICS
