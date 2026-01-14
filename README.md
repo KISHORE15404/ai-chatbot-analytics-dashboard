@@ -3,7 +3,7 @@
 **End-to-End Data Analytics Portfolio Project** | SQL | Power BI | Python | DAX
 
 [![Power BI Dashboard](https://img.shields.io/badge/PowerBI-Dashboard-blue?style=flat&logo=powerbi)](04_Power_BI)
-[![Python EDA](https://img.shields.io/badge/Python-EDA-green?style=flat&logo=python)](04_Power_BI)
+[![Python EDA](https://img.shields.io/badge/Python-EDA-green?style=flat&logo=python)](02_Data_Exploration/02_EDA_and_Data_Modeling.ipynb)
 [![Data](https://img.shields.io/badge/Data-1000%20Rows-orange?style=flat&logo=dataset)](data/datachatbot_models_clean.csv)
 
 ---
