@@ -98,7 +98,7 @@ TOTAL MONTHLY SAVINGS: $8,200 (37% cost reduction)
 
 ## 🛠️ TECHNICAL APPROACH
 
-### 7-Step Methodology:
+### 6-Step Methodology:
 
 1. Problem Definition
 
