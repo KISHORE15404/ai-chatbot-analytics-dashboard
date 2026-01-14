@@ -505,164 +505,167 @@ ORDER BY estimated_monthly_cost_usd DESC;
 
 ---
 
-## Power BI Dashboard & Visual Insights
+# Power BI Dashboard & Visual Insights
 
-### Dashboard Architecture
+## Dashboard Architecture
 
-The Power BI dashboard comprises 5 interconnected pages:
+The Power BI dashboard consists of **5 interactive pages**, each designed to analyze a specific dimension of AI chatbot performance.
 
-#### Page 1: Overview
+## Page 1: Overview
 
-![alt text](image.png)
+![Overview](image.png)
 
-**Key Visuals**:
+### Purpose
+The **Overview** page functions as a **landing and navigation page** for the dashboard.  
+It does **not contain analytical insights or KPIs**, but introduces the project and provides access to other sections.
 
-- **KPI Cards** (top row):
+### Key Elements
+- Dashboard title: **AI Chatbot Analysis**
+- Navigation tabs:
+  - Overview
+  - Performance Analysis
+  - Domain Comparison
+  - Load Analysis
+  - Optimization Insights
+- Unified theme, layout, and branding
 
-  - Avg Latency: 553 ms
-  - Avg Accuracy: 85.2%
-  - Avg Efficiency: 0.218
-  - Model Count: 1,000+
-
-- **Model Performance Consistency Gauge**:
-
-  - Stable: 78% of models maintain consistent efficiency
-  - Unstable: 22% (high variance across queries)
-
-- **Efficiency Distribution Pie Chart**:
-  - Poor (<0.15): 63.5% (red)
-  - Moderate (0.15-0.25): 22.0% (yellow)
-  - Good (0.25-0.40): 11.5% (green)
-  - Outstanding (>0.40): 3.0% (dark green)
-
-**Insight**: Majority of models underperforming; significant optimization potential.
+✅ No analysis is presented on this page  
+✅ Designed for orientation and professional presentation
 
 ---
 
-#### Page 2: Domain & Category Analysis
+## Page 2: Performance Analysis
 
-![alt text](image-1.png)
+![Performance Analysis](image-1.png)
 
-**Key Visuals**:
+### Key Metrics (KPI Cards)
+- **Avg Response Accuracy (%)**: **85.24**
+- **Avg Latency (ms)**: **553**
+- **Performance Efficiency Score**: **21.84**
+- **Total Models Analyzed**: **100**
 
-- **Clustered Bar Chart** – Domain Efficiency Comparison:
+### Key Visuals
+- **Model Performance Consistency (Donut Chart)**
+  - Stable Models: **604**
+  - Unstable Models: **396**
 
-  - Education: 0.235 (highest)
-  - Healthcare: 0.222
-  - E-commerce: 0.218
-  - Retail: 0.210
-  - Finance: 0.198 (lowest; highlight for action)
+- **Accuracy vs Latency by Domain (Scatter Plot)**
+  - X-axis: Latency (ms)
+  - Y-axis: Response Accuracy (%)
+  - Color-coded by domain (Education, Finance, Healthcare, Retail, E-commerce)
 
-- **Scatter Plot** – Accuracy vs. Latency by Domain:
+- **Performance Stability Across Latency Levels (Line Chart)**
+  - High latency shows slightly higher accuracy
+  - Low latency models show marginal accuracy drop
 
-  - Each point = 1 model
-  - Size = efficiency
-  - Color = domain
-  - Shows trade-off curve and outliers
+- **Performance Efficiency Score by Domain (Bar Chart)**
+  - Education: **22.44**
+  - Healthcare: **22.11**
+  - Retail: **22.08**
+  - Finance: **21.91**
+  - E-commerce: **20.71**
 
-- **Category Performance Table**:
-  - Rule-Based fastest (524 ms avg)
-  - Domain-Specific slowest (580 ms avg)
-
-**Interactivity**: Slicers for domain and category; selecting Finance highlights underperforming models.
-
----
-
-#### Page 3: Load & Stress Testing Analysis
-
-![alt text](image-2.png)
-
-**Key Visuals**:
-
-- **Line Chart** – Latency by Load Level:
-
-  - Low: 268 ms
-  - Medium: 567 ms (+111%)
-  - High: 792 ms (+195%)
-  - Clear exponential trend
-
-- **Stacked Bar** – Accuracy by Load:
-
-  - Shows accuracy remains stable (~85%) across loads
-  - Highlights latency as primary concern
-
-- **Stress Test Pass Rate Gauge**:
-
-  - High Load + Accuracy ≥85%: 28% of models
-  - **Risk**: 72% fail under stress
-
-- **Distribution Plot** – Models by Efficiency Rating:
-  - Overlay histograms for low/medium/high load
-  - Shows 15% degradation in efficiency under high load
-
-**Insight**: Current system not optimized for scale. Load testing reveals bottleneck.
+### Insight
+Accuracy remains stable across latency levels, while efficiency varies noticeably by domain.
 
 ---
 
-#### Page 4: Optimization Technique Comparison
+## Page 3: Domain Comparison
 
-![alt text](image-3.png)
+![Domain Comparison](image-2.png)
 
-**Key Visuals**:
+### Key Highlights
+- **Top Performing Domain**
+  - **Education**
+  - Efficiency Score: **0.22**
 
-- **Grouped Bar Chart** – Efficiency Gain by Technique:
+- **Highest Latency Domain**
+  - **Finance**
+  - Avg Latency: **566.80 ms**
 
-  - Model Pruning: +3.6% (blue; highlighted)
-  - Baseline: 0% (reference)
-  - NAS: -1.5% (red; warning)
-  - Reinforcement Learning: -1.3% (red; warning)
+### Key Visuals
+- **Average Latency by Domain (Bar Chart)**
+  - Finance: **566.80 ms**
+  - Healthcare: **562.04 ms**
+  - E-commerce: **548.72 ms**
+  - Education: **543.93 ms**
+  - Retail: **542.07 ms**
 
-- **Box Plot** – Efficiency Distribution per Technique:
+- **Overall Performance Efficiency by Domain (Bar Chart)**
+  - Education, Healthcare, Retail, Finance ≈ **22**
+  - E-commerce ≈ **21**
 
-  - Pruning: median 0.25, tighter distribution
-  - Others: wider spread, lower medians
+- **Domain-Level Accuracy vs Latency Trade-off (Bubble Chart)**
+  - Visualizes performance balance across domains
 
-- **Trade-off Scatter** – Accuracy vs. Latency by Technique:
-
-  - Pruning dominates upper-left quadrant (high accuracy, low latency)
-  - NAS/RL scattered
-
-- **ROI Matrix**:
-  - X-axis: Implementation Effort
-  - Y-axis: Efficiency Gain
-  - Pruning: Low effort, high gain (top-left; ideal)
-
-**Insight**: Model Pruning is unambiguous choice for ROI.
-
----
-
-#### Page 5: Drill-Down & Deep Dive
-
-![alt text](image-5.png)
-
-**Key Visuals**:
-
-- **Interactive Table** – All Models:
-
-  - Columns: modelname, domain, latency, accuracy, efficiency, technique
-  - Sortable by any column
-  - Filters for category, load level, query type
-
-- **Top Performers Leaderboard**:
-
-  - Top 20 by efficiency
-  - Bottom 20 by efficiency (improvement candidates)
-
-- **Heatmap** – Efficiency by Domain × Category:
-  - Cells = average efficiency
-  - Color intensity = performance
-  - Identifies best domain-category combinations
-
-**Interactivity**: Selecting a model in the table updates contextual charts (KPIs for that model, comparison to peers).
+### Insight
+Education delivers the best efficiency with relatively lower latency, while Finance shows higher response times.
 
 ---
 
-### Dashboard User Impact
+## Page 4: Load Analysis
 
-- **Product Managers**: Instantly identify retraining priorities (Finance domain, complex queries).
-- **Engineers**: Visualize load impact and stress-test results; plan scaling.
-- **Finance**: Track monthly cost optimization progress; validate $98K annual savings projections.
-- **Executives**: Monitor KPI progress toward targets; justify continued chatbot investment.
+![Load Analysis](image-3.png)
+
+### Key Metrics
+- **Avg Latency (All Load Levels)**: **552.69 ms**
+- **Avg Response Accuracy (All Load Levels)**: **85.24**
+- **Performance Impact (%)**: **-1.24**
+
+### Key Visuals
+- **Response Accuracy Across Load Levels (Line Chart)**
+  - Low Load: **84.96**
+  - Medium Load: **85.34**
+  - High Load: **85.44**
+
+- **Latency Increase Under Load (Line Chart)**
+  - Low: **190.2K**
+  - Medium: **180.2K**
+  - High: **182.4K**
+
+### Insight
+Response accuracy remains resilient under increasing load, with only minor performance degradation.
+
+---
+
+## Page 5: Optimization Insights
+
+![Optimization Insights](image-4.png)
+
+### Key Highlights
+- **Most Effective Optimization Technique**
+  - **Neural Architecture Search**
+  - Best Optimization Efficiency: **22.32%**
+
+- **Models Needing Optimization**
+  - **676 models**
+
+### Key Visuals
+- **Optimization Trade-offs: Accuracy vs Latency (Scatter Plot)**
+  - Comparison of Baseline, Model Pruning, NAS, and Reinforcement Learning
+
+- **Before vs After Optimization – Latency (Combo Chart)**
+  - Neural Architecture Search achieves the lowest optimized latency
+
+- **Performance Gain vs Baseline (Bar Chart)**
+  - Model Pruning: **+3.6**
+  - Reinforcement Learning: **-0.2**
+  - Neural Architecture Search: **-1.0**
+
+- **Best Optimization Advantage (%)**
+  - **2.2%**
+
+### Insight
+Model Pruning provides the highest immediate performance gain, while Neural Architecture Search offers balanced optimization across accuracy and latency.
+
+---
+
+## Dashboard User Impact
+
+- **Product Managers**: Identify weak domains and prioritize optimization strategies
+- **Engineers**: Analyze latency behavior under load and optimization trade-offs
+- **Data Teams**: Evaluate model efficiency and stability at scale
+- **Stakeholders**: Gain a clear, visual understanding of chatbot performance health
 
 ---
 
