@@ -536,7 +536,7 @@ It does **not contain analytical insights or KPIs**, but introduces the project 
 
 ## Page 2: Performance Analysis
 
-![Performance Analysis](Performance Analysis.png)
+![Performance Analysis](Performance_Analysis.png)
 
 ### Key Metrics (KPI Cards)
 - **Avg Response Accuracy (%)**: **85.24**
@@ -630,7 +630,7 @@ Response accuracy remains resilient under increasing load, with only minor perfo
 
 ## Page 5: Optimization Insights
 
-![Optimization Insights](Optimization Insights.png)
+![Optimization Insights](Optimization_insights.png)
 
 ### Key Highlights
 - **Most Effective Optimization Technique**
