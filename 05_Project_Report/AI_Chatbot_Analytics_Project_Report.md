@@ -572,7 +572,7 @@ Accuracy remains stable across latency levels, while efficiency varies noticeabl
 
 ## Page 3: Domain Comparison
 
-![Domain Comparison](Domain Comparison.png)
+![Domain Comparison](Domain_comparison.png)
 
 ### Key Highlights
 - **Top Performing Domain**
@@ -605,7 +605,7 @@ Education delivers the best efficiency with relatively lower latency, while Fina
 
 ## Page 4: Load Analysis
 
-![Load Analysis](Load Analysis.png)
+![Load Analysis](Load_analysis.png)
 
 ### Key Metrics
 - **Avg Latency (All Load Levels)**: **552.69 ms**
