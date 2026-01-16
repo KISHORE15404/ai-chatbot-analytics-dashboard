@@ -572,7 +572,7 @@ Accuracy remains stable across latency levels, while efficiency varies noticeabl
 
 ## Page 3: Domain Comparison
 
-![Domain Comparison](Domain_comparison.png)
+![Domain Comparison](Domain_comparison.jpg)
 
 ### Key Highlights
 - **Top Performing Domain**
