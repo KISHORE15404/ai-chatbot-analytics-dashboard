@@ -513,7 +513,7 @@ The Power BI dashboard consists of **5 interactive pages**, each designed to ana
 
 ## Page 1: Overview
 
-![Overview](image.png)
+![Overview](Overview.png)
 
 ### Purpose
 The **Overview** page functions as a **landing and navigation page** for the dashboard.  
@@ -536,7 +536,7 @@ It does **not contain analytical insights or KPIs**, but introduces the project 
 
 ## Page 2: Performance Analysis
 
-![Performance Analysis](image-1.png)
+![Performance Analysis](Performance Analysis.png)
 
 ### Key Metrics (KPI Cards)
 - **Avg Response Accuracy (%)**: **85.24**
@@ -572,7 +572,7 @@ Accuracy remains stable across latency levels, while efficiency varies noticeabl
 
 ## Page 3: Domain Comparison
 
-![Domain Comparison](image-2.png)
+![Domain Comparison](Domain Comparison.png)
 
 ### Key Highlights
 - **Top Performing Domain**
@@ -605,7 +605,7 @@ Education delivers the best efficiency with relatively lower latency, while Fina
 
 ## Page 4: Load Analysis
 
-![Load Analysis](image-3.png)
+![Load Analysis](Load Analysis.png)
 
 ### Key Metrics
 - **Avg Latency (All Load Levels)**: **552.69 ms**
@@ -630,7 +630,7 @@ Response accuracy remains resilient under increasing load, with only minor perfo
 
 ## Page 5: Optimization Insights
 
-![Optimization Insights](image-4.png)
+![Optimization Insights](Optimization Insights.png)
 
 ### Key Highlights
 - **Most Effective Optimization Technique**
